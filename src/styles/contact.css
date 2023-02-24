@@ -1,0 +1,69 @@
+.contact-title {
+    font-family: 'Acme', sans-serif;
+    font-size: 40px;
+    background: var(--rusty);
+    color: var(--text);
+    text-align: center;
+    padding: 10px;
+    width: 75%;
+    box-shadow: 10px 10px 20px var(--text);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form-div {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background: none;
+}
+
+.contact-form label, .contact-form button, .success-message p, .success-message button {
+    background: none;
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.contact-form button, .success-message button {
+    background: var(--rusty);
+    border: 3px solid var(--citrus);
+    margin-bottom: 25px;
+    box-shadow: 10px 10px 20px var(--text);
+}
+
+.success-message button {
+    margin-bottom: 10px;
+}
+
+.contact-form button:hover {
+    background: var(--text);
+    color: var(--citrus);
+    text-decoration: underline;
+}
+
+.contact-form input, .contact-form textarea {
+    background: var(--rusty);
+    border: 3px solid var(--citrus);
+    box-shadow: 10px 10px 20px var(--text);
+    font-family: 'Patrick Hand', cursive;
+    color: var(--text);
+    font-size: 25px;
+    -webkit-text-stroke: 1px;
+}
+
+.contact-form input {
+    height: 30px;
+    width: 300px;
+}
+
+.contact-form textarea {
+    width: 300px;
+    height: 250px;
+}

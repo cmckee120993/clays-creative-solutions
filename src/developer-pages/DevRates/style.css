@@ -1,0 +1,68 @@
+.rates-title {
+    font-family: 'Acme', sans-serif;
+    font-size: 40px;
+    background: var(--rusty);
+    color: var(--text);
+    text-align: center;
+    padding: 10px;
+    width: 75%;
+    box-shadow: 10px 10px 20px var(--text);
+}
+
+.rates-description {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+    text-align: justify;
+    margin: 15px 30px;
+    color: black;
+}
+
+.rates-table {
+    border-collapse: collapse;
+    margin-bottom: 50px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 15px;
+}
+
+.header-row {
+    font-family: 'Acme', cursive;
+    font-size: 25px;
+    color: var(--text);
+}
+
+.header-row th {
+    background: var(--rusty);
+    padding: 10px 0px;
+}
+
+.rates-table td ul, .rates-table td li {
+    background: none;
+}
+
+.data-row {
+    border: 1px solid var(--apricot);
+    padding: 1px;
+}
+
+.center-data {
+    text-align: center;
+    padding: 3px;
+    border-right: 1px solid var(--apricot);
+}
+
+.additional-info span {
+    background: none;
+}
+
+ .Collapsible span {
+    background: var(--citrus);
+    padding: 5px;
+    border-radius: 25px;
+    margin-left: 5px;
+}
+
+.additional-info {
+    margin: 15px 0px;
+   width: 100%;
+   text-align: center;
+}

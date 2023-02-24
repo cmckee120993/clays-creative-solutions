@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
+/* Apple Core: #DCC7AA */
+/* Citrus: #F7C331 */
+/* Apricot: #F7882F */
+/* Rusty: #DD7E00 */
+
+/* font-family: 'Acme', sans-serif;
+font-family: 'Patrick Hand', cursive; */
+
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Patrick+Hand&display=swap");
+
+:root {
+  --text: #6B7A8F;
+  --citrus: #F7C331;
+  --rusty: #DD7E00;
+  --apricot: #F7882F;
+  --background: #DCC7AA;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  background: var(--background);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.internal-link {
+  background: none;
+  color: var(--background)
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.internal-link:hover {
+  background: var(--text);
+  color: var(--apricot);
+  padding: 5px;
 }

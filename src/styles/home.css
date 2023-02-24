@@ -1,0 +1,30 @@
+.home-title, .home-description {
+    background: none;
+}
+
+.content {
+    margin-bottom: 50px;
+}
+
+.intro {
+    background: var(--rusty);
+    width: 250px;
+    margin: auto;
+    padding: 10px;
+    border: 3px solid var(--citrus);
+    box-shadow: 10px 10px 20px var(--text);
+}
+
+.home-title {
+    font-family: 'Acme', cursive;
+    font-size: 25px;
+    text-align: center;
+    color: var(--text);
+}
+
+.home-description {
+    font-family: 'Patrick Hand', cursive;
+    margin: 0px 10px;
+    text-align: justify;
+    font-size: 15px;
+}
