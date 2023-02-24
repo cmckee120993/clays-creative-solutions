@@ -13,10 +13,9 @@
 .resume-div {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
 }
 
 .resume-img {
     height: 250px;
-    width: 125;
+    width: 250px;
 }

@@ -1,7 +1,15 @@
 import React from 'react';
 import Collapsible from 'react-collapsible';
 import '../styles/resume.css';
-import graduation from '../images/graduation.webp'
+
+import graduation from '../images/graduation.webp';
+import prof from '../images/professional-photo.webp';
+import work from '../images/dissertation-reading.webp';
+import abroad from '../images/study-abroad.webp';
+import publication from '../images/publication.webp';
+import conference from '../images/conference.webp';
+import other from '../images/other.webp';
+import skills from '../images/skills.webp';
 
 
 function Resume() {
@@ -19,49 +27,47 @@ function Resume() {
                     <div className='collapsible-div'>
                         <Collapsible className='additional-info' trigger='Click for the details!' triggerWhenOpen='Close'>
                             <div className="education-div">
-                                <ul className="education">
-                                    <li className="top-item">University of California, Los Angeles</li>
-                                        <ul className="university-info">
-                                            <li>June to December 2022</li>
-                                            <li>Certificate Full Stack Web Development</li>
+                                    <h4>University of California, Los Angeles</h4>
+                                    
+                                            <h5>June to December 2022</h5>
+                                            <h5>Certificate Full Stack Web Development</h5>
+                            </div>
+                            <div className='education-div'>
+                                    <h4>University of California, Los Angeles</h4>
+                                    <h5>Fall 2018 to Present</h5>
+                                        <h5>Doctoral Candidate in the Department of Comparative Literature</h5>
+                                        <h6>Certificates:</h6>
+                                        <ul>
+                                            <li>Urban Humanitites</li>
+                                            <li>Writing Pedagogy: Language Learner Emphasis</li>
                                         </ul>
-                                    <li className="top-item">University of California, Los Angeles</li>
-                                    <ul className="university-info">
-                                        <li>Fall 2018 to Present</li>
-                                        <li>Doctoral Candidate in the Department of Comparative Literature</li>
-                                        <li>Certificates:</li>
-                                            <ul className="university-info">
-                                                <li>Urban Humanitites</li>
-                                                <li>Writing Pedagogy: Language Learner Emphasis</li>
-                                            </ul>
-                                    </ul>
-                                    <li className="top-item">Penn State University</li>
-                                        <ul className="university-info">
-                                            <li>Summer 2012 to Spring 2017</li>
-                                            <li>MA: Comparative Literature</li>
-                                            <li>BAs:</li>
-                                                <ul className="university-info">
+                            </div>
+                            <div className='education-div'>
+                                    <h4>Penn State University</h4>
+                            
+                                            <h5>Summer 2012 to Spring 2017</h5>
+                                            <h5>MA: Comparative Literature</h5>
+                                            <h5>BAs:</h5>
+                                                <ul>
                                                     <li>Comparative Literature</li>
                                                     <li>French</li>
                                                     <li>Spanish</li>
                                                 </ul>
-                                            <li>Minor: Arabic</li>
-                                        </ul>
-                                    <li className="top-item">Additional Education:</li>
-                                        <ul className="university-info">
-                                            <li>Middlebury College Summer Language, Arabic (2020)</li>
-                                            <li>Concordia University, Translation and the City (2019)</li>
-                                            <li>University of Houston-Victoria, Certificate in Literary Translation (2017)</li>
-                                        </ul>
-                                </ul>
+                                            <h5>Minor: Arabic</h5>
+                            </div>
+                            <div className='education-div'>
+                                    <h4 className="top-item">Additional Education:</h4>
+                                            <h5>Middlebury College Summer Language, Arabic (2020)</h5>
+                                            <h5>Concordia University, Translation and the City (2019)</h5>
+                                            <h5>University of Houston-Victoria, Certificate in Literary Translation (2017)</h5>
                             </div>
                         </Collapsible>
                     </div>
                 </div>
                 <div className='Awards'>
                     <img 
-                        src={graduation}
-                        alt=''
+                        src={prof}
+                        alt='Professional headshot of Clay'
                         className='resume-img'
                     />
                     <h2>Awards and Honors</h2>
@@ -86,8 +92,8 @@ function Resume() {
                 </div>
                 <div className='work'>
                     <img 
-                        src={graduation}
-                        alt=''
+                        src={work}
+                        alt='Working breakfast for disseration.'
                         className='resume-img'
                     />
                     <h2>Work and Experience</h2>
@@ -413,8 +419,8 @@ function Resume() {
                 </div>
                 <div className='study-abroad'>
                 <img 
-                        src={graduation}
-                        alt=''
+                        src={abroad}
+                        alt='Clay at Fort St. Nicolas in Marseille, France'
                         className='resume-img'
                     />
                     <h2>Study Abroad</h2>
@@ -478,8 +484,8 @@ function Resume() {
                 </div>
                 <div className='publications'>
                     <img 
-                        src={graduation}
-                        alt=''
+                        src={publication}
+                        alt='Translation by Clay of The Disappearance of Jim Sullivan by Tanguy Viel'
                         className='resume-img'
                     />
                     <h2>Publications</h2>
@@ -573,8 +579,8 @@ function Resume() {
                 </div>
                 <div className='conferences'>
                     <img 
-                        src={graduation}
-                        alt=''
+                        src={conference}
+                        alt='Newspaper clipping about Clay and his involvement in La Vihado, a conference in/on Provençal language.'
                         className='resume-img'
                     />
                     <h2>Conferences</h2>
@@ -648,8 +654,8 @@ function Resume() {
                 </div>
                 <div className='other'>
                     <img
-                        src={graduation}
-                        alt='Clayton at Penn State Graduation in State College, PA'
+                        src={other}
+                        alt='Clay on a solo hike in Grand Tetons National Park in Wyoming'
                         className='resume-img'
                     />
                     <h2>Other Activities</h2>
@@ -728,8 +734,8 @@ function Resume() {
                 </div>
                 <div className='skills'>
                     <img 
-                        src={graduation}
-                        alt=''
+                        src={skills}
+                        alt='VS Code, Microsoft Word, and Adobe Photoshop screenshot used to make this website'
                         className='resume-img'
                     />
                     <h2>Skills</h2>
