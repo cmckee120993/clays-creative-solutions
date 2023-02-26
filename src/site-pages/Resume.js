@@ -10,6 +10,7 @@ import publication from '../images/publication.webp';
 import conference from '../images/conference.webp';
 import other from '../images/other.webp';
 import skills from '../images/skills.webp';
+import peace from '../images/peace-languages.webp';
 
 
 function Resume() {
@@ -463,8 +464,8 @@ function Resume() {
                 </div>
                 <div className='languages'>
                     <img 
-                        src={graduation}
-                        alt=''
+                        src={peace}
+                        alt='Peace sign with word for peace in Arabic, English, French, and Spanish.'
                         className='resume-img'
                     />
                     <h2>Languages</h2>
