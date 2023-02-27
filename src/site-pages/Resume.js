@@ -28,16 +28,15 @@ function Resume() {
                     <div className='collapsible-div'>
                         <Collapsible className='additional-info' trigger='Click for the details!' triggerWhenOpen='Close'>
                             <div className="education-div">
-                                    <h4>University of California, Los Angeles</h4>
-                                    
-                                            <h5>June to December 2022</h5>
-                                            <h5>Certificate Full Stack Web Development</h5>
+                                <h4>University of California, Los Angeles</h4>
+                                <h5>June to December 2022</h5>
+                                <h5>Certificate Full Stack Web Development</h5>
                             </div>
                             <div className='education-div'>
                                     <h4>University of California, Los Angeles</h4>
                                     <h5>Fall 2018 to Present</h5>
-                                        <h5>Doctoral Candidate in the Department of Comparative Literature</h5>
-                                        <h6>Certificates:</h6>
+                                    <h5>Doctoral Candidate in the Department of Comparative Literature</h5>
+                                    <h6>Certificates:</h6>
                                         <ul>
                                             <li>Urban Humanitites</li>
                                             <li>Writing Pedagogy: Language Learner Emphasis</li>

@@ -1,3 +1,7 @@
+.collapsible-div, .education, .resume-div,  .Collapsible, .Collapsible_contentInner,.Collapsible_contentOuter, .resume-div {
+    background: none;
+}
+
 .resume-title {
     font-family: 'Acme', sans-serif;
     font-size: 40px;
@@ -7,15 +11,74 @@
     padding: 10px;
     width: 75%;
     box-shadow: 10px 10px 20px var(--text);
-
 }
 
 .resume-div {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
 }
 
 .resume-img {
     height: 250px;
     width: 250px;
+    border: solid 3px var(--rusty);
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px var(--text);
+    background: var(--citrus);
+}
+
+.resume-div div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 300px;
+}
+
+.Collapsible {
+    font-family: 'Patrick Hand', cursive;
+}
+
+.education h2 {
+    font-family: 'Acme', cursive;
+    font-size: 30px;
+    background: var(--rusty);
+    width: 150px;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: -5px;
+}
+
+.education-div {
+    background: var(--text);
+    box-shadow: 5px 5px 10px var(--apricot);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.education-div h4 {
+    font-family: 'Acme', cursive;
+    font-size: 20px;
+    text-align: center;
+    background: none;
+    color: var(--citrus);
+    margin-bottom: -10px
+}
+
+.education-div h5, .education-div h6, .education-div ul, .education-div li {
+    background: none;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    color: var(--background);
+    margin: 5px 10px;
+}
+
+.education-div li, .education-div ul {
+    list-style: none;
+    padding-left: 0
 }
