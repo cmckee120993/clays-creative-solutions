@@ -29,7 +29,7 @@
     background: var(--citrus);
 }
 
-.resume-div div {
+.resume-div div, .awards-div {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -40,19 +40,22 @@
     font-family: 'Patrick Hand', cursive;
 }
 
-.education h2 {
+.education h2, .Awards h2, .work h2 {
+    display: flex;
+    flex-wrap: wrap;
     font-family: 'Acme', cursive;
     font-size: 30px;
     background: var(--rusty);
-    width: 150px;
-    text-align: center;
+    width: 175px;
+    justify-content: center;
+    align-items: center;
     border-radius: 15px;
     margin-bottom: -5px;
+    height: 75px;
 }
 
-.education-div {
+.education-div, .awards-div, .experience-div {
     background: var(--text);
-    box-shadow: 5px 5px 10px var(--apricot);
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -60,7 +63,7 @@
     flex-wrap: wrap;
 }
 
-.education-div h4 {
+.education-div h4, .experience-div h3 {
     font-family: 'Acme', cursive;
     font-size: 20px;
     text-align: center;
@@ -69,13 +72,27 @@
     margin-bottom: -10px
 }
 
-.education-div h5, .education-div h6, .education-div ul, .education-div li {
+.education-div h5, .education-div h6, .education-div ul, .education-div li, .experience-div h4 {
     background: none;
     font-size: 20px;
     text-align: center;
     width: 100%;
     color: var(--background);
     margin: 5px 10px;
+}
+
+.experience-div p {
+    background: none;
+    color: var(--background);
+    font-size: 20px;
+    margin: 10px;
+    text-align: justify;
+}
+
+.awards, .awards li {
+    background: none;
+    color: var(--background);
+    font-size: 20px;
 }
 
 .education-div li, .education-div ul {

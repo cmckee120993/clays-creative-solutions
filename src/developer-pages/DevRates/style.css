@@ -56,6 +56,9 @@
 
  .Collapsible span {
     background: var(--citrus);
+    height: 40px;
+    display: flex;
+    align-items: center;
     padding: 5px;
     border-radius: 25px;
     margin-left: 5px;

@@ -70,7 +70,7 @@ function Resume() {
                         alt='Professional headshot of Clay'
                         className='resume-img'
                     />
-                    <h2>Awards and Honors</h2>
+                    <h2>Honors</h2>
                     <div className='collapsible-div'>
                             <Collapsible className='additional-info' trigger='Click for the details!' triggerWhenOpen='Close'>
                                 <div className="awards-div">
@@ -96,7 +96,7 @@ function Resume() {
                         alt='Working breakfast for disseration.'
                         className='resume-img'
                     />
-                    <h2>Work and Experience</h2>
+                    <h2>Experience</h2>
                     <div className='collapsible-div'>
                         <Collapsible className='additional-info' trigger='Click for teaching experience...' triggerWhenOpen='Close'>
                             
