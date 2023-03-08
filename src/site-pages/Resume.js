@@ -141,17 +141,17 @@ function Resume() {
                                         <div className='class-list'>
                                             <div className='one-class'>
                                                 <h5>Scandinavian 50W, Summer 2022</h5>
-                                                <h6>Theme: Creating horror and noir in Contemporary Scandinavian Fiction by using myth and folklore</h6>
+                                                <p>Theme: Creating horror and noir in Contemporary Scandinavian Fiction by using myth and folklore</p>
                                             </div>
 
                                             <div className='one-class'>
                                                 <h5>Comp Lit 4DW, Summer 2022</h5>
-                                                <h6>Theme: Contemporary graphic literature (graphic novels, animations, street art, etc.)</h6>
+                                                <p>Theme: Contemporary graphic literature (graphic novels, animations, street art, etc.)</p>
                                             </div>
 
                                             <div className='one-class'>
                                             <h5>Comp Lit 4DW, Summer 2021</h5>
-                                                <h6>Theme: Human rights in Contemporary World Literature</h6>
+                                                <p>Theme: Human rights in Contemporary World Literature</p>
                                             </div>
                                         </div>  
                                     </Collapsible>
@@ -207,7 +207,7 @@ function Resume() {
                                                 <h5>French 3: Beginner French, Fall 2019 and Winter 2020</h5>
                                             </div>
 
-                                            <div className='one-class'>
+                                            <div className='one-class' id="last-class">
                                                 <h5>French 1: Beginner French, Spring 2020</h5>
                                             </div>
                                         </div>
@@ -238,16 +238,6 @@ function Resume() {
                                 </p>
                             </div>    
 
-                             <div className='experience-div'>
-                                <h3>Teacher/Mentor: English, French, and Spanish</h3>
-                                <h4>Fusion Academy South Bay</h4>
-                                <h4>January 2021 to June 2022</h4>
-                                <p>
-                                Taught middle and high schoolers English/Language Arts, French and Spanish language, culture, 
-                                and history/literature using Fusion’s one-to-one model. Each course is individualized and 
-                                curated for the student’s interests and goals for taking the language. 
-                                </p>
-                            </div> 
 
                             <div className='experience-div'>
                                 <h3>Adjunct Instructor of Arabic</h3>
@@ -327,24 +317,24 @@ function Resume() {
                                    for businesses and clients of all kinds. In addition to web design, I also work on marketing
                                    campaigns, company image, photography, business cards, logo design, social media posts, articles,
                                    or any desired created content in print or digital format. For full details, feel free to look at
-                                   my <a href='/development'>Web Development Pages</a> or my Writing and Translation Pages.
+                                   my <a className='resume-link' href='/development'>Web Development Pages</a> or my Writing and Translation Pages.
                                 </p>
 
                                 <Collapsible className='additional-info' trigger='List of Clients +' triggerWhenOpen='Close'>
                                         <div className='class-list'>
                                             
                                             <div className='one-class'>
-                                                <h5><a href=''>Let's Dough</a></h5>
+                                                <h5><a className='resume-link' href=''>Let's Dough</a></h5>
                                                 <h6>Cookie Bakery/Restaurant in Nice, France</h6>
                                             </div>
 
                                             <div className='one-class'>
-                                                <h5><a href='www.cheznicolas.com'>Chez Nicolas</a></h5>
+                                                <h5><a className='resume-link' href='www.cheznicolas.com'>Chez Nicolas</a></h5>
                                                 <h6>Hairdresser in Nice, France</h6>
                                             </div>
 
                                             <div className='one-class'>
-                                                <h5><a href='www.mybevexp.com'>Beverage Express</a></h5>
+                                                <h5><a className='resume-link' href='www.mybevexp.com'>Beverage Express</a></h5>
                                                 <h6>Beer Distributor in Carlisle, PA</h6>
                                             </div>
                                         </div>  
@@ -495,13 +485,13 @@ function Resume() {
                                     <h3>Academic</h3>
                                         <div className="publication-div">
                                             <h4>“The Self(’s)-Translation of Sexuality and Gender as a Raised Bascule in Hanan al-Shaykh’s Inaha London ya ‘zizi”</h4>
-                                            <h5>Chapter in <a href='https://www.routledge.com/Translation-and-the-Global-City-Bridges-and-Gateways/Woodsworth/p/book/9780367555689?gclid=CjwKCAjwu_mSBhAYEiwA5BBmf4hvQiCKFtgNI2scyx0_YgqJVM6eD5uiim9pC70rFDpj6TDVX1Oy1hoChVgQAvD_BwE'><em>Trainslation and the Global City</em></a></h5>
+                                            <h5>Chapter in <a className='resume-link' href='https://www.routledge.com/Translation-and-the-Global-City-Bridges-and-Gateways/Woodsworth/p/book/9780367555689?gclid=CjwKCAjwu_mSBhAYEiwA5BBmf4hvQiCKFtgNI2scyx0_YgqJVM6eD5uiim9pC70rFDpj6TDVX1Oy1hoChVgQAvD_BwE'><em>Trainslation and the Global City</em></a></h5>
                                             <h5>June 2021</h5>
                                         </div>
 
                                         <div className="publication-div">
                                             <h4>“Translation and Audience: Edgar Allen Poe’s “The Gold-Bug”</h4>
-                                            <h5>Article in <a href='http://www.journals.aiac.org.au/index.php/IJCLTS/issue/view/167'><em>The International Journal of Comparative Literature and Translation Studies
+                                            <h5>Article in <a className='resume-link' href='http://www.journals.aiac.org.au/index.php/IJCLTS/issue/view/167'><em>The International Journal of Comparative Literature and Translation Studies
                                                         Volume 5, No. 4 (2017)</em></a></h5>
                                             <h5>2017</h5>
                                         </div>
@@ -509,25 +499,25 @@ function Resume() {
                                     <h3>Reviews</h3>
                                         <div className="publication-div">
                                             <h4>Review of Margarita Serafimova’s <em>A Surgery of a Star</em></h4>
-                                            <h5><a href='https://www.worldliteraturetoday.org/2021/autumn/surgery-star-margarita-serafimova'>Words Literature Today, Autumn 2021</a></h5>
+                                            <h5><a className='resume-link' href='https://www.worldliteraturetoday.org/2021/autumn/surgery-star-margarita-serafimova'>Words Literature Today, Autumn 2021</a></h5>
                                             <h5>2021</h5>
                                         </div> 
 
                                         <div className="publication-div">
                                             <h4>Rawness and Taboo: Kono Taeko’s <em>Toddler Hunting and Other Stories</em> in Review</h4>
-                                            <h5><a href='https://www.asymptotejournal.com/blog/2019/03/07/____-kono-taekos-toddler-hunting-and-other-stories-in-review/'>Asymptote Blog</a></h5>
+                                            <h5><a className='resume-link' href='https://www.asymptotejournal.com/blog/2019/03/07/____-kono-taekos-toddler-hunting-and-other-stories-in-review/'>Asymptote Blog</a></h5>
                                             <h5>2019</h5>
                                         </div> 
 
                                         <div className="publication-div">
                                             <h4>What’s New in Translation: January 2019 —<em>The Death of Murat Idrissi</em></h4>
-                                            <h5><a href='https://www.asymptotejournal.com/blog/2019/01/07/whats-new-in-translation-january-2019/ '>Asymptote Blog</a></h5>
+                                            <h5><a className='resume-link' href='https://www.asymptotejournal.com/blog/2019/01/07/whats-new-in-translation-january-2019/ '>Asymptote Blog</a></h5>
                                             <h5>2019</h5>
                                         </div>
 
                                         <div className="publication-div">
                                             <h4>Le rouge et le noire: <em>Marrakech Noir</em> In Review</h4>
-                                            <h5><a href='https://www.asymptotejournal.com/blog/2018/12/10/le-rouge-et-le-noir-marrakech-noir-in-review/'>Asymptote Blog</a></h5>
+                                            <h5><a className='resume-link' href='https://www.asymptotejournal.com/blog/2018/12/10/le-rouge-et-le-noir-marrakech-noir-in-review/'>Asymptote Blog</a></h5>
                                             <h5>2018</h5>
                                         </div>
 
@@ -543,35 +533,35 @@ function Resume() {
                                             <h4>Tanguy Viel, <em>La disparition de Jim Sullivan</em> (<em>The Disappearance of Jim Sullivan</em>)</h4>
                                             <h5>French to English</h5>
                                             <h5>Full novel published by Dalkey Archive Press in June 2021</h5>
-                                            <h5><a href='https://dalkeyarchive.store/products/the-disappearance-of-jim-sullivan?_pos=1&_psq=jim%20sulli&_ss=e&_v=1.0'>Link to Purchase from Dalkey Archive</a></h5>
+                                            <h5><a className='resume-link' href='https://dalkeyarchive.store/products/the-disappearance-of-jim-sullivan?_pos=1&_psq=jim%20sulli&_ss=e&_v=1.0'>Link to Purchase from Dalkey Archive</a></h5>
                                     </div>
 
                                     <div className="publication-div">
                                             <h4>Jean Teulé, <em>Entrez dans la danse</em> (<em>Join the Dance</em>)</h4>
                                             <h5>French to English</h5>
                                             <h5>Excerpt published by Trafika Europe in April 2020</h5>
-                                            <h5><a href='https://cld.bz/users/user-N5y4U8g/Trafika-Europe-Quarterly/TE17-Mysterious-Montenegro'>Link to Excerpt Publication</a></h5>
+                                            <h5><a className='resume-link' href='https://cld.bz/users/user-N5y4U8g/Trafika-Europe-Quarterly/TE17-Mysterious-Montenegro'>Link to Excerpt Publication</a></h5>
                                     </div>
 
                                     <div className="publication-div">
                                             <h4>Martine Morillon-Carreau, Selected Poems from <em>Poéclats</em> and<em>Pierres d'attente</em></h4>
                                             <h5>French to English</h5>
                                             <h5>Thirteen poems published by Trafika Europe in September 2017</h5>
-                                            <h5><a href='https://cld.bz/users/user-N5y4U8g/Trafika-Europe-Quarterly/Trafika-Europe-11-Swiss-Delights1'>Link to Excerpt Publication</a></h5>
+                                            <h5><a className='resume-link' href='https://cld.bz/users/user-N5y4U8g/Trafika-Europe-Quarterly/Trafika-Europe-11-Swiss-Delights1'>Link to Excerpt Publication</a></h5>
                                     </div>
 
                                     <div className="publication-div">
                                             <h4>Charles Pépin, <em>La Joie</em> (<em>Joy</em>)</h4>
                                             <h5>French to English</h5>
                                             <h5>Excerpt published by Trafika Europe in March 2016</h5>
-                                            <h5><a href='https://cld.bz/users/user-N5y4U8g/Trafika-Europe-Quarterly/Trafika-Europe-7-Ukrainian-Prayer'>Link to Excerpt Publication</a></h5>
+                                            <h5><a className='resume-link' href='https://cld.bz/users/user-N5y4U8g/Trafika-Europe-Quarterly/Trafika-Europe-7-Ukrainian-Prayer'>Link to Excerpt Publication</a></h5>
                                     </div>
 
                                     <div className="publication-div">
                                             <h4>Tahar Ben Jelloun, <em>L'Ablation</em> (<em>Ablation</em>)</h4>
                                             <h5>French to English</h5>
                                             <h5>Excerpt published by Trafika Europe in December 2015</h5>
-                                            <h5><a href='https://cld.bz/users/user-N5y4U8g/Trafika-Europe-Quarterly/Trafika-Europe-6-Arabesque'>Link to Excerpt Publication</a></h5>
+                                            <h5><a className='resume-link' href='https://cld.bz/users/user-N5y4U8g/Trafika-Europe-Quarterly/Trafika-Europe-6-Arabesque'>Link to Excerpt Publication</a></h5>
                                     </div>
                                 </div>
                             </Collapsible>
@@ -658,7 +648,7 @@ function Resume() {
                         alt='Clay on a solo hike in Grand Tetons National Park in Wyoming'
                         className='resume-img'
                     />
-                    <h2>Other Activities</h2>
+                    <h2>Activities</h2>
                     <div className='collapsible-div'>
                         <Collapsible className='additional-info' trigger='Click for the details!' triggerWhenOpen='Close'>
                             
@@ -742,6 +732,7 @@ function Resume() {
                     <div className='collapsible-div'>
                             <Collapsible className='additional-info' trigger='Click for the details!' triggerWhenOpen='Close'>
                                 <div className="skills-div">
+                                    <div>
                                     <ul>
                                         <li>Adobe Programs:</li>
                                             <ul>
@@ -766,6 +757,10 @@ function Resume() {
                                                 <li>NoSQL</li>
                                             </ul>
                                         <li>Git Hub</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <ul>
                                         <li>Go Daddy Web Hosting</li>
                                         <li>Heroku</li>
                                         <li>Microsoft Office Programs:</li>
@@ -788,6 +783,7 @@ function Resume() {
                                         <li>Wordpress, Wix, and Elementor</li>
                                     </ul>
                                 </div>
+                            </div>
                             </Collapsible>
                     </div>
                 </div>

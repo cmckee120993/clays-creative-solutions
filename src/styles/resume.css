@@ -1,4 +1,4 @@
-.collapsible-div, .education, .resume-div,  .Collapsible, .Collapsible_contentInner,.Collapsible_contentOuter, .resume-div {
+.collapsible-div,  .education, .resume-div,  .Collapsible, .Collapsible_contentInner,.Collapsible_contentOuter, .resume-div, .language-div ul, .publication-div h4 em, .publication-div h5 a em, .skills-div div, .skills-div, .skills-div div, .skills {
     background: none;
 }
 
@@ -40,7 +40,7 @@
     font-family: 'Patrick Hand', cursive;
 }
 
-.education h2, .Awards h2, .work h2 {
+.education h2, .Awards h2, .work h2, .study-abroad h2, .languages h2, .publications h2, .conferences h2, .other h2, .skills h2 {
     display: flex;
     flex-wrap: wrap;
     font-family: 'Acme', cursive;
@@ -54,7 +54,7 @@
     height: 75px;
 }
 
-.education-div, .awards-div, .experience-div {
+.education-div, .awards-div, .experience-div, .one-class, .class-list, .abroad-div, .language-div, .publication-div, .conference-div {
     background: var(--text);
     border-radius: 10px;
     margin-top: 10px;
@@ -63,7 +63,7 @@
     flex-wrap: wrap;
 }
 
-.education-div h4, .experience-div h3 {
+.education-div h4, .experience-div h3, .class-list h5, .experience-div h5, .abroad-div h3, .publications-div h4, .conference-div h3{
     font-family: 'Acme', cursive;
     font-size: 20px;
     text-align: center;
@@ -72,7 +72,7 @@
     margin-bottom: -10px
 }
 
-.education-div h5, .education-div h6, .education-div ul, .education-div li, .experience-div h4 {
+.education-div h5, .education-div h6, .education-div ul, .education-div li, .experience-div h4, .one-class h6, .abroad-div h4, .publication-div h5, .conference-div h4 {
     background: none;
     font-size: 20px;
     text-align: center;
@@ -81,7 +81,7 @@
     margin: 5px 10px;
 }
 
-.experience-div p {
+.experience-div p, .class-list p, .abroad-div p, .conference-div p{
     background: none;
     color: var(--background);
     font-size: 20px;
@@ -89,7 +89,7 @@
     text-align: justify;
 }
 
-.awards, .awards li {
+.awards, .awards li, .language-div li, .language-div li strong {
     background: none;
     color: var(--background);
     font-size: 20px;
@@ -98,4 +98,54 @@
 .education-div li, .education-div ul {
     list-style: none;
     padding-left: 0
+}
+
+.class-list {
+    margin: -10px 0px;
+}
+
+#last-class {
+    padding-bottom: 20px;
+}
+
+.resume-link {
+    color: var(--citrus);
+    background: none;
+}
+
+.resume-link:hover {
+    background: var(--citrus);
+    color: var(--text);
+}
+
+.publications-div h3 {
+    font-family: 'Acme', cursive;
+    font-size: 30px;
+    text-align: center;
+    background: var(--text);
+    color: var(--apricot);
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: -5px;
+}
+
+.publication-div h4 {
+    margin-bottom: 20px;
+}
+
+.skills-div {
+    display: flex;
+    flex-wrap: wrap;
+    background: var(--text);
+    border-radius: 20px;
+}
+
+.skills-div div {
+    width: 50%;
+}
+
+.skills-div ul, .skills-div li {
+    background: none;
+    color: var(--background);
+    font-size: 17px;
 }
