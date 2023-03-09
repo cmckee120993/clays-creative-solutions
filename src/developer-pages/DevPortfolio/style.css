@@ -1,0 +1,10 @@
+.portfolio-title {
+    font-family: 'Acme', sans-serif;
+    font-size: 40px;
+    background: var(--rusty);
+    color: var(--text);
+    text-align: center;
+    padding: 10px;
+    width: 75%;
+    box-shadow: 10px 10px 20px var(--text);
+}
