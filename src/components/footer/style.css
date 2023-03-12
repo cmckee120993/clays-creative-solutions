@@ -3,7 +3,6 @@
     justify-content: center;
     background: var(--citrus);
     width: 100%;
-    box-shadow: 0px 0px 20px 10px var(--text);
 }
 
 .creator-logo img {

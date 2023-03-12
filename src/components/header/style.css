@@ -29,19 +29,16 @@
 
 .header-div {
     display: flex;
-    justify-content: right;
+    justify-content: center;
     background: var(--citrus);
-    height: 50px;
-    padding-top: 20px;
-    box-shadow: 10px 10px 20px var(--text); 
-    margin-bottom: 75px;
+    height: 120px;
 }
 
 .header-logo {
     background: none;
     height: 100px;
     z-index: 2;
-    margin: auto;
+    margin-top: 10px;
 }
 
 .apple-background {

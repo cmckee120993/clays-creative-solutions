@@ -1,0 +1,125 @@
+.card-header {
+    background: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-title {
+    background: none;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+}
+
+.portrait {
+    height: 300px;
+    width: 150px;
+    border: 8px solid #DD7E00;
+    border-radius: 50%;
+    object-fit: fit;
+    margin-top: 20px;
+    z-index: 1;
+    position: relative;
+}
+
+.card-title h2 {
+    margin-top: 125px;
+    margin-left: -40px;
+    font-family: 'Acme', sans-serif;
+    font-size: 35px;
+    background: #F7C331;
+    padding-left: 70px;
+    padding-right: 30px;
+}
+.title-list, .title-list li {
+    background: #DD7E00;
+}
+
+.title-list {
+    margin-top: -125px;
+}
+
+.title-list {
+      margin-left: 125px;
+}
+
+.title-list li {
+    padding-right: 10px;
+    font-size: 20px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.about-info {
+    background: #F7C331;
+    border: 5px solid #DD7E00;
+    margin-top: 40px;
+    margin-right: 10px;
+    padding: 10px;
+    text-align: justify;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    width: 300px;
+    margin-bottom: 40px;
+}
+
+.about-info p {
+    background: none;
+    font-size: 20px;
+    font-family: 'Patrick Hand', cursive;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media only screen and (min-width: 1050px) {
+.card-header {
+    position: absolute;
+    left: 10%;
+}
+
+.about-info {
+    float: right;
+    width: 500px;
+    height: 475px;
+    padding-top: 0px;
+    position: absolute;
+    top: 575px;
+    left: 47%;
+}
+
+.about {
+    height: 675px;
+    display: flex;
+    justify-content: space-around;
+}
+}
+
+@media only screen and (min-width: 1165px) {
+    .about-info {
+        top: 500px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .portrait {
+        height: 400px;
+        width: 200px;
+        margin-top: 75px;
+    }
+    .title-list li, .title-list {
+        margin-left: 100px;
+        padding-right: 10px;
+        font-size: 30px;
+        font-family: 'Patrick Hand', cursive;
+    }
+
+    .title-list {
+        margin-top: -200px;
+    }
+
+    .card-title h2 {
+        padding-top: 50px;
+    }
+}

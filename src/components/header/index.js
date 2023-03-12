@@ -39,7 +39,6 @@ function Header() {
                 alt="Clay's Creative Solutions Logo"
                 className='header-logo'
             />
-            <div className='apple-background'></div>
         </div>
     )
 }
