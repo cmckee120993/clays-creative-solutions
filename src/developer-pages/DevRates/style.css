@@ -54,18 +54,20 @@
     background: none;
 }
 
- .Collapsible span {
+ .data-row div div span {
     background: var(--citrus);
     height: 40px;
+    width: 150px;
     display: flex;
     align-items: center;
     padding: 5px;
     border-radius: 25px;
-    margin-left: 5px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .additional-info {
     margin: 15px 0px;
    width: 100%;
-   text-align: center;
 }

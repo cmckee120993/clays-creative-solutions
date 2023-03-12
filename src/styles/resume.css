@@ -149,3 +149,16 @@
     color: var(--background);
     font-size: 17px;
 }
+
+.resume-div div span {
+    background: var(--citrus);
+    height: 40px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 25px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}

@@ -1,3 +1,6 @@
+.site-title, .site-description, .site-locale, .logo-img, .site-description, .Collapsible, .Collapsible__contentInner, .Collapsible__contentOuter, .site-description ul, .site-description li {
+    background: none;
+}
 .portfolio-title {
     font-family: 'Acme', sans-serif;
     font-size: 40px;
@@ -7,4 +10,73 @@
     padding: 10px;
     width: 75%;
     box-shadow: 10px 10px 20px var(--text);
+}
+
+.sites-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.site {
+    background: var(--rusty);
+    width: 350px;
+    text-align: center;
+    border-radius: 25px;
+    padding-bottom: 25px;
+    margin: 10px;
+}
+
+.site-title {
+    font-family: 'Acme', sans-serif;
+    font-size: 25px;
+    color: var(--text);
+}
+
+.site-locale {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 25px;
+    color: var(--text);
+    margin-top: -30px;
+}
+
+.logo-img {
+    height: 200px;
+    width: 200px;
+    margin-top: -20px;
+}
+
+.site-image {
+    height: 200px;
+    width: 300px;
+    background: var(--rusty);
+}
+
+.site div div span {
+    background: var(--citrus);
+    height: 40px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 25px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.site-description {
+    color: var(--citrus);
+    font-size: 20px;
+    background: var(--text);
+    width: 265px;
+    margin: 20px auto;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: justify;
+}
+
+.site-description ul {
+    margin-left: 50px;
+    margin-top: -2px;
 }
