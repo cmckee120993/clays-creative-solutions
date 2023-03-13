@@ -1,11 +1,42 @@
+.creator-logo, .links, .contact, .links a, .contact a, .footer-icon, .copyright {
+    background: none;
+}
+footer {
+    background: var(--citrus);
+}
+
+.links, .contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.footer-icon {
+    height: 50px;
+    width: 50px;
+    color: var(--text);
+}
+
+.footer-icon:hover {
+    color: white;
+}
+
 .creator-logo {
     display: flex;
     justify-content: center;
-    background: var(--citrus);
+    align-items: center;
     width: 100%;
 }
 
 .creator-logo img {
     height: 100px;
     background: none;
+}
+
+.copyright {
+    font-family: 'Patrick Hand', cursive;
+    color: var(--text);
+    font-size: 20px;
+    margin-left: 5px;
 }

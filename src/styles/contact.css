@@ -33,9 +33,10 @@
 
 .contact-form button, .success-message button {
     background: var(--rusty);
-    border: 3px solid var(--citrus);
+    border: 3px solid var(--rusty);
     margin-bottom: 25px;
     box-shadow: 10px 10px 20px var(--text);
+    border-radius: 10px;
 }
 
 .success-message button {
@@ -49,13 +50,14 @@
 }
 
 .contact-form input, .contact-form textarea {
-    background: var(--rusty);
+    background: white;
     border: 3px solid var(--citrus);
     box-shadow: 10px 10px 20px var(--text);
     font-family: 'Patrick Hand', cursive;
     color: var(--text);
     font-size: 25px;
     -webkit-text-stroke: 1px;
+    border-radius: 10px;
 }
 
 .contact-form input {

@@ -10,11 +10,13 @@ function Header() {
     return (
         <>
             {/* header image */}
+            <div className='banner-div'>
            <img
-            src={WebBanner}
+            src={Logo}
             alt="Clay's Creative Solutions Title Banner"
             className='web-banner'
             />
+            </div>
 
             {/* language options */}
             {/* <button>🇺🇸 EN</button>

@@ -1,9 +1,17 @@
-.header-div, .header-logo {
+.header-div, .header-logo, .web-banner {
     background: none;
 }
+
+.banner-div {
+    background: var(--citrus);
+    display: flex;
+    justify-content: center;
+
+}
+
 .web-banner {
-    width: 100%;
-    height: 200px;
+    margin-top: 5px;
+    height: 150px;
 }
 
 .service-list, .service-list li {
@@ -15,9 +23,9 @@
     flex-wrap: wrap;
     list-style: none;
     justify-content: center;
-    position: relative;
-    top: -100px;
-    margin-bottom: -70px;
+    background: var(--citrus);
+    border-bottom: solid 5px var(--text);
+    border-bottom-left-radius: -50px
 }
 
 .service-list li {
