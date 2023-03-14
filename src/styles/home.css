@@ -1,4 +1,4 @@
-.home-title, .home-description {
+.home-title, .home-description, .site-option {
     background: none;
 }
 
@@ -25,7 +25,7 @@
 
 .home-title {
     font-family: 'Acme', cursive;
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
     color: var(--text);
 }
@@ -34,5 +34,31 @@
     font-family: 'Patrick Hand', cursive;
     margin: 0px 10px;
     text-align: justify;
-    font-size: 15px;
+    font-size: 20px;
+}
+
+.site-options {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.circle {
+    background: var(--rusty);
+    height: 175px;
+    width: 300px;
+    border-radius: 300px;
+    box-shadow: 10px 10px 20px var(--text);
+    border: 3px solid var(--citrus);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.site-option {
+    text-align: center;
+    font-family: 'Acme', cursive;
+    font-size: 35px;
 }

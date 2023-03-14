@@ -1,0 +1,28 @@
+.border-data {
+    border: 1px solid var(--apricot);
+}
+
+.trans-rates-table {
+    width: 375px;
+    border-collapse: collapse;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.trans-rates-table .data-row .center-data {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-right: none;
+    width: 75px;
+}
+
+.trans-link {
+    color: var(--rusty);
+}
+
+.trans-link:hover {
+    color: white;
+}

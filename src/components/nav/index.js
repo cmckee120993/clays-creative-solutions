@@ -24,22 +24,22 @@ export default function Nav() {
           </li>
         </ul>
       </ul> 
-      {/* <ul className='first-list'>
+      <ul className='first-list'>
           <li>
               <a className='nav-link' href='/translation'><h2>Translating and Writing</h2></a>
           </li>
           <ul className='second-list'>
-              <li>
+              {/* <li>
                   <a className='nav-link' href='/translation-portfolio'><h2>Portfolio</h2></a>
-              </li>
+              </li> */}
               <li>
                   <a className='nav-link' href='/translation-rates'><h2>Rates and Services</h2></a>
               </li>
-              <li>
+              {/* <li>
                   <a className='nav-link' href='/translation-articles'><h2>Articles</h2></a>
-              </li>
+              </li> */}
           </ul>
-      </ul>             */}
+      </ul>            
       <a className='nav-link' href='/resume'><h2>Résumé</h2></a>
       {/* <a className='nav-link' href='/blog'><h2>Articles</h2></a> */}
       <a className='nav-link' href='/contact'><h2>Contact</h2></a>

@@ -24,6 +24,9 @@ import DevPortfolio from './developer-pages/DevPortfolio';
 import DevRates from './developer-pages/DevRates';
 
 // pages for translation/editing part of site
+import Translation from './translation-pages/TransHome';
+import TransRates from './translation-pages/TransRates';
+// pages for translation/editing part of site
 
 function App() {
   return (
@@ -40,6 +43,8 @@ function App() {
           <Route path='/development' element={<Developer />} />
           <Route path='/development-portfolio' element={<DevPortfolio />} />
           <Route path='/development-rates' element={<DevRates />} />
+          <Route path='/translation' element={<Translation />} />
+          <Route path='/translation-rates' element={<TransRates />} />
         </Routes>
         <Footer />
       </>

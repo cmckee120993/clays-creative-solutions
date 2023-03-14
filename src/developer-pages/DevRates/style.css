@@ -57,10 +57,10 @@
  .data-row div div span {
     background: var(--citrus);
     height: 40px;
-    width: 150px;
+    width: 100px;
     display: flex;
     align-items: center;
-    padding: 5px;
+    text-align: center;
     border-radius: 25px;
     margin: auto;
     display: flex;

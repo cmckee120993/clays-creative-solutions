@@ -13,6 +13,17 @@ import {faPhone} from '@fortawesome/free-solid-svg-icons';
 function Footer() {
     return (
         <footer className='footer'>
+            <div className='contact'>
+                <a href= 'mailto:clayscreativesolutions@gmail.com' target='_blank' rel='noreferrer'>
+                    <FontAwesomeIcon alt='Clayton McKee Email' className='footer-icon' icon={faPaperPlane} />
+                </a>
+                <a href='https://wa.me/33769777978' target='_blank' rel='noreferrer'>
+                    <FontAwesomeIcon alt='Clayton McKee WhatsApp' className='footer-icon' icon={faWhatsapp}/>
+                </a>
+                <a href='tel:+33769777978' target='_blank' rel='noreferrer'>
+                    <FontAwesomeIcon alt='Clayton McKee Phone Number' className='footer-icon' icon={faPhone}/>
+                </a>
+            </div>
             <div className="links">
                 <a href="https://github.com/cmckee120993" target='_blank' rel='noreferrer'>
                     <FontAwesomeIcon alt='Clayton McKee Github' className='footer-icon' icon={faGithub} />
@@ -27,17 +38,7 @@ function Footer() {
                     <FontAwesomeIcon alt='Clayton McKee Instagram' className='footer-icon' icon={faInstagram} />
                 </a>
             </div>
-            <div className='contact'>
-                <a href= 'mailto:clayscreativesolutions@gmail.com' target='_blank' rel='noreferrer'>
-                    <FontAwesomeIcon alt='Clayton McKee Email' className='footer-icon' icon={faPaperPlane} />
-                </a>
-                <a href='https://wa.me/33769777978' target='_blank' rel='noreferrer'>
-                    <FontAwesomeIcon alt='Clayton McKee WhatsApp' className='footer-icon' icon={faWhatsapp}/>
-                </a>
-                <a href='tel:+33769777978' target='_blank' rel='noreferrer'>
-                    <FontAwesomeIcon alt='Clayton McKee Phone Number' className='footer-icon' icon={faPhone}/>
-                </a>
-            </div>
+            
             <div className='creator-logo'>
                 <img
                     src={circleLogo}

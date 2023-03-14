@@ -19,6 +19,24 @@ function Contact() {
         <>
             <h2 className='contact-title'>Contact Me</h2>
 
+            <div className='general-contact'>
+                <p className='contact-des'>
+                    I am currently based in Nice, France; however, I accept clients from all over the globe!
+                    All prices are based on the USD; however, prices will be converted and made compatible 
+                    for going rates wherever you may be in the world. Best way to know a price is to get in
+                    touch.
+                </p>
+                <p className='link'>Email: 
+                    <a href='mailto:clayscreativesolutions@gmail.com' target='_blank' rel='noreferrer'>
+                        clayscreativesolutions@gmail.com
+                    </a>
+                </p>
+                <p className='link'>Phone: 
+                    <a href='tel:+33769777978' target='_blank' rel='noreferrer'>
+                        +33 7 69 77 79 78
+                    </a>
+                </p>
+            </div>
             <form className='contact-form' onSubmit={handleSubmit}>
                 <div className='contact-form-div'>
                     <label htmlFor='name'>Name</label>
