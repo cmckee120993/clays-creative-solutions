@@ -15,7 +15,7 @@ import peace from '../images/peace-languages.webp';
 
 function Resume() {
     return (
-        <>
+        <div className='resume-content'>
             <h2 className='resume-title'>Résumé</h2>
             <div className='resume-div'>
                 <div className='education'>
@@ -788,7 +788,7 @@ function Resume() {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 };
 

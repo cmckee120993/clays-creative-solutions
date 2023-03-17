@@ -1,6 +1,14 @@
 .link, .link a, .contact-div, .contact-form, .general-contact, .contact-des {
     background: none;
 }
+
+.contact-content {
+    background-image: url('../images/clays-circle-logo.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
 .contact-title {
     font-family: 'Acme', sans-serif;
     font-size: 40px;
@@ -103,6 +111,12 @@
     border-radius: 10px;
     padding: 0px 20px;
     box-shadow: 10px 10px 20px var(--text);
+}
+
+@media only screen and (max-width: 500px) {
+    .contact-content {
+        background-size: cover;
+    }
 }
 
 @media only screen and (min-width: 1000px) {

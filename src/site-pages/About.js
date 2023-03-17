@@ -4,7 +4,7 @@ import Portrait from '../images/clay-portrait.jpg';
 
 function About() {
     return (
-        <>
+        <div className='about-content'>
          <div className="about">
             <div className="card-header">
                 <div className="card-title">
@@ -36,7 +36,7 @@ function About() {
             
         </div>
       
-     </>
+     </div>
     )
 };
 

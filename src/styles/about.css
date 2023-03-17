@@ -1,3 +1,14 @@
+.about {
+    background: none;
+}
+
+.about-content {
+    background-image: url('../images/clays-circle-logo.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .card-header {
     background: none;
     display: flex;
@@ -81,10 +92,6 @@
 @media only screen and (min-width: 1000px) {
     .about {
         display: flex;
-        background-image: url('../images/clays-circle-logo.webp');
-        background-size: 300px;
-        background-repeat: no-repeat;
-        background-position: 17% 85%;
     }
     .card-header {
         width: 45%;
@@ -92,19 +99,17 @@
     .about-info {
         width: 50%;
     }
-}
-
-@media only screen and (min-width: 1200px) {
-    .about {
-        background-position: 20% 100%;
-        background-size: 250px;
+    .portrait {
+        width: 200px;
+        height: 400px;
+    }
+    .title-list  {
+        margin-top: -200px;
+        margin-left: 200px;
+    }
+    .card-title h2 {
+        margin-top: 150px;
+        margin-left: -20px;
+        margin-bottom: 100px;
     }
 }
-
-@media only screen and (min-width: 1400px) {
-    .about {
-        background-size: 200px;
-    }
-}
-
-
