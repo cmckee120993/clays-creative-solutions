@@ -2,9 +2,9 @@ import React from 'react';
 import '../styles/about.css';
 import Portrait from '../images/clay-portrait.jpg';
 
-
 function About() {
     return (
+        <>
          <div className="about">
             <div className="card-header">
                 <div className="card-title">
@@ -33,7 +33,10 @@ function About() {
                     writing and appearance. I'm here to give you what you want in a timeframe that is fitting for the project at a 
                     price that you can afford.</p>
             </div>
+            
         </div>
+      
+     </>
     )
 };
 
