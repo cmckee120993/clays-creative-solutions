@@ -1,3 +1,6 @@
+.link, .link a, .contact-div, .contact-form, .general-contact, .contact-des {
+    background: none;
+}
 .contact-title {
     font-family: 'Acme', sans-serif;
     font-size: 40px;
@@ -5,7 +8,7 @@
     color: var(--text);
     text-align: center;
     padding: 10px;
-    width: 75%;
+    width: 350px;
     box-shadow: 10px 10px 20px var(--text);
 }
 
@@ -62,11 +65,11 @@
 
 .contact-form input {
     height: 30px;
-    width: 300px;
+    width: 75%;
 }
 
 .contact-form textarea {
-    width: 300px;
+    width: 75%;
     height: 250px;
 }
 
@@ -82,7 +85,7 @@
 .general-contact a {
     margin-bottom: 10px;
     margin-left: 5px;
-    color: var(--rusty);
+    color: var(--background);
 }
 
 .general-contact a:hover {
@@ -92,4 +95,31 @@
 .contact-des {
     text-align: justify;
     width: 90%;
+}
+
+.contact-card {
+    background: var(--rusty);
+    border: solid 3px var(--citrus);
+    border-radius: 10px;
+    padding: 0px 20px;
+    box-shadow: 10px 10px 20px var(--text);
+}
+
+@media only screen and (min-width: 1000px) {
+    .general-contact {
+        width: 45%;
+        margin-top: 20px;
+    }
+    .contact-form {
+        width: 45%;
+    }
+    .contact-div {
+        display: flex;
+    }
+    .contact-title {
+       margin: auto;
+       margin-top: 20px;
+       border: 3px solid var(--citrus);
+       border-radius: 10px;
+    }
 }

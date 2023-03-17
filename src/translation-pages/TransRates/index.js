@@ -5,7 +5,7 @@ import Collapsible from 'react-collapsible';
 
 function TransRates() {
     return (
-        <>
+        <div className='rates-content'>
             <h2 className="rates-title">Translation and Editing Rates</h2>
             <p className="rates-description">
                 I provide a variety of services fitting a variety of projects and client needs. Take a 
@@ -299,7 +299,7 @@ function TransRates() {
                     </td>
                 </tr>
             </table>
-        </>
+        </div>
     )
 };
 

@@ -5,7 +5,7 @@ import Collapsible from 'react-collapsible';
 
 function DevRates() {
     return (
-        <>
+        <div className='rates-content'>
             <h2 className="rates-title">Web Developer Rates</h2>
             <p className="rates-description">While these rates are based on industry standards, all rates are up for negotiation and can be adjusted based on desired project, timeline, and budget.
                 The description supplies the basic information for what can be expected at the base fee.
@@ -226,7 +226,7 @@ function DevRates() {
                     </div>
                 </tr>
             </table>
-        </>
+        </div>
     )
 };
 

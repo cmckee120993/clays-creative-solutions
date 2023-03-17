@@ -1,13 +1,17 @@
-.home-title, .large-screen-img, .home-description, .site-option {
+.home-title, .home-description, .content, .site-option, .site-options {
     background: none;
 }
 
 .header-gif {
     width: 100%;
 }
-.large-screen-img {
-    display: none;
+.home {
+    background-image: url('../images/clays-circle-logo.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
+
 
 .content {
     margin-bottom: 50px;
@@ -66,6 +70,12 @@
     font-size: 35px;
 }
 
+@media only screen and (max-width: 750px) {
+    .home {
+        background-size: cover;
+    }
+}
+
 @media only screen and (min-width: 600px) {
     .site-options {
         justify-content: space-around;
@@ -74,7 +84,7 @@
 
 @media only screen and (min-width: 800px) {
     .header-gif {
-        width: 50%;
+        width: 70%;
         border: 3px solid var(--citrus);
         border-radius: 10px;
         margin-top: 10px;
@@ -88,24 +98,28 @@
     }
 
     .home-description {
-        font-size: 25px;
-    }
-
-    .large-screen-img {
-        display: inline;
-        position: relative;
-        height: 35%;
-        width: 35%;
-        right: -5%;
-        top: 20%;
-        opacity: 50%;
+        font-size: 30px;
     }
 }
 
 @media only screen and (min-width: 1100px) {
+    .header-gif {
+        width: 80%;
+        /* margin-left: 250px; */
+    }
     .intro {
-        width: 47%;
-        margin-right: 20px;
-         margin-top: -200px;
+        width: 80%;
+        margin-top: -150px;
+        margin-right: 5px;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .intro {
+       width: 50%;
+       margin-top: -275px;
+    }
+    .header-gif {
+        width: 50%;
     }
 }

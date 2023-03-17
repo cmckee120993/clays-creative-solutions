@@ -1,7 +1,13 @@
-.site-title, .site-description, .site-link, .site-locale, .logo-img, .site-description, .Collapsible, .Collapsible__contentInner, .Collapsible__contentOuter, .site-description ul, .site-description li {
+.site-title, .sites-div, .site-description, .site-link, .site-locale, .logo-img, .site-description, .Collapsible, .Collapsible__contentInner, .Collapsible__contentOuter, .site-description ul, .site-description li {
     background: none;
 }
 
+.portfolio-div {
+    background-image: url('../../images/clays-circle-logo.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
 .portfolio-title {
     font-family: 'Acme', sans-serif;
     font-size: 40px;
@@ -9,7 +15,7 @@
     color: var(--text);
     text-align: center;
     padding: 10px;
-    width: 75%;
+    width: 350px;
     box-shadow: 10px 10px 20px var(--text);
 }
 
@@ -93,6 +99,11 @@
     color: var(--rusty);
 }
 
+@media only screen and (max-width: 500px) {
+    .portfolio-div {
+        background-size: cover;
+    }
+}
 @media only screen and (min-width: 1000px) {
     .site {
         width: 45%;
@@ -115,6 +126,13 @@
         font-size: 25px;
 
     }
+    .portfolio-title {
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        border: 3px solid var(--citrus);
+        border-radius: 10px;
+     }
 }
 
 @media only screen and (min-width: 1200px) {

@@ -3,8 +3,10 @@
 }
 .trans-link {
     color: var(--rusty);
+    background: none
 }
 
 .trans-link:hover {
     color: white;
 }
+

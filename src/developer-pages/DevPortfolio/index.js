@@ -13,7 +13,7 @@ import letsDoughImage from '../../images/lets-dough-screenshot.webp';
 
 function DevPortfolio() {
     return (
-        <>
+        <div className='portfolio-div'>
 
         <h2 className="portfolio-title">Work for Clients</h2>
         <div className='sites-div'>
@@ -228,7 +228,7 @@ function DevPortfolio() {
             </div>
 
         </div>
-    </>
+    </div>
     )
 };
 
