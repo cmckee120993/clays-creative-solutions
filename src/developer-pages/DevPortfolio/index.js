@@ -34,8 +34,8 @@ function DevPortfolio() {
                 <div className='collapsible-div'>
                     <Collapsible className="additional-info" trigger="Click for more info..." triggerWhenOpen="Click for less info...">
                         <p className='site-description'>This website is an ongoing project with Beverage Express. It began as a coding project for UCLA's bootcamp, but it has 
-                            since evolved into an ongoing employment for the store. The current site includes access to the store's inventory via a <a rel='noreferrer' className='internal-link' href='https://www.mybevexp.com/search' target='_blank'>
-                            "Search"</a> page that uses an API powered by Mpower Beverage. The <a rel='noreferrer' className='internal-link' href="https://www.mybevexp.com/seasonal" target="_blank">What's On Tap?"</a> page also employs an API from 
+                            since evolved into an ongoing employment for the store. The current site includes access to the store's inventory via a <a rel='noreferrer' className='site-link' href='https://www.mybevexp.com/search' target='_blank'>
+                            "Search"</a> page that uses an API powered by Mpower Beverage. The <a rel='noreferrer' className='site-link' href="https://www.mybevexp.com/seasonal" target="_blank">What's On Tap?"</a> page also employs an API from 
                             the Untappd social media platform. Both of these pages update automatically when the store updates their database and/or social media. The site also features a hamburger menu, 
                             responsive design, contact information, SEO, and social media connectivity. The site is created using JavaScript, HTML, CSS, and React. This business also took advantage of my offers for logo design,
                             social media posting, listserv creation/maintenance, and Google Business page maintenance.
@@ -60,6 +60,8 @@ function DevPortfolio() {
                 <h3 className='site-title'>Chez Nicolas</h3>
                 <h4 className='site-locale'>Hairdresser in Nice, France</h4>
                 <h4 className='site-locale'><a rel='noreferrer' className='internal-link' href='https://www.cheznicolas.com/' target='_blank'>cheznicolas.com</a></h4>
+                <h4 className='site-locale'><a rel='noreferrer' className='internal-link' 
+                    href='https://github.com/cmckee120993/chez-nicolas' target='_blank'>Github Link</a></h4>
                 <img
                     src={chezNicolasLogo}
                     alt='Logo designed by Clay for Chez Nicolas'
@@ -70,7 +72,7 @@ function DevPortfolio() {
                         <p className='site-description'>This website was for a client who is a freelance hairdresser that travels and cuts hair in people's homes.
                             The site is made with React, JavaScript, CSS, and HTML. It includes a table of his services, various images showcasing his work, and connectivity to 
                             various social media and communication outlets to allow people to contact him. In addition to the website, I was also employed to assist in the creation
-                            of a Google Business page, business card, social media posts, design (image on <a href='www.cheznicolas.com/moi' target='_blank' rel='noreferrer' className='internal-link'>
+                            of a Google Business page, business card, social media posts, design (image on <a href='www.cheznicolas.com/moi' target='_blank' rel='noreferrer' className='site-link'>
                             About page</a>), and photo editing. This site is in French, a responsive web design, and SEO friendly.
                         </p>
                         <img

@@ -5,8 +5,9 @@ footer {
     background: var(--citrus);
 }
 
-.links, .contact {
+.contact {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     padding-top: 20px;
@@ -15,6 +16,7 @@ footer {
 .footer-icon {
     height: 50px;
     width: 50px;
+    margin: 10px;
     color: var(--text);
 }
 
@@ -40,4 +42,12 @@ footer {
     color: var(--text);
     font-size: 20px;
     margin-left: 5px;
+}
+
+@media only screen and (min-width: 400px) {
+    .footer-icon {
+        height: 75px;
+        width: 75px;
+        margin: 25px;
+    }
 }

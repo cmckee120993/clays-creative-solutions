@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/home.css';
 import siteGif from '../images/site-gif.gif';
-
+import logo from '../images/clays-circle-logo.webp';
 
 function Home() {
     return (
@@ -10,6 +10,11 @@ function Home() {
                 src={siteGif}
                 alt='Gif of marketing, translation, and web development services.'
                 className='header-gif'
+            />
+            <img
+                src={logo}
+                alt='Clays Creative Solutions Circle Logo'
+                className='large-screen-img'
             />
             <div className='content'>
                 <div className='intro'>

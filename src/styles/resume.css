@@ -9,7 +9,7 @@
     color: var(--text);
     text-align: center;
     padding: 10px;
-    width: 75%;
+    width: 300px;
     box-shadow: 10px 10px 20px var(--text);
 }
 
@@ -29,7 +29,7 @@
     background: var(--citrus);
 }
 
-.resume-div div, .awards-div {
+.resume-div div {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -52,6 +52,7 @@
     border-radius: 15px;
     margin-bottom: -5px;
     height: 75px;
+    color: var(--text);
 }
 
 .education-div, .awards-div, .experience-div, .one-class, .class-list, .abroad-div, .language-div, .publication-div, .conference-div {

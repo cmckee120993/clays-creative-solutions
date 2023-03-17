@@ -22,11 +22,11 @@ font-family: 'Patrick Hand', cursive; */
 
 .internal-link {
   background: none;
-  color: var(--background);
+  color: white;
   
 }
 
 .internal-link:hover {
-  color: white;
+  color: var(--text);
   padding: 5px;
 }

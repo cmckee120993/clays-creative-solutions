@@ -23,8 +23,6 @@ function Footer() {
                 <a href='tel:+33769777978' target='_blank' rel='noreferrer'>
                     <FontAwesomeIcon alt='Clayton McKee Phone Number' className='footer-icon' icon={faPhone}/>
                 </a>
-            </div>
-            <div className="links">
                 <a href="https://github.com/cmckee120993" target='_blank' rel='noreferrer'>
                     <FontAwesomeIcon alt='Clayton McKee Github' className='footer-icon' icon={faGithub} />
                 </a>

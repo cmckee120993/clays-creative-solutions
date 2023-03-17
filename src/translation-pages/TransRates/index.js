@@ -18,7 +18,7 @@ function TransRates() {
                 sample of a maximum of 1,000 words. Prices are ultimately calculated based on manuscript
                 length, amount of work needed, and requested deadline. 
             </p>
-            <table className="trans-rates-table">
+            <table className="rates-table">
                 <tr className="header-row">
                     <th>Service</th>
                     <th>Details</th>

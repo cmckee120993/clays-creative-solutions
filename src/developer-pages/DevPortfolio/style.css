@@ -1,6 +1,7 @@
-.site-title, .site-description, .site-locale, .logo-img, .site-description, .Collapsible, .Collapsible__contentInner, .Collapsible__contentOuter, .site-description ul, .site-description li {
+.site-title, .site-description, .site-link, .site-locale, .logo-img, .site-description, .Collapsible, .Collapsible__contentInner, .Collapsible__contentOuter, .site-description ul, .site-description li {
     background: none;
 }
+
 .portfolio-title {
     font-family: 'Acme', sans-serif;
     font-size: 40px;
@@ -15,7 +16,8 @@
 .sites-div {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
 }
 
 .site {
@@ -25,6 +27,7 @@
     border-radius: 25px;
     padding-bottom: 25px;
     margin: 10px;
+    box-shadow: 10px 10px 20px var(--text);
 }
 
 .site-title {
@@ -69,14 +72,54 @@
     color: var(--citrus);
     font-size: 20px;
     background: var(--text);
-    width: 265px;
+    width: 85%;
     margin: 20px auto;
     border-radius: 5px;
     padding: 5px;
     text-align: justify;
+    box-shadow: 3px 3px 30px var(--citrus);
 }
 
 .site-description ul {
     margin-left: 50px;
     margin-top: -2px;
+}
+
+.site-link {
+    color: white;
+}
+
+.site-link:hover {
+    color: var(--rusty);
+}
+
+@media only screen and (min-width: 1000px) {
+    .site {
+        width: 45%;
+    }
+    .logo-img {
+        height: 300px;
+        width: 300px;
+    }
+    .site-title {
+        font-size: 30px;
+    }
+    .site-locale {
+        font-size: 30px;
+    }
+    .site-image {
+        height: 300px;
+        width: 400px;
+    }
+    .site-description {
+        font-size: 25px;
+
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+      .site-image {
+        height: 400px;
+        width: 500px;
+    }
 }

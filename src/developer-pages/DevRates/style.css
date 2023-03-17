@@ -71,3 +71,26 @@
     margin: 15px 0px;
    width: 100%;
 }
+
+@media only screen and (min-width: 500px) {
+    .rates-table {
+        margin: auto;
+        font-size: 20px;
+    }
+    .rates-description{
+        font-size: 22px;
+    }
+    .data-row div div span {
+        width: 200px
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .rates-table {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .rates-description{
+        font-size: 27px;
+    }
+}

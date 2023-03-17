@@ -98,7 +98,7 @@ function Resume() {
                     />
                     <h2>Experience</h2>
                     <div className='collapsible-div'>
-                        <Collapsible className='additional-info' trigger='Click for teaching experience...' triggerWhenOpen='Close'>
+                        <Collapsible className='additional-info' trigger='Teaching experience...' triggerWhenOpen='Close'>
                             
                             <div className='experience-div'>
                                 <h3>Independent Educator</h3>
@@ -308,7 +308,7 @@ function Resume() {
                     </div>
 
                     <div className='collapsible-div'>
-                        <Collapsible className='additional-info' trigger='Click for other experience...' triggerWhenOpen='Close'>
+                        <Collapsible className='additional-info' trigger='Other experience...' triggerWhenOpen='Close'>
                             <div className="experience-div">
                                 <h3>Freelance Web Marketer</h3>
                                 <h4>December 2022 to Present</h4>
@@ -324,7 +324,7 @@ function Resume() {
                                         <div className='class-list'>
                                             
                                             <div className='one-class'>
-                                                <h5><a className='resume-link' href=''>Let's Dough</a></h5>
+                                                <h5><a className='resume-link' href='https://letsdoughdotcom.wpcomstaging.com/'>Let's Dough</a></h5>
                                                 <h6>Cookie Bakery/Restaurant in Nice, France</h6>
                                             </div>
 
