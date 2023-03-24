@@ -32,7 +32,7 @@ function Header() {
     }
     if (document.location.href === 'http://localhost:3000/') {
     return (
-        <>
+        <div className='header'>
             {/* header image */}
             <div className='banner-div'>
            <img
@@ -41,11 +41,11 @@ function Header() {
             className='web-banner'
             />
             </div>
-
-            {/* language options */}
-            <button onClick={english}>🇺🇸 EN</button>
-            <button onClick={french}>🇫🇷 FR</button>
-
+            <div className='lang-div'>
+                {/* language options */}
+                <button className='lang-btn' onClick={english}>🇺🇸 EN</button>
+                <button onClick={french} className='lang-btn'>🇫🇷 FR</button>
+            </div>
             <div className='service-list'>
                 <li>Web Development</li>
                 <li>*</li>
@@ -55,24 +55,24 @@ function Header() {
                 <li>*</li>
                 <li>Writing</li>
             </div> 
-        </>
+        </div>
     )
 } else {
     return (
-        <>
-        <div className='header-div'>
-            <img    
-                src={Logo}
-                alt="Clay's Creative Solutions Logo"
-                className='header-logo'
-            />
-            <div>
-             {/* language options */}
-             <button onClick={english}>🇺🇸 EN</button>
-            <button onClick={french}>🇫🇷 FR</button>
+        <div className='header'>
+            <div className='header-div'>
+                <img    
+                    src={Logo}
+                    alt="Clay's Creative Solutions Logo"
+                    className='header-logo'
+                />
+            </div>
+            <div className='lang-div'>
+                {/* language options */}
+                <button className='lang-btn' onClick={english}>🇺🇸 EN</button>
+                <button  className='lang-btn' onClick={french}>🇫🇷 FR</button>
             </div>
         </div>
-        </>
     )
 }
 };

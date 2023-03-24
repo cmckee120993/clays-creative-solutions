@@ -1,7 +1,10 @@
-.header-div, .header-logo, .web-banner {
+.header-div, .lang-btn, .lang-div, .header-logo, .web-banner {
     background: none;
 }
 
+.header {
+    background: var(--citrus);
+}
 .banner-div {
     background: var(--citrus);
     display: flex;
@@ -57,4 +60,19 @@
     background: var(--background);
     width: 100%;
     z-index: -1;
+}
+.lang-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.lang-btn {
+    width: 100px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 25px;
+    background: var(--rusty);
+    border: 3px solid var(--rusty);
+    margin-bottom: 25px;
+    box-shadow: 5px 5px 20px var(--text);
+    border-radius: 10px;
 }
