@@ -317,7 +317,8 @@ function Resume() {
                                    for businesses and clients of all kinds. In addition to web design, I also work on marketing
                                    campaigns, company image, photography, business cards, logo design, social media posts, articles,
                                    or any desired created content in print or digital format. For full details, feel free to look at
-                                   my <a className='resume-link' href='/development'>Web Development Pages</a> or my Writing and Translation Pages.
+                                   my <a className='resume-link' href='/development'>Web Development Pages</a> or my <a className='resume-link' href='/translation'>
+                                    Writing and Translation Pages</a>.
                                 </p>
 
                                 <Collapsible className='additional-info' trigger='List of Clients +' triggerWhenOpen='Close'>
@@ -388,7 +389,7 @@ function Resume() {
                                 <p>
                                 Proofread, format, and edit translated literature for style, grammar, and 
                                 English-language fluidity for Dalkey Archive Press, a publisher of literature 
-                                in English translation. See below for list of edited works.
+                                in English translation. 
                                 </p>
                             </div>
 
@@ -499,7 +500,7 @@ function Resume() {
                                     <h3>Reviews</h3>
                                         <div className="publication-div">
                                             <h4>Review of Margarita Serafimova’s <em>A Surgery of a Star</em></h4>
-                                            <h5><a className='resume-link' href='https://www.worldliteraturetoday.org/2021/autumn/surgery-star-margarita-serafimova'>Words Literature Today, Autumn 2021</a></h5>
+                                            <h5><a className='resume-link' href='https://www.worldliteraturetoday.org/2021/autumn/surgery-star-margarita-serafimova'>World Literature Today, Autumn 2021</a></h5>
                                             <h5>2021</h5>
                                         </div> 
 
@@ -516,7 +517,7 @@ function Resume() {
                                         </div>
 
                                         <div className="publication-div">
-                                            <h4>Le rouge et le noire: <em>Marrakech Noir</em> In Review</h4>
+                                            <h4>Le rouge et le noir: <em>Marrakech Noir</em> In Review</h4>
                                             <h5><a className='resume-link' href='https://www.asymptotejournal.com/blog/2018/12/10/le-rouge-et-le-noir-marrakech-noir-in-review/'>Asymptote Blog</a></h5>
                                             <h5>2018</h5>
                                         </div>

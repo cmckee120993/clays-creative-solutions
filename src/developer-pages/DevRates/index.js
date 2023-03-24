@@ -161,7 +161,7 @@ function DevRates() {
             <h2 className="rates-title">Web Marketing Services</h2>
             <p className="rates-description">
                 Having a site is only one step of the equation for successful online marketing. If you're a new business getting started
-                or an established business looking for a new look, an innovative approach, or an in to a new market, I am happy to help! Since all of these services will required
+                or an established business looking for a new look, an innovative approach, or an in to a new market, I am happy to help! Since all of these services will require
                 a consultation for me to know exactly what you're looking for, I have not included any prices here. Send me an email or give me a call and we can discuss the details.
             </p>
             <table className="rates-table">
