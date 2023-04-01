@@ -1,11 +1,11 @@
 import React from 'react';
 import './style.css';
 import bevImage from '../../images/my-bev-express-screenshot.webp';
-import projectOne from '../../images/courier-app.png';
-import projectTwo from '../../images/fortnite-app-screenshot.png';
-import projectThree from '../../images/beverage-express.jpg';
+import projectOne from '../../images/courier-app.webp';
+import projectTwo from '../../images/fortnite-app-screenshot.webp';
+import projectThree from '../../images/beverage-express.webp';
 import Collapsible from 'react-collapsible';
-import bevLogo from '../../images/bev-logo.png';
+import bevLogo from '../../images/bev-logo.webp';
 import chezNicolasLogo from '../../images/chez-nicolas-logo.webp';
 import chezNicolasImage from '../../images/chez-nicolas-screenshot.webp';
 import letsDoughLogo from '../../images/lets-dough-logo.webp';
@@ -207,7 +207,7 @@ function DevPortfolioFr() {
                             et tout le monde a besoin de créer un compte pour inviter et être invité. Le créateur du group contrôle les invitations et la participation
                             dans le groupes. Il n'y a pas un maximum de groupes dans lequel les utilisateurs peuvent participer. Le site utilise Handlebars et une base de
                             données MYSQL. Le projet était une collaboration avec Joseph Hansen, Katarina Mihaylovich et Inna Sherstnyova. Les compétences présentées:
-                            <ul className="site-description">
+                            <ul>
                                 <li>Node</li>
                                 <li>Express</li>
                                 <li>MySQL</li>
@@ -233,7 +233,7 @@ function DevPortfolioFr() {
                             au jeu. Le projet utilise stockage web local pour ajouter les affaires désirées à la liste des envies pour plus tard. Au lieu d'avoir 
                             besoin de défiler tout le catalogue, les utilisateurs du site peuvent chercher pour un objet même si l'objet n'est pas disponible sur 
                             le marché de Fortnight du jour. Le projet était une collaboration avec Sarah Wyner and Andre Silva. Les compétences présentées:
-                            <ul className="site-description">
+                            <ul>
                                 <li>HTML</li>
                                 <li>CSS/Bulma</li>
                                 <li>JavaScript/Jquery</li>

@@ -3,6 +3,7 @@
 }
 footer {
     background: var(--citrus);
+    border-top: 5px var(--text) solid;
 }
 
 .contact {

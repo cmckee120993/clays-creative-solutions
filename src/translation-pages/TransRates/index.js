@@ -43,9 +43,9 @@ function TransRates() {
                         <div className='collapsible-div'>
                             <Collapsible className="additional-info" trigger="Click to see rates..." triggerWhenOpen="Click for less info..."> 
                                     <ul>
-                                        <li>Fiction: $36-$40/hr or $.02-$.03/word</li>
-                                        <li>Nonfiction: $41-$45/hr or $.03-$.04/word</li>
-                                        <li>Business/Sales: $46-$50/hr or $.04-$.05/word</li>
+                                        <li>Fiction: €36-€40/hr or €.02-€.03/word</li>
+                                        <li>Nonfiction: €41-€45/hr or €.03-€.04/word</li>
+                                        <li>Business/Sales: €46-€50/hr or €.04-€.05/word</li>
                                     </ul>
                             </Collapsible>
                         </div>
@@ -67,8 +67,8 @@ function TransRates() {
                         <div className='collapsible-div'>
                             <Collapsible className="additional-info" trigger="Click to see rates..." triggerWhenOpen="Click for less info...">
                                     <ul>
-                                        <li>$51-$60/hr</li>
-                                        <li>$.04-$.05/word</li>
+                                        <li>€51-€60/hr</li>
+                                        <li>€.04-€.05/word</li>
                                     </ul>
                             </Collapsible>
                         </div>
@@ -92,8 +92,8 @@ function TransRates() {
                         <div className='collapsible-div'>
                             <Collapsible className="additional-info" trigger="Click to see rates..." triggerWhenOpen="Click for less info...">
                                     <ul>
-                                        <li>$46-$50/hour</li>
-                                        <li>$.02-$.04/word</li>
+                                        <li>€46-€50/hour</li>
+                                        <li>€.02-€.04/word</li>
                                         <li>*Printed materials may incur extra fees</li>
                                     </ul>
                             </Collapsible>
@@ -118,8 +118,8 @@ function TransRates() {
                         <div className='collapsible-div'>
                             <Collapsible className="additional-info" trigger="Click to see rates..." triggerWhenOpen="Click for less info...">
                                     <ul>
-                                        <li>$36-$40/hour</li>
-                                        <li>$.02-$.03/word</li>
+                                        <li>€36-€40/hour</li>
+                                        <li>€.02-€.03/word</li>
                                     </ul>
                             </Collapsible>
                         </div>
@@ -142,8 +142,8 @@ function TransRates() {
                         <div className='collapsible-div'>
                             <Collapsible className="additional-info" trigger="Click to see rates..." triggerWhenOpen="Click for less info...">
                                     <ul>
-                                        <li>$46-$50/hour</li>
-                                        <li>$.04-$.05/word</li>
+                                        <li>€46-€50/hour</li>
+                                        <li>€.04-€.05/word</li>
                                     </ul>
                             </Collapsible>
                         </div>
@@ -168,8 +168,8 @@ function TransRates() {
                         <div className='collapsible-div'>
                             <Collapsible className="additional-info" trigger="Click to see rates..." triggerWhenOpen="Click for less info...">
                                     <ul>
-                                        <li>$51-$60/hour</li>
-                                        <li>$.08-$.09/word</li>
+                                        <li>€51-€60/hour</li>
+                                        <li>€.08-€.09/word</li>
                                     </ul>
                             </Collapsible>
                         </div>
@@ -192,9 +192,9 @@ function TransRates() {
                         <div className='collapsible-div'>
                             <Collapsible className="additional-info" trigger="Click to see rates..." triggerWhenOpen="Click for less info...">
                                     <ul>
-                                        <li>Fiction: $31-$35/hr, $.02-$.03/word</li>
-                                        <li>Nonfiction: $36-$40/hr, $.02-$.03/word</li>
-                                        <li>Business/Sales: $41-$45/hr, $.04-$.05/word</li>
+                                        <li>Fiction: €31-€35/hr, €.02-€.03/word</li>
+                                        <li>Nonfiction: €36-€40/hr, €.02-€.03/word</li>
+                                        <li>Business/Sales: €41-€45/hr, €.04-€.05/word</li>
                                     </ul>
                             </Collapsible>
                         </div>
@@ -217,8 +217,8 @@ function TransRates() {
                         <div className='collapsible-div'>
                             <Collapsible className="additional-info" trigger="Click to see rates..." triggerWhenOpen="Click for less info...">
                                     <ul>
-                                        <li>$46-$50/hour</li>
-                                        <li>$.05-$.06/word</li>
+                                        <li>€46-€50/hour</li>
+                                        <li>€.05-€.06/word</li>
                                     </ul>
                             </Collapsible>
                         </div>
@@ -241,8 +241,8 @@ function TransRates() {
                         <div className='collapsible-div'>
                             <Collapsible className="additional-info" trigger="Click to see rates..." triggerWhenOpen="Click for less info...">
                                     <ul>
-                                        <li>$36-$40/hour</li>
-                                        <li>$.09-$.10/word</li>
+                                        <li>€36-€40/hour</li>
+                                        <li>€.09-€.10/word</li>
                                     </ul>
                             </Collapsible>
                         </div>
@@ -265,8 +265,8 @@ function TransRates() {
                         <div className='collapsible-div'>
                             <Collapsible className="additional-info" trigger="Click to see rates..." triggerWhenOpen="Click for less info...">
                                     <ul>
-                                        <li>$46-$50/hour</li>
-                                        <li>$.11-$.15/word</li>
+                                        <li>€46-€50/hour</li>
+                                        <li>€.11-€.15/word</li>
                                     </ul>
                             </Collapsible>
                         </div>
@@ -289,10 +289,10 @@ function TransRates() {
                         <div className='collapsible-div'>
                             <Collapsible className="additional-info" trigger="Click to see rates..." triggerWhenOpen="Click for less info...">
                                     <ul>
-                                        <li>Fiction: $51-$60/hr, $.09-$.10/word</li>
-                                        <li>Noniction: $61-$70/hr, $.11-$.15/word</li>
-                                        <li>Business/Sales: $61-$70/hr, $.16-$.20/word</li>
-                                        <li>Journalism: $51-$60/hr, $.31-$.50/word</li>
+                                        <li>Fiction: €51-€60/hr, €.09-€.10/word</li>
+                                        <li>Noniction: €61-€70/hr, €.11-€.15/word</li>
+                                        <li>Business/Sales: €61-€70/hr, €.16-€.20/word</li>
+                                        <li>Journalism: €51-€60/hr, €.31-€.50/word</li>
                                     </ul>
                             </Collapsible>
                         </div>

@@ -1,11 +1,11 @@
 import React from 'react';
 import './style.css';
 import bevImage from '../../images/my-bev-express-screenshot.webp';
-import projectOne from '../../images/courier-app.png';
-import projectTwo from '../../images/fortnite-app-screenshot.png';
-import projectThree from '../../images/beverage-express.jpg';
+import projectOne from '../../images/courier-app.webp';
+import projectTwo from '../../images/fortnite-app-screenshot.webp';
+import projectThree from '../../images/beverage-express.webp';
 import Collapsible from 'react-collapsible';
-import bevLogo from '../../images/bev-logo.png';
+import bevLogo from '../../images/bev-logo.webp';
 import chezNicolasLogo from '../../images/chez-nicolas-logo.webp';
 import chezNicolasImage from '../../images/chez-nicolas-screenshot.webp';
 import letsDoughLogo from '../../images/lets-dough-logo.webp';
@@ -160,7 +160,7 @@ function DevPortfolio() {
                             Users can create an account, login, search products, fill a cart, and send an order in for delivery. The cart uses global state, and the 
                             user information and the orders use MongoDB.  An API from mPower (a beverage business company) supplies access to the store database. In 
                             addition to the coding skills, I designed all logos on the site! Skills used in project:
-                            <ul className="site-description">
+                            <ul>
                                 <li>MERN stack</li>
                                 <li>CSS/Flexbox</li>
                                 <li>Graphql</li>
@@ -192,7 +192,7 @@ function DevPortfolio() {
                              can make and belong to as many groups as they'd like. This website is created using Handlebars and a MYSQL database. This project was 
                              a collaboration with Joseph Hansen, Katarina Mihaylovich, and Inna Sherstnyova. Click on the links above to check it out! Skills used:
                             
-                            <ul className="site-description">
+                            <ul>
                                 <li>Node</li>
                                 <li>Express</li>
                                 <li>MySQL</li>
@@ -216,7 +216,7 @@ function DevPortfolio() {
                         <p className='site-description'>This website is for Fortnite players who wish to look at how they can customize their characters without having to log onto the game. Two APIs populate the daily store as well as a full store archive.
                             The project uses local storage to allow users to add gear that they want to a wishlist for later. Rather than having to scroll through the entire archive, users can search for desired items, even if they aren't in the Fortnite Store for that day. 
                             This project was a collaboration with  Sarah Wyner and Andre Silva. Click on the links to check it out! Skills used:
-                            <ul className="site-description">
+                            <ul>
                                 <li>HTML</li>
                                 <li>CSS/Bulma</li>
                                 <li>JavaScript/Jquery</li>

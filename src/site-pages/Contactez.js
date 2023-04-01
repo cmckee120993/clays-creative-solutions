@@ -10,8 +10,8 @@ function Contactez() {
         <div className='success-message'>
             <p lang='fr'>
                 Merci pour votre message! Clayton répondra dès que possible.
-                Pour envoyer un autre message, retournez à <a href=''>Me contactez</a>, 
-                ou vous pouvez retrouner à l'<a href=''>Acceuil</a>. 
+                Pour envoyer un autre message, retournez à <a href='/fr/contact'>Me contactez</a>, 
+                ou vous pouvez retrouner à l'<a href='/fr/home'>Acceuil</a>. 
             </p>
         </div>
     }

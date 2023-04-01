@@ -1,3 +1,17 @@
-.header-image {
+.video-div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-left: 10px;
+}
+
+.video-div p {
+    background: none;
+    font-family: "Patrick Hand", cursive;
+    text-align: center;
     width: 100%;
+}
+
+iframe {
+    margin: auto;
 }

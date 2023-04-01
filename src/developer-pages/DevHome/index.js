@@ -1,16 +1,16 @@
 import React from 'react';
-import headerImage from '../../images/web-development-ad.webp';
 import './style.css';
 
 
 function Developer() {
     return (
-        <>
-            <img
-                src={headerImage}
-                alt="Web development services"
-                className="header-image"
-            />
+        <div className='web-home'>
+            <div className='video-div'>
+                <iframe
+                title="Intro video to Clay's Creative Solutions"
+                src='https://youtube.com/embed/UEY7BA_GefU?autoplay=1&mute=1'>
+                </iframe>
+            </div>
             <div className='site-options'>
                     <div className='circle'>
                         <a className='internal-link' href='/development-portfolio'><h2 className='site-option'>Portfolio</h2></a>
@@ -22,7 +22,7 @@ function Developer() {
                         <a className='internal-link' href='/contact'><h2 className='site-option'>Contact Me</h2></a>
                     </div>
             </div>
-        </>
+        </div>
     )
 };
 

@@ -8,11 +8,11 @@ function Header() {
 
     function english() {
         let link = document.location.href;
-        let shortLink = link.split("http://localhost:3000/");
+        let shortLink = link.split("https://clayscreativesolutions.com/");
         let frCheck = shortLink[1].split('/');
         if (frCheck[0] === 'fr'){
             let newLink = shortLink[1].split('fr');
-            document.location.href = 'http://localhost:3000' + newLink[1];
+            document.location.href = 'https://clayscreativesolutions.com' + newLink[1];
         } else {
 
         }
@@ -21,18 +21,19 @@ function Header() {
 
     function french() {
         let link = document.location.href;
-        let shortLink = link.split("http://localhost:3000");
+        let shortLink = link.split("https://clayscreativesolutions.com/");
         let frCheck = shortLink[1].split('/');
-        if (frCheck[1] === 'fr'){
+        if (frCheck[0] === 'fr'){
             
         } else {
-        let newLink = 'http://localhost:3000/fr' + shortLink[1];
+        let newLink = 'https://clayscreativesolutions.com/fr/' + shortLink[1];
         document.location.href = newLink;
         }
     }
-    if (document.location.href === 'http://localhost:3000/') {
+    if (document.location.href === 'https://clayscreativesolutions.com/') {
     return (
         <div className='header'>
+            
             {/* header image */}
             <div className='banner-div'>
            <img
@@ -46,6 +47,7 @@ function Header() {
                 <button className='lang-btn' onClick={english}>🇺🇸 EN</button>
                 <button onClick={french} className='lang-btn'>🇫🇷 FR</button>
             </div>
+            
             <div className='service-list'>
                 <li>Web Development</li>
                 <li>*</li>
@@ -60,6 +62,8 @@ function Header() {
 } else {
     return (
         <div className='header'>
+            
+
             <div className='header-div'>
                 <img    
                     src={Logo}
@@ -67,6 +71,7 @@ function Header() {
                     className='header-logo'
                 />
             </div>
+            
             <div className='lang-div'>
                 {/* language options */}
                 <button className='lang-btn' onClick={english}>🇺🇸 EN</button>

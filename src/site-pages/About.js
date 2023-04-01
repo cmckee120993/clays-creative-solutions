@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/about.css';
-import Portrait from '../images/clay-portrait.jpg';
+import Portrait from '../images/clay-portrait.webp';
 
 function About() {
     return (

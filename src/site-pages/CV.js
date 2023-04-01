@@ -165,7 +165,7 @@ function Resume() {
                                     (20 pages en entier) et la reprise d'un des articles. Tous les articles avaient des sujets de rédaction. J'ai crée des leçons, 
                                     dirigé mes 20 étudiants et j'ai noté tous les devoirs. Tous les enseignants des TD ont réuni avec les profs principaux chaque semaine.
                                 </p>
-                                    <Collapsible className='additional-info' trigger='Les cours +' triggerWhenOpen='Fermez'>
+                                    <Collapsible className='additional-info' trigger='Les TD +' triggerWhenOpen='Fermez'>
                                         <div className='class-list'>
                                             <div className='one-class'>
                                                 <h5>Comp Lit 2DW, Automne 2020</h5>
@@ -312,13 +312,13 @@ function Resume() {
                                     Je travaille en tant qu'indépendent pour toutes choses web! Je dessine, crée et fais le codage des
                                     sites web pour toutes sortes des clients. En addition, je travaille sur les campagnes de publicité, 
                                     l'image d'entreprise, la photographie, les cartes de visites, les logos, les réseaux sociaux, les articles
-                                    et plus! Pour tous les détails, regardez <a className='resume-link' href='/development'>Web Development Pages</a> or my Writing and Translation Pages
+                                    et plus! Pour tous les détails, regardez <a className='resume-link' href='/fr/development'>Web Development Pages</a> or my Writing and Translation Pages
                                    Work as an independent contractor for all things web! I design, create, and code websites
                                    for businesses and clients of all kinds. In addition to web design, I also work on marketing
                                    campaigns, company image, photography, business cards, logo design, social media posts, articles,
                                    or any desired created content in print or digital format. For full details, feel free to look at
-                                   my <a className='resume-link' href=''>Sites et Webmarketing</a> ou <a className='resume-link' 
-                                   href=''>Traduction et Révision</a>.
+                                   my <a className='resume-link' href='/fr/development'>Sites et Webmarketing</a> ou <a className='resume-link' 
+                                   href='/fr/translation'>Traduction et Révision</a>.
                                 </p>
 
                                 <Collapsible className='additional-info' trigger='List of Clients +' triggerWhenOpen='Fermez'>

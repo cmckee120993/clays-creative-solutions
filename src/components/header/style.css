@@ -5,11 +5,12 @@
 .header {
     background: var(--citrus);
 }
+
+
 .banner-div {
     background: var(--citrus);
     display: flex;
     justify-content: center;
-
 }
 
 .web-banner {
@@ -52,15 +53,6 @@
     margin-top: 10px;
 }
 
-.apple-background {
-    position: absolute;
-    left: 0;
-    top: 70px;
-    height: 90px;
-    background: var(--background);
-    width: 100%;
-    z-index: -1;
-}
 .lang-div {
     display: flex;
     justify-content: space-around;
@@ -72,7 +64,8 @@
     font-size: 25px;
     background: var(--rusty);
     border: 3px solid var(--rusty);
-    margin-bottom: 25px;
     box-shadow: 5px 5px 20px var(--text);
     border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 10px;
 }

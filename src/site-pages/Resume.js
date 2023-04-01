@@ -310,7 +310,7 @@ function Resume() {
                     <div className='collapsible-div'>
                         <Collapsible className='additional-info' trigger='Other experience...' triggerWhenOpen='Close'>
                             <div className="experience-div">
-                                <h3>Freelance Web Marketer</h3>
+                                <h3>Freelance Web Designer/Marketer</h3>
                                 <h4>December 2022 to Present</h4>
                                 <p>
                                    Work as an independent contractor for all things web! I design, create, and code websites
