@@ -64,7 +64,7 @@ function DevRates() {
                                     <li>Accessibility</li>
                                     <li>Responsive design (mobile, tablet, computer)</li>
                                     <li>Plugins and addons based on client needs</li>
-                                    <li>Hosting and domaine assistance</li>
+                                    <li>Hosting and domain assistance</li>
                                 </ul>
                             </td>
                         </Collapsible>
@@ -91,7 +91,7 @@ function DevRates() {
                         <Collapsible className="additional-info" trigger="Click for more info..." triggerWhenOpen="Click for less info...">                    
                             <td>
                                 <ul>
-                                    <li>1-5 pages of HTML, CSS, and Javascript</li>
+                                    <li>1-5 pages of HTML, CSS, and JavaScript</li>
                                     <li>Completely personalized based on client desire</li>
                                     <li>Non-restricted creative decisions</li>
                                     <li>Check-ins with client for personalization</li>
@@ -120,7 +120,7 @@ function DevRates() {
                 </tr>
 
                 <tr className='data-row'>
-                    <td className='center-data'>Fullstack Web Project with MongoDB/Database, Express, React/Angular, Node</td>
+                    <td className='center-data'>Full Stack Web Project with MongoDB/Database, Express, React/Angular, Node</td>
                     <td className='center-data'>Starting at €1000,00</td>
                     <div className='collapsible-div'>
                         <Collapsible className="additional-info" trigger="Click for more info..." triggerWhenOpen="Click for less info...">

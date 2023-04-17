@@ -290,7 +290,7 @@ function TransRates() {
                             <Collapsible className="additional-info" trigger="Click to see rates..." triggerWhenOpen="Click for less info...">
                                     <ul>
                                         <li>Fiction: €51-€60/hr, €.09-€.10/word</li>
-                                        <li>Noniction: €61-€70/hr, €.11-€.15/word</li>
+                                        <li>Nonfiction: €61-€70/hr, €.11-€.15/word</li>
                                         <li>Business/Sales: €61-€70/hr, €.16-€.20/word</li>
                                         <li>Journalism: €51-€60/hr, €.31-€.50/word</li>
                                     </ul>

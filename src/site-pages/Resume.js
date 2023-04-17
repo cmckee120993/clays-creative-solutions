@@ -486,7 +486,7 @@ function Resume() {
                                     <h3>Academic</h3>
                                         <div className="publication-div">
                                             <h4>“The Self(’s)-Translation of Sexuality and Gender as a Raised Bascule in Hanan al-Shaykh’s Inaha London ya ‘zizi”</h4>
-                                            <h5>Chapter in <a className='resume-link' href='https://www.routledge.com/Translation-and-the-Global-City-Bridges-and-Gateways/Woodsworth/p/book/9780367555689?gclid=CjwKCAjwu_mSBhAYEiwA5BBmf4hvQiCKFtgNI2scyx0_YgqJVM6eD5uiim9pC70rFDpj6TDVX1Oy1hoChVgQAvD_BwE'><em>Trainslation and the Global City</em></a></h5>
+                                            <h5>Chapter in <a className='resume-link' href='https://www.routledge.com/Translation-and-the-Global-City-Bridges-and-Gateways/Woodsworth/p/book/9780367555689?gclid=CjwKCAjwu_mSBhAYEiwA5BBmf4hvQiCKFtgNI2scyx0_YgqJVM6eD5uiim9pC70rFDpj6TDVX1Oy1hoChVgQAvD_BwE'><em>Translation and the Global City</em></a></h5>
                                             <h5>June 2021</h5>
                                         </div>
 
@@ -545,7 +545,7 @@ function Resume() {
                                     </div>
 
                                     <div className="publication-div">
-                                            <h4>Martine Morillon-Carreau, Selected Poems from <em>Poéclats</em> and<em>Pierres d'attente</em></h4>
+                                            <h4>Martine Morillon-Carreau, Selected Poems from <em>Poéclats</em> and <em>Pierres d'attente</em></h4>
                                             <h5>French to English</h5>
                                             <h5>Thirteen poems published by Trafika Europe in September 2017</h5>
                                             <h5><a className='resume-link' href='https://cld.bz/users/user-N5y4U8g/Trafika-Europe-Quarterly/Trafika-Europe-11-Swiss-Delights1'>Link to Excerpt Publication</a></h5>

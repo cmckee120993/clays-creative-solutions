@@ -109,7 +109,7 @@ function DevPortfolio() {
                             alt="Let's Dough website home page."
                             className='site-image'
                         />
-                        <p className='site-description'>This client is in the process of desigining and renovating their locale, so the site is on hold
+                        <p className='site-description'>This client is in the process of designing and renovating their locale, so the site is on hold
                             for a moment. I am waiting for photos and their opening menu to finalize the "About" page and add the first piece of "Cookie News".
                             Upon finalizing the website, I will be assisting Let's Dough by setting up their Woocommerce plugin as well as hosting their site
                             on a domain.
@@ -214,7 +214,7 @@ function DevPortfolio() {
                 <div className='collapsible-div'>
                     <Collapsible className="additional-info" trigger="Click for more info..." triggerWhenOpen="Click for less info...">
                         <p className='site-description'>This website is for Fortnite players who wish to look at how they can customize their characters without having to log onto the game. Two APIs populate the daily store as well as a full store archive.
-                            The project uses local storage to allow users to add gear that they want to a wishlist for later. Rather than having to scroll through the entire archive, users can search for desired items, even if they aren't in the Fortnite Store for that day. 
+                            The project uses local storage to allow users to add gear that they want to a wish list for later. Rather than having to scroll through the entire archive, users can search for desired items, even if they aren't in the Fortnite Store for that day. 
                             This project was a collaboration with  Sarah Wyner and Andre Silva. Click on the links to check it out! Skills used:
                             <ul>
                                 <li>HTML</li>

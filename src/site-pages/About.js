@@ -20,7 +20,7 @@ function About() {
             <div className="about-info">
                 <p>My name is Clay and I am a former academic that never lost his desire to learn new skills. 
                     I am a Ph. D. candidate in Comparative Literature at the University of California, Los Angeles,
-                    and I hold a certificate in Fullstack Web Development from UCLA. My variety of educational experiences
+                    and I hold a certificate in Full Stack Web Development from UCLA. My variety of educational experiences
                     allow me to be perfectly poised to help you with a variety of tasks ranging from translation, editing, 
                     writing, marketing, company image, websites, etc. I take on all types of clients ranging from individuals 
                     wanting to publish a book to large companies who need a new site/application created for their newest project.
