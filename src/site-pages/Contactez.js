@@ -9,9 +9,9 @@ function Contactez() {
     if (state.succeeded) {
         <div className='success-message'>
             <p lang='fr'>
-                Merci pour votre message! Clayton répondra dès que possible.
+                Merci pour votre message ! Clayton répondra dès que possible.
                 Pour envoyer un autre message, retournez à <a href='/fr/contact'>Me contactez</a>, 
-                ou vous pouvez retrouner à l'<a href='/fr/home'>Acceuil</a>. 
+                ou vous pouvez retourner à l'<a href='/fr/home'>Accueil</a>. 
             </p>
         </div>
     }
@@ -22,9 +22,9 @@ function Contactez() {
                 <div className='general-contact'>
                     <p className='contact-des' lang='fr'>
                         Je suis actuellement à Nice en France, mais, je travaille avec des clients partout dans le monde!
-                       Tous les prix sont basés sur l'euro; par contre, les prix sera échangé pour votre argent et le taux
+                       Tous les prix sont basés sur l'euro ; par contre, les prix sera échangé pour votre argent et le taux
                        de conversion sera calculé avec le taux du jour quand je vous envoie la facture. Me contactez pour une
-                       une estimation pour votre projet pour avoir une idée du prix. 
+                       estimation pour votre projet pour avoir une idée du prix. 
                     </p>
                     <div className='contact-card'>
                         <p className='link' lang='fr'>E-mail: 

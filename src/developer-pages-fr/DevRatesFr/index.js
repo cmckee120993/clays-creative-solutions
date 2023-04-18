@@ -9,7 +9,7 @@ function DevRatesFr() {
             <h2 className="rates-title" lang='fr'>Les frais</h2>
             <p className="rates-description">
                 Même si ces frais sont basés sur les standards de l'industrie, tous les projets ont besoin d'une attention individuelle et/ou
-                peuvent être adaptés pour tous les budgets. Le prix dépend sur le travail, la date limite et vos désirs. Chaque déscription donne
+                peuvent être adaptés pour tous les budgets. Le prix dépend sur le travail, la date limite et vos désirs. Chaque description donne
                 l'information de base pour des projets typiques, mais c'est tout à fait possible que votre projet est différent. Me contactez pour discuter
                 les détails et pour une estimation. Vous n'êtes pas obligé de me payer une avance sur honoraires pour garder mon aide (bien sûr, si quelque chose arrive, 
                 vous pouvez me rapprocher et, si j'ai la capacité, je résoudrai les problèmes et vous enverrai une facture pour le boulot fait). Mais, il est vrai que 
@@ -21,19 +21,19 @@ function DevRatesFr() {
                 <tr className="header-row">
                     <th>Service</th>
                     <th>Frais</th>
-                    <th>Déscription</th>
+                    <th>Description</th>
                 </tr>
                 <tr className='data-row'>
-                    <td className='center-data'>Formule Simple (WordPress, Wix, or similar website)</td>
+                    <td className='center-data'>Formule Simple (WordPress, Wix, ou un site pareil)</td>
                     <td className='center-data'>À partir de €500,00</td>
                     <div className='collapsible-div'>
                         <Collapsible className="additional-info" trigger="Cliquez pour plus..." triggerWhenOpen="Cliquez pour moins...">
                             <td>
                                 <ul>
                                     <li>1-5 pages de modèle</li>
-                                    <li>Le référencement(Search Engine Optimization)</li>
+                                    <li>Le référencement (Search Engine Optimization)</li>
                                     <li>L'accessibilité</li>
-                                    <li>La personalisation (les couleurs, les photos, l'écriture) selon les désirs du client</li>
+                                    <li>La personnalisation (les couleurs, les photos, l'écriture) selon les désirs du client</li>
                                     <li>L'aide d'hébergement et de domaine</li>
                                 </ul>
                             </td>
@@ -47,7 +47,7 @@ function DevRatesFr() {
                         <Collapsible className="additional-info" trigger="Cliquez pour plus..." triggerWhenOpen="Cliquez pour moins...">
                             <td>
                                 <ul>
-                                    <li>Une verification mensuelle du référencement, la vitesse du site et l'accessibilité</li>
+                                    <li>Une vérification mensuelle du référencement, la vitesse du site et l'accessibilité</li>
                                     <li>Une heure de temps dédiée à la résolution des erreurs, mises à jour, etc.</li>
                                 </ul>
                             </td>
@@ -55,14 +55,14 @@ function DevRatesFr() {
                     </div>
                 </tr>
                 <tr className='data-row'>
-                    <td className='center-data'>Formule Simple Personalisé (WordPress, Wix, etc.)</td>
+                    <td className='center-data'>Formule Simple Personnalisé (WordPress, Wix, etc.)</td>
                     <td className='center-data'>À partir de €750,00</td>
                     <div className='collapsible-div'>
                         <Collapsible className="additional-info" trigger="Cliquez pour plus..." triggerWhenOpen="Cliquez pour moins...">
                             <td>
                                 <ul>
-                                    <li>1-5 pages uniques et personalisés</li>
-                                    <li>Une personalisation complète du site (mise en page et design)</li>
+                                    <li>1-5 pages uniques et personnalisés</li>
+                                    <li>Une personnalisation complète du site (mise en page et design)</li>
                                     <li>Des meetings pour arriver à votre personalisation souhaitée</li>
                                     <li>Le référencement</li>
                                     <li>L'accessibilité</li>
@@ -75,13 +75,13 @@ function DevRatesFr() {
                     </div>
                 </tr>
                 <tr className='data-row'>
-                    <td className='center-data'>Avance sur honoraires, Formule Simple Personalisé</td>
+                    <td className='center-data'>Avance sur honoraires, Formule Simple Personnalisé</td>
                     <td className='center-data'>À partir de €30,00/mois</td>
                     <div className='collapsible-div'>
                         <Collapsible className="additional-info" trigger="Cliquez pour plus..." triggerWhenOpen="Cliquez pour moins...">
                             <td>
                                 <ul>
-                                    <li>Une verification mensuelle du référencement, la vitesse du site et l'accessibilité</li>
+                                    <li>Une vérification mensuelle du référencement, la vitesse du site et l'accessibilité</li>
                                     <li>Une heure de temps dédiée à la résolution des erreurs, mises à jour, etc.</li>
                                 </ul>
                             </td>
@@ -96,9 +96,9 @@ function DevRatesFr() {
                             <td>
                                 <ul>
                                     <li>1-5 pages de HTML, CSS et Javascript</li>
-                                    <li>Complètement personalisé selon le désir du client</li>
+                                    <li>Complètement personnalisé selon le désir du client</li>
                                     <li>Il n'y a pas de restrictions selon le design ou la mise en page</li>
-                                    <li>Des meetings pour arriver à votre personalisation souhaitée</li>
+                                    <li>Des meetings pour arriver à votre personnalisation souhaitée</li>
                                     <li>Le référencement</li>
                                     <li>L'accessibilité</li>
                                     <li>Un design réactif (pour portable, tablette, ordinateur et ordinateur portable)</li>
@@ -110,12 +110,12 @@ function DevRatesFr() {
                 </tr>
                 <tr className='data-row'>
                     <td className='center-data'>Avance sur honoraires, Formule Codage Utilisateur</td>
-                    <td className='center-data'>À partir de €50,00/month</td>
+                    <td className='center-data'>À partir de €50,00/mois</td>
                     <div className='collapsible-div'>
                         <Collapsible className="additional-info" trigger="Cliquez pour plus..." triggerWhenOpen="Cliquez pour moins...">
                             <td>
                                 <ul>
-                                    <li>Une verification mensuelle du référencement, la vitesse du site et l'accessibilité</li>
+                                    <li>Une vérification mensuelle du référencement, la vitesse du site et l'accessibilité</li>
                                     <li>Une heure de temps dédiée à la résolution des erreurs, mises à jour, etc.</li>
                                 </ul>
                             </td>
@@ -124,21 +124,21 @@ function DevRatesFr() {
                 </tr>
 
                 <tr className='data-row'>
-                    <td className='center-data'>Formule Fullstack (MongoDB/Database, Express, React/Angular, Node)</td>
+                    <td className='center-data'>Formule Full Stack (MongoDB/Base de données, Express, React/Angular, Node)</td>
                     <td className='center-data'>À partir de €1000,00</td>
                     <div className='collapsible-div'>
                         <Collapsible className="additional-info" trigger="Cliquez pour plus..." triggerWhenOpen="Cliquez pour moins...">
                             <td>
                                 <ul>
-                                    <li>1-5 pages uniques et personalisées</li>
-                                    <li>Complètement personalisé selon le désir du client</li>
+                                    <li>1-5 pages uniques et personnalisées</li>
+                                    <li>Complètement personnalisé selon le désir du client</li>
                                     <li>Il n'y a pas de restrictions selon le design ou la mise en page</li>
-                                    <li>Des meetings pour arriver à votre personalisation souhaitée</li>
+                                    <li>Des meetings pour arriver à votre personnalisation souhaitée</li>
                                     <li>Le référencement</li>
                                     <li>L'accessibilité</li>
                                     <li>Un design réactif (pour portable, tablette, ordinateur et ordinateur portable)</li>
-                                    <li>Une mise en œuvre d'une base de données personalisée</li>
-                                    <li>La sécurité et l'authorization des comptes</li>
+                                    <li>Une mise en œuvre d'une base de données personnalisée</li>
+                                    <li>La sécurité et l'autorisation des comptes</li>
                                     <li>L'aide d'hébergement et de domaine</li>
                                 </ul>
                             </td>
@@ -146,13 +146,13 @@ function DevRatesFr() {
                     </div>
                 </tr>
                 <tr className='data-row'>
-                    <td className='center-data'>Avance sur honoraires, Formule Fullstack</td>
+                    <td className='center-data'>Avance sur honoraires, Formule Full Stack</td>
                     <td className='center-data'>À partir de €75,00</td>
                     <div className='collapsible-div'>
                         <Collapsible className="additional-info" trigger="Cliquez pour plus..." triggerWhenOpen="Cliquez pour moins...">
                             <td>
                                 <ul>
-                                    <li>Une verification mensuelle du référencement, la vitesse du site et l'accessibilité</li>
+                                    <li>Une vérification mensuelle du référencement, la vitesse du site et l'accessibilité</li>
                                     <li>Une heure de temps dédiée à la résolution des erreurs, mises à jour, etc.</li>
                                 </ul>
                             </td>
@@ -163,10 +163,10 @@ function DevRatesFr() {
 
             <h2 className="rates-title" lang='fr'>Les Services de Marketing</h2>
             <p className="rates-description" lang='fr'>
-                Un site est juste un étape parmis plusieurs pour réussir. Si vous êtes en train de commencer votre business ou vous avez déjà
-                établi une clientelle mais vous voulez un nouveau look, une approche innovante ou une entrée dans un autre marché, je suis là
-                pour vous aider. Puisque j'aurai besoin de donner une estimation pour chaque de ces services, je n'ai pas écris des frais ici. 
-                Envoyez-moi un message ou appellez-moi et on peut discuter les détails. 
+                Un site est juste une étape parmi plusieurs pour réussir. Si vous êtes en train de commencer votre business ou vous avez déjà
+                établi une clientèle mais vous voulez un nouveau look, une approche innovante ou une entrée dans un autre marché, je suis là
+                pour vous aider. Puisque j'aurai besoin de donner une estimation pour chaque de ces services, je n'ai pas écrit des frais ici. 
+                Envoyez-moi un message ou appelez-moi et on peut discuter les détails. 
             </p>
             <table className="rates-table" lang='fr'>
                 <tr className="header-row">
@@ -218,11 +218,11 @@ function DevRatesFr() {
                                     <li>Plan de développement</li>
                                     <li>E-mails</li>
                                     <li>Contenu du site web</li>
-                                    <li>Demande des bourses, des credits, etc. </li>
+                                    <li>Demande des bourses, des crédits, etc. </li>
                                     <li>Article, article de blog, des annonces, etc.</li>
-                                    <li>Posts sur les réseaux sociaux</li>
+                                    <li>Postes sur les réseaux sociaux</li>
                                     <li>Cartes de restaurants, brochures, flyers, etc.</li>
-                                    <li>Traduction pour acceder des nouveaux clients en anglais, arabe, français et/ou espagnol</li>
+                                    <li>Traduction pour accéder des nouveaux clients en anglais, arabe, français et/ou espagnol</li>
                                 </ul>
                             </td>
                         </Collapsible>

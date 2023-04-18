@@ -8,16 +8,16 @@ function TransRates() {
         <div className='rates-content'>
             <h2 className="rates-title" lang='fr'>Frais de Traduction et Révision</h2>
             <p className="rates-description" lang='fr'>
-                Je propose une varieté des services qui seront utiles pour tous vos projets et vos besoins.
+                Je propose une variété des services qui seront utiles pour tous vos projets et vos besoins.
                 Regardez le tableau suivant pour une idée de ce qui est inclu dans chaque service. Je crée un 
                 contrat qui décrit chaque projet et je commence après avoir reçu une avance sur honoraires, ce qui
                 sera spécifiée sur le contrat. Cette avance garantit mon temps pour votre projet selon le contrat. 
-                Les frais snt basés sur <a className='trans-link' href='https://www.the-efa.org/rates/' target='_blank' 
-                rel='noreferrer'>l'Association de travailleurs indépendents de rédaction</a>, mais les frais dépendent sur 
+                Les frais sont basés sur <a className='trans-link' href='https://www.the-efa.org/rates/' target='_blank' 
+                rel='noreferrer'>l'Association de travailleurs indépendants de rédaction</a>, mais les frais dépendent sur 
                 la taille du document, votre budget, la date limite désirée et le contrat. Envoyez-moi un email avec la
-                déscription du projet, une date limite souhaitée et le service que vous voulez pour une consultation et 
+                description du projet, une date limite souhaitée et le service que vous voulez pour une consultation et 
                 une estimation. Pour les projets plus longs, j'offre un échantillon de 1,000 mots au maximum. Les frais
-                sont calculé selon la taille, la quantité de travail et la date limite.
+                sont calculés selon la taille, la quantité de travail et la date limite.
             </p>
             <table className="rates-table" lang='fr'>
                 <tr className="header-row">
@@ -31,7 +31,7 @@ function TransRates() {
                     <div className='collapsible-div'>
                         <Collapsible className="additional-info" trigger="Cliquez pour plus..." triggerWhenOpen="Cliquez pour moins...">
                                 <ul>
-                                    <li>Vérification d'ortographe</li>
+                                    <li>Vérification d'orthographe</li>
                                     <li>Correction de grammaire et ponctuation</li>
                                     <li>Mise en forme des citations et du texte</li>
                                     <li>Vérification d'informations</li>
@@ -43,7 +43,7 @@ function TransRates() {
                         <div className='collapsible-div'>
                             <Collapsible className="additional-info" trigger="Cliquez pour plus..." triggerWhenOpen="Cliquez pour moins..."> 
                                     <ul>
-                                        <li>Litéraire: €36-€40/heure or €.02-€.03/mot</li>
+                                        <li>Littéraire: €36-€40/heure or €.02-€.03/mot</li>
                                         <li>Général: €41-€45/heure or €.03-€.04/mot</li>
                                         <li>Commerce/Vente: €46-€50/heure or €.04-€.05/mot</li>
                                     </ul>
@@ -82,9 +82,9 @@ function TransRates() {
                     <div className='collapsible-div'>
                         <Collapsible className="additional-info" trigger="Cliquez pour plus..." triggerWhenOpen="Cliquez pour moins...">
                                 <ul>
-                                    <li>À completer après le texte est finalisé</li>
+                                    <li>À compléter après le texte est finalisé</li>
                                     <li>Arrangement par ordre alphabétique</li>
-                                    <li>Selection des termes, figures et expressions importants</li>
+                                    <li>Sélection des termes, figures et expressions importants</li>
                                 </ul>
                         </Collapsible>
                     </div>
@@ -130,11 +130,11 @@ function TransRates() {
                     <div className='collapsible-div'>
                         <Collapsible className="additional-info" trigger="Cliquez pour plus..." triggerWhenOpen="Cliquez pour moins...">
                                 <ul>
-                                    <li>Promouvoir des textes, evenements, business etc.</li>
+                                    <li>Promouvoir des textes, évènements, business etc.</li>
                                     <li>Création des stratégies pour faire de la publicité</li>
                                     <li>Communiqué de presse</li>
                                     <li>Création des publicités</li>
-                                    <li>Jettez un œil aux autres possibilités pour des sites web</li>
+                                    <li>Jetez un œil aux autres possibilités pour des sites web</li>
                                 </ul>
                         </Collapsible>
                     </div>
@@ -168,7 +168,7 @@ function TransRates() {
                             <Collapsible className="additional-info" trigger="Cliquez pour plus..." triggerWhenOpen="Cliquez pour moins...">
                                     <ul>
                                         <li>Fiction: €31-€35/heure, €.02-€.03/mot</li>
-                                        <li>Nonfiction: €36-€40/heure, €.02-€.03/mot</li>
+                                        <li>Non fiction: €36-€40/heure, €.02-€.03/mot</li>
                                         <li>Business/Sales: €41-€45/heure, €.04-€.05/mot</li>
                                     </ul>
                             </Collapsible>
@@ -183,7 +183,7 @@ function TransRates() {
                                 <ul>
                                     <li>Vérifier la validité de l'information</li>
                                     <li>Examen approfondi des faits</li>
-                                    <li>Idéal pour le journalisme et l'écriture historique (litéraire ou nonromanesque)</li>
+                                    <li>Idéal pour le journalisme et l'écriture historique (littéraire ou non romanesque)</li>
                                 </ul>
                         </Collapsible>
                     </div>
@@ -253,7 +253,7 @@ function TransRates() {
                     <div className='collapsible-div'>
                         <Collapsible className="additional-info" trigger="Cliquez pour plus..." triggerWhenOpen="Cliquez pour moins...">
                                 <ul>
-                                    <li>Production de toute sorte de texte (histoires courtes, reportage, livres de fiction ou nonromanesque, exposés, etc.)</li>
+                                    <li>Production de toute sorte de texte (histoires courtes, reportage, livres de fiction ou non romanesque, exposés, etc.)</li>
                                     <li>Création d'un nouveau texte ou reprise</li>
                                     <li>Prête-plume</li>
                                 </ul>
