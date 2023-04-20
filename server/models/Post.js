@@ -3,7 +3,7 @@ const Comment = require('./Comment.js');
 
 const { Schema } = mongoose;
 
-const orderSchema = new Schema({
+const postSchema = new Schema({
     postDate: {
         type: Date,
         default: Date.now
