@@ -14,7 +14,7 @@ type User {
 }
 
 type Post {
-    postDate: Date
+    postDate: String
     paragraphOne: String
     paragraphTwo: String
     imageLink: String
@@ -23,7 +23,7 @@ type Post {
 
 type Comment {
     commentText: String
-    commentDate: Date
+    commentDate: String
     commentAuthor: String
 }
 
@@ -38,26 +38,16 @@ type Query {
 
 type Mutation {
     addUser(
-        firstName: String!
-        lastName: String!
-        email: String!
-        password: String!
-        admin: Boolean
+        firstName: String!,
+        lastName: String!,
+        email: String!,
+        password: String!,
+        admin: Boolean,
     ): Auth
-    login(
-        email: String! 
-        password: String!
-    ): Auth
-    addPost(
-        postDate: Date 
-        paragraphOne: String! 
-        paragraphTwo: String!
-        imageLink: String
-    ): Post
-    addComment(
-        commentText: String!
-        commentDate: Date
-        commentAuthor: String
-    ): Comment
+    login( email: String!, password: String!): Auth
+    addPost(postDate: String, paragraphOne: String!, paragraphTwo: String!, imageLink: String): Post
+    addComment(commentText: String!, commentDate: String, commentAuthor: String): Comment
 }
 `
+
+module.exports = typeDefs;
