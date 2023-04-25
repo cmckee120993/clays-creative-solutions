@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Clay's Creative Solutions
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Clay's Creative Solutions is my freelance web development, marketing, translation, and writing business. Based in Nice, France, I work with clients all over the world with a focus on small businesses.  
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Description](#description)
+- [Deployment](#deployment)
+- [Creation](#creation)
+- [Questions](#questions)
 
-### `npm start`
+## Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This is my personal website and portfolio of all of my work experiences, publications, and clients. For the time being, it is used to show my clients what I do and what my rates are. The site is available in French and English. There are multiple ways to contact me, explore my offers, or even look at my experiences that can be utilized by my clients. Not only does the site serve as portfolio/résumé, it also is an example of the quality code and services I provide to clients. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Future developments for the site include: 
+- A blog of articles related to literature, writing, translation, web development, and marketing
+- Creation of accounts to engage in an online community through the blog
+- Translation into Spanish and Arabic
 
-### `npm test`
+## Deployment
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Developments for this site can be followed on [my GitHub repo](https://github.com/cmckee120993/clays-creative-solutions).
 
-### `npm run build`
+The live site for Clay's Creative Solutions can be found [at this link](https://clayscreativesolutions.com/).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Creation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The current live site was created using React, HTML, JavaScript, and CSS. I used flexbox to make the site responsive and I followed accessibility standards in my code. All of the logos and photos were designed/edited by me using the Adobe Suite. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Future development of the site will turn this React applicaiton into a full MERN stack application. The database will be created using MongoDB, Node.js and Express are used to create and connect the server to React, and the page will continue to be built using HTML, CSS, and JavaScript. 
 
-### `npm run eject`
+## Questions
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For any questions related to this site, feel free to email me at [clayscreativesolutions@gmail.com](mailto:clayscreativesolutions@gmail.com?subject=Question%20About%20Your%20Site). You can access my full GitHub profil here: [Clayton McKee's Github](https://github.com/cmckee120993).
