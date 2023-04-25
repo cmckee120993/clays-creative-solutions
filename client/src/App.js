@@ -14,7 +14,7 @@ import Nav from './components/nav';
 // pages for full site
 import Home from './site-pages/Home.js';
 import About from './site-pages/About.js';
-// import Blog from './site-pages/Blog.js';
+import Blog from './site-pages/Blog.js';
 import Contact from './site-pages/Contact.js';
 import Resume from './site-pages/Resume.js';
 
@@ -28,16 +28,21 @@ import Translation from './translation-pages/TransHome';
 import TransRates from './translation-pages/TransRates';
 
 
-// french pages
+// french translation pages
 import TranslationFr from './translation-pages-fr/TransHomeFr';
 import TransRatesFr from './translation-pages-fr/TransRatesFr';
+
+// French developer pages
 import DeveloperFr from './developer-pages-fr/DevHomeFr';
 import DevPortfolioFr from './developer-pages-fr/DevPortfolioFr';
 import DevRatesFr from './developer-pages-fr/DevRatesFr';
-import Contactez from './site-pages/Contactez.js';
-import CV from './site-pages/CV.js';
-import Acceuil from './site-pages/Acceuil.js';
-import Moi from './site-pages/Moi.js';
+
+// French site pages
+import Contactez from './site-pages-fr/Contactez.js';
+import CV from './site-pages-fr/CV.js';
+import Acceuil from './site-pages-fr/Acceuil.js';
+import Moi from './site-pages-fr/Moi.js';
+import Article from './site-pages-fr/Article.js';
 
 
 function App() {
@@ -49,7 +54,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
-          {/* <Route path='/articles' element={<Blog />} /> */}
+          <Route path='/articles' element={<Blog />} />
+          <Route path='/fr/articles' element={<Article />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/resume' element={<Resume />} />
           <Route path='/fr' element={<Acceuil />} />

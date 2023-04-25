@@ -2,12 +2,12 @@ import React from 'react';
 import '../styles/blog.css';
 
 
-function Blog() {
+function Article() {
     return (
         <>
-        <h3>Hello!</h3>
+        <h3>Bonjour!</h3>
         </>
     )
 };
 
-export default Blog;
+export default Article;

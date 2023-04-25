@@ -38,11 +38,11 @@ type Query {
 
 type Mutation {
     addUser(
-        firstName: String!,
-        lastName: String!,
-        email: String!,
-        password: String!,
-        admin: Boolean,
+        firstName: String!
+        lastName: String!
+        email: String!
+        password: String!
+        admin: Boolean
     ): Auth
     login( email: String!, password: String!): Auth
     addPost(postDate: String, paragraphOne: String!, paragraphTwo: String!, imageLink: String): Post

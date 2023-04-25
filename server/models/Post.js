@@ -8,6 +8,16 @@ const postSchema = new Schema({
         type: Date,
         default: Date.now
     },
+    title: {
+        type: String,
+        required: true,
+        trim: true
+    },
+    titleFr: {
+        type: String,
+        required: true,
+        trim: true
+    },
     paragraphOne: {
         type: String,
         required: true,
@@ -15,7 +25,17 @@ const postSchema = new Schema({
     },
     paragraphTwo: {
         type: String,
+        required: false,
+        trim: true
+    },
+    frenchParOne: {
+        type: String,
         required: true,
+        trim: true
+    },
+    frenchParTwo: {
+        type: String,
+        required: false,
         trim: true
     },
     imageLink: {
@@ -24,6 +44,7 @@ const postSchema = new Schema({
         trim: true
     },
     comments: [Comment.schema],
+    categories: [Category.schema]
 });
 
 const Post = mongoose.model('Post', postSchema);
