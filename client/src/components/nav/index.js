@@ -3,7 +3,40 @@ import "./style.css";
 import { slide as Menu } from 'react-burger-menu';
 import circleLogo from '../../images/clays-circle-logo.webp';
 
+import Auth from '../../utils/auth';
+import { useQuery } from '@apollo/client';
+import { QUERY_USER } from '../../utils/queries';
+
 export default function Nav() {
+
+  const { data } = useQuery(QUERY_USER);
+  let user;
+  if(data) {
+    user = data.user;
+  };
+
+  function showNavigation() {
+    if(Auth.loggedIn()) {
+      return(
+        <>
+          <a onClick={() => Auth.logout()} href='/'>
+            Logout
+          </a>
+        </>
+      )
+    } else {
+      <>
+        <a href='/signup'>
+          Signup
+        </a>
+        <br />
+        <a href='/login'>
+          Login
+        </a>
+      </>
+    }
+  };
+
   let url = document.location.href;
 
   let frCheck = url.split('/', 4);
@@ -39,6 +72,7 @@ export default function Nav() {
         <a className='nav-link' href='/fr/articles'><h2>Blog</h2></a>
         <a className='nav-link' href='/fr/contact'><h2>Me Contactez</h2></a>
         <a className='nav-link' href='/fr/about'><h2>Qui est Clayton?</h2></a>
+        <br />
         <div className='nav-logo-div'>
           <img
             src={circleLogo}
@@ -80,6 +114,7 @@ export default function Nav() {
       <a className='nav-link' href='/articles'><h2>Blog</h2></a>
       <a className='nav-link' href='/contact'><h2>Contact</h2></a>
       <a className='nav-link' href='/about'><h2>About</h2></a>
+      {showNavigation()}
       <div className='nav-logo-div'>
         <img
           src={circleLogo}

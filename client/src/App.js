@@ -17,6 +17,8 @@ import About from './site-pages/About.js';
 import Blog from './site-pages/Blog.js';
 import Contact from './site-pages/Contact.js';
 import Resume from './site-pages/Resume.js';
+import Login from './site-pages/Login.js';
+import Signup from './site-pages/Signup.js';
 
 // pages for developer part of site
 import Developer from './developer-pages/DevHome';
@@ -72,6 +74,8 @@ function App() {
           <Route path='/translation-rates' element={<TransRates />} />
           <Route path='/fr/translation-rates' element={<TransRatesFr />} />
           <Route path='/fr/translation' element={<TranslationFr />} />
+          <Route path='/login' element={<Login />} />
+          <Route path='/signup' element={<Signup />} />
         </Routes>
         <Footer />
       </>
