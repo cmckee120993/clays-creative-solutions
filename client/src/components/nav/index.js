@@ -37,6 +37,22 @@ export default function Nav() {
     }
   };
 
+  function userTypeNav() {
+    if (user === undefined) {
+      return (
+        <></>
+      )
+    }else if (user.admin === false) {
+      return (
+      <></>
+      )
+    } else if (user.admin === true) {
+      <a className='bm-item menu-item' href='/adminpanel'>
+        Admin Panel
+      </a>
+    }
+  };
+
   let url = document.location.href;
 
   let frCheck = url.split('/', 4);
@@ -115,6 +131,7 @@ export default function Nav() {
       <a className='nav-link' href='/contact'><h2>Contact</h2></a>
       <a className='nav-link' href='/about'><h2>About</h2></a>
       {showNavigation()}
+      {userTypeNav()}
       <div className='nav-logo-div'>
         <img
           src={circleLogo}

@@ -1,7 +1,13 @@
 // react app imports
 import React from 'react';
 import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
+import {
+  ApolloClient,
+  InMemoryCache,
+  ApolloProvider,
+  createHttpLink,
+} from '@apollo/client';
+import { setContext } from '@apollo/client/link/context';
 
 // full app styling
 import './App.css';
@@ -46,40 +52,61 @@ import Acceuil from './site-pages-fr/Acceuil.js';
 import Moi from './site-pages-fr/Moi.js';
 import Article from './site-pages-fr/Article.js';
 
+const httpLink = createHttpLink ({
+  uri: '/graphql',
+});
+
+const authLink = setContext((_, { headers }) => {
+  const token = localStorage.getItem('id_token');
+
+  return {
+    headers: {
+      ...headers,
+      authorization: token ? `Bearer ${token}` : '',
+    },
+  };
+});
+
+const client = new ApolloClient ({
+  link: authLink.concat(httpLink),
+  cache: new InMemoryCache(),
+});
 
 function App() {
   return (
-    <Router>
-      <>
-        <Header />
-        <Nav />
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/articles' element={<Blog />} />
-          <Route path='/fr/articles' element={<Article />} />
-          <Route path='/contact' element={<Contact />} />
-          <Route path='/resume' element={<Resume />} />
-          <Route path='/fr' element={<Acceuil />} />
-          <Route path='/fr/about' element={<Moi />} />
-          <Route path='/fr/contact' element={<Contactez />} />
-          <Route path='/fr/resume' element={<CV />} />
-          <Route path='/development' element={<Developer />} />
-          <Route path='/development-portfolio' element={<DevPortfolio />} />
-          <Route path='/development-rates' element={<DevRates />} />
-          <Route path='/fr/development' element={<DeveloperFr />} />
-          <Route path='/fr/development-portfolio' element={<DevPortfolioFr />} />
-          <Route path='/fr/development-rates' element={<DevRatesFr />} />
-          <Route path='/translation' element={<Translation />} />
-          <Route path='/translation-rates' element={<TransRates />} />
-          <Route path='/fr/translation-rates' element={<TransRatesFr />} />
-          <Route path='/fr/translation' element={<TranslationFr />} />
-          <Route path='/login' element={<Login />} />
-          <Route path='/signup' element={<Signup />} />
-        </Routes>
-        <Footer />
-      </>
-    </Router>
+    <ApolloProvider client={client}>
+      <Router>
+        <>
+          <Header />
+          <Nav />
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/about' element={<About />} />
+            <Route path='/articles' element={<Blog />} />
+            <Route path='/fr/articles' element={<Article />} />
+            <Route path='/contact' element={<Contact />} />
+            <Route path='/resume' element={<Resume />} />
+            <Route path='/fr' element={<Acceuil />} />
+            <Route path='/fr/about' element={<Moi />} />
+            <Route path='/fr/contact' element={<Contactez />} />
+            <Route path='/fr/resume' element={<CV />} />
+            <Route path='/development' element={<Developer />} />
+            <Route path='/development-portfolio' element={<DevPortfolio />} />
+            <Route path='/development-rates' element={<DevRates />} />
+            <Route path='/fr/development' element={<DeveloperFr />} />
+            <Route path='/fr/development-portfolio' element={<DevPortfolioFr />} />
+            <Route path='/fr/development-rates' element={<DevRatesFr />} />
+            <Route path='/translation' element={<Translation />} />
+            <Route path='/translation-rates' element={<TransRates />} />
+            <Route path='/fr/translation-rates' element={<TransRatesFr />} />
+            <Route path='/fr/translation' element={<TranslationFr />} />
+            <Route path='/login' element={<Login />} />
+            <Route path='/signup' element={<Signup />} />
+          </Routes>
+          <Footer />
+        </>
+      </Router>
+    </ApolloProvider>
   );
 }
 

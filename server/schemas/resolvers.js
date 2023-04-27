@@ -8,6 +8,13 @@ const resolvers = {
         posts: async () => {
             return Post.find({}).populate('comments');
         },
+
+        user: async (parent, args, context) => {
+            if(context.user) {
+                const user = await User.findById({_id: context.user._id});
+                return user;
+            }
+        }
     },
 
     Mutation: {

@@ -34,6 +34,7 @@ type Auth {
 
 type Query {
     posts: [Post]
+    user: User
 }
 
 type Mutation {

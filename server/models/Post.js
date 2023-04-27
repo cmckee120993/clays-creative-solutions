@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const Comment = require('./Comment.js');
+const Category = require('./Category.js');
 
 const { Schema } = mongoose;
 
