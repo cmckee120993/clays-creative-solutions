@@ -2,6 +2,7 @@
   "name": "clays-creative-solutions",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:3001",
   "dependencies": {
     "@apollo/client": "^3.7.12",
     "@formspree/react": "^2.4.1",

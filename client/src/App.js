@@ -77,33 +77,35 @@ function App() {
     <ApolloProvider client={client}>
       <Router>
         <>
-          <Header />
-          <Nav />
-          <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/about' element={<About />} />
-            <Route path='/articles' element={<Blog />} />
-            <Route path='/fr/articles' element={<Article />} />
-            <Route path='/contact' element={<Contact />} />
-            <Route path='/resume' element={<Resume />} />
-            <Route path='/fr' element={<Acceuil />} />
-            <Route path='/fr/about' element={<Moi />} />
-            <Route path='/fr/contact' element={<Contactez />} />
-            <Route path='/fr/resume' element={<CV />} />
-            <Route path='/development' element={<Developer />} />
-            <Route path='/development-portfolio' element={<DevPortfolio />} />
-            <Route path='/development-rates' element={<DevRates />} />
-            <Route path='/fr/development' element={<DeveloperFr />} />
-            <Route path='/fr/development-portfolio' element={<DevPortfolioFr />} />
-            <Route path='/fr/development-rates' element={<DevRatesFr />} />
-            <Route path='/translation' element={<Translation />} />
-            <Route path='/translation-rates' element={<TransRates />} />
-            <Route path='/fr/translation-rates' element={<TransRatesFr />} />
-            <Route path='/fr/translation' element={<TranslationFr />} />
-            <Route path='/login' element={<Login />} />
-            <Route path='/signup' element={<Signup />} />
-          </Routes>
-          <Footer />
+          <div id='page-wrap'>
+            <Header />
+            <Nav />
+            <Routes>
+              <Route path='/' element={<Home />} />
+              <Route path='/about' element={<About />} />
+              <Route path='/articles' element={<Blog />} />
+              <Route path='/fr/articles' element={<Article />} />
+              <Route path='/contact' element={<Contact />} />
+              <Route path='/resume' element={<Resume />} />
+              <Route path='/fr' element={<Acceuil />} />
+              <Route path='/fr/about' element={<Moi />} />
+              <Route path='/fr/contact' element={<Contactez />} />
+              <Route path='/fr/resume' element={<CV />} />
+              <Route path='/development' element={<Developer />} />
+              <Route path='/development-portfolio' element={<DevPortfolio />} />
+              <Route path='/development-rates' element={<DevRates />} />
+              <Route path='/fr/development' element={<DeveloperFr />} />
+              <Route path='/fr/development-portfolio' element={<DevPortfolioFr />} />
+              <Route path='/fr/development-rates' element={<DevRatesFr />} />
+              <Route path='/translation' element={<Translation />} />
+              <Route path='/translation-rates' element={<TransRates />} />
+              <Route path='/fr/translation-rates' element={<TransRatesFr />} />
+              <Route path='/fr/translation' element={<TranslationFr />} />
+              <Route path='/login' element={<Login />} />
+              <Route path='/signup' element={<Signup />} />
+            </Routes>
+            <Footer />
+          </div>
         </>
       </Router>
     </ApolloProvider>

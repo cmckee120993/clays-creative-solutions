@@ -25,33 +25,35 @@ export default function Nav() {
         </>
       )
     } else {
-      <>
-        <a href='/signup'>
-          Signup
-        </a>
-        <br />
-        <a href='/login'>
-          Login
-        </a>
-      </>
+      return(
+        <>
+          <a href='/signup'>
+            Signup
+          </a>
+          <br />
+          <a href='/login'>
+            Login
+          </a>
+        </>
+      )
     }
   };
 
-  function userTypeNav() {
-    if (user === undefined) {
-      return (
-        <></>
-      )
-    }else if (user.admin === false) {
-      return (
-      <></>
-      )
-    } else if (user.admin === true) {
-      <a className='bm-item menu-item' href='/adminpanel'>
-        Admin Panel
-      </a>
-    }
-  };
+  // function userTypeNav() {
+  //   if (user === undefined) {
+  //     return (
+  //       <></>
+  //     )
+  //   }else if (user.admin === false) {
+  //     return (
+  //     <></>
+  //     )
+  //   } else if (user.admin === true) {
+  //     <a className='bm-item menu-item' href='/adminpanel'>
+  //       Admin Panel
+  //     </a>
+  //   }
+  // };
 
   let url = document.location.href;
 
@@ -131,7 +133,7 @@ export default function Nav() {
       <a className='nav-link' href='/contact'><h2>Contact</h2></a>
       <a className='nav-link' href='/about'><h2>About</h2></a>
       {showNavigation()}
-      {userTypeNav()}
+      {/* {userTypeNav()} */}
       <div className='nav-logo-div'>
         <img
           src={circleLogo}
