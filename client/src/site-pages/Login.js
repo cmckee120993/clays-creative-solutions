@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import { LOGIN } from '../utils/mutations';
 import Auth from '../utils/auth';
 
-import '../styles/login.css';
 
 function Login(props) {
     const [formState, setFormState] = useState({ email: '', password: ''});
@@ -36,9 +35,10 @@ function Login(props) {
             <h2 className='title'>Login</h2>
 
             <form onSubmit={handleFormSubmit}>
-                <div>
-                    <label htmlFor='email'>Email:</label>
+                <div className='form-div'>
+                    <label className='label' htmlFor='email'>Email:</label>
                     <input 
+                        className='input'
                         placeholder='youremail@example.com'
                         name='email'
                         type='email'
@@ -46,9 +46,10 @@ function Login(props) {
                         onChange={handleChange}
                     />
                 </div>
-                <div>
-                    <label htmlFor='pwd'>Password:</label>
+                <div className='form-div'>
+                    <label className='label' htmlFor='pwd'>Password:</label>
                     <input
+                        className='input'
                         placeholder='*****'
                         name='password'
                         type='password'
@@ -65,7 +66,7 @@ function Login(props) {
                     <button className='button' type='submit'>Submit</button>
                 </div>
             </form>
-            <div>
+            <div className='link-div'>
                 <Link to='/signup'>No account? Signup now!</Link>
             </div>
         </>

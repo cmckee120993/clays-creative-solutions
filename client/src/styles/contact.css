@@ -14,24 +14,14 @@
     flex-direction: column;
 }
 
-.contact-form-div {
-    padding: 10px;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    background: none;
-}
-
-.contact-form label, .success-message p, .success-message button {
+.success-message p {
     background: none;
     font-family: 'Acme', sans-serif;
     font-size: 20px;
     padding: 10px;
 }
 
-.contact-form input, .contact-form textarea {
+.contact-form textarea {
     background: white;
     border: 3px solid var(--citrus);
     box-shadow: 10px 10px 20px var(--text);
@@ -40,11 +30,6 @@
     font-size: 25px;
     -webkit-text-stroke: 1px;
     border-radius: 10px;
-}
-
-.contact-form input {
-    height: 30px;
-    width: 75%;
 }
 
 .contact-form textarea {

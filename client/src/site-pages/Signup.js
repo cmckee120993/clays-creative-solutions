@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useMutation } from '@apollo/client';
 import Auth from '../utils/auth';
 import { ADD_USER } from '../utils/mutations';
-import '../styles/signup.css';
+
 
 function Signup(props) {
     const [ formState, setFormState ] = useState({ email: '', password: ''});
@@ -36,9 +36,10 @@ function Signup(props) {
             <h2 className='title'>Signup</h2>
 
             <form onSubmit={handleFormSubmit}>
-                <div>
-                    <label htmlFor='firstName'>First Name:</label>
+                <div className='form-div'>
+                    <label className='label' htmlFor='firstName'>First Name:</label>
                     <input
+                        className='input'
                         placeholder='First'
                         name='firstName'
                         type='firstName'
@@ -47,9 +48,10 @@ function Signup(props) {
                     />
                 </div>
 
-                <div>
-                    <label htmlFor='lastName'>Last Name:</label>
+                <div className='form-div'>
+                    <label className='label' htmlFor='lastName'>Last Name:</label>
                     <input
+                        className='input'
                         placeHolder='Last'
                         name='lastName'
                         type='lastName'
@@ -58,9 +60,10 @@ function Signup(props) {
                     />
                 </div>
 
-                <div>
-                    <label htmlFor='email'>Email:</label>
+                <div className='form-div'>
+                    <label className='label' htmlFor='email'>Email:</label>
                     <input 
+                        className='input'
                         placeholder='youremail@example.com'
                         name='email'
                         type='email'
@@ -69,9 +72,10 @@ function Signup(props) {
                     />
                 </div>
 
-                <div>
-                    <label htmlFor='email'>Password:</label>
+                <div className='form-div'>
+                    <label className='label' htmlFor='email'>Password:</label>
                     <input 
+                        className='input'
                         placeholder='*****'
                         name='password'
                         type='password'
@@ -80,11 +84,11 @@ function Signup(props) {
                     />
                 </div>
 
-                <div>
-                    <button type='submit'>Submit</button>
+                <div className='button-div'>
+                    <button className='button' type='submit'>Submit</button>
                 </div>
 
-                <div>
+                <div className='link-div'>
                     <Link to='/login'>Already have an accout? Login!</Link>
                 </div>
             </form>

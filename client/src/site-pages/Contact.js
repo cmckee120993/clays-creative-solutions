@@ -40,16 +40,16 @@ function Contact() {
                     </div>
                 </div>
                 <form className='contact-form' onSubmit={handleSubmit}>
-                    <div className='contact-form-div'>
-                        <label htmlFor='name'>Name</label>
-                        <input id='name' type='text' name='name'/>
+                    <div className='form-div'>
+                        <label className='label' htmlFor='name'>Name</label>
+                        <input className='input' id='name' type='text' name='name'/>
                     </div>
-                    <div className='contact-form-div'>
-                        <label htmlFor='email'>Email</label>
-                        <input id='email' type='email' name='email'/>
+                    <div className='form-div'>
+                        <label className='label' htmlFor='email'>Email</label>
+                        <input id='email' className='input' type='email' name='email'/>
                     </div>
-                    <div className='contact-form-div'>
-                        <label htmlFor='message'>Message</label>
+                    <div className='form-div'>
+                        <label className='label' htmlFor='message'>Message</label>
                         <textarea className='textarea' name='message' rows='10'/>
                     </div>
                     <ValidationError
