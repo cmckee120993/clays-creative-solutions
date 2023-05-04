@@ -30,3 +30,41 @@ font-family: 'Patrick Hand', cursive; */
   color: var(--text);
   padding: 5px;
 }
+
+.title {
+  font-family: 'Acme', sans-serif;
+    font-size: 40px;
+    background: var(--rusty);
+    color: var(--text);
+    text-align: center;
+    padding: 10px;
+    width: 350px;
+    box-shadow: 10px 10px 20px var(--text);
+}
+.button-div {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background: none;
+}
+
+.button {
+    background: none;
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    background: var(--rusty);
+    border: 3px solid var(--rusty);
+    margin-bottom: 25px;
+    box-shadow: 5px 5px 20px var(--text);
+    border-radius: 10px;
+}
+
+.button:hover {
+    background: var(--text);
+    color: var(--citrus);
+    text-decoration: underline;
+}

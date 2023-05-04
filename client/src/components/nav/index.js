@@ -5,55 +5,61 @@ import circleLogo from '../../images/clays-circle-logo.webp';
 
 import Auth from '../../utils/auth';
 import { useQuery } from '@apollo/client';
-import { QUERY_USER } from '../../utils/queries';
+import { GET_USER } from '../../utils/queries';
 
 export default function Nav() {
 
-  const { data } = useQuery(QUERY_USER);
+  const { data } = useQuery(GET_USER);
   let user;
   if(data) {
     user = data.user;
   };
 
+  console.log(user);
+
+
   function showNavigation() {
     if(Auth.loggedIn()) {
       return(
         <>
-          <a onClick={() => Auth.logout()} href='/'>
-            Logout
+          <a className='nav-link' onClick={() => Auth.logout()} href='/'>
+            <h2>Logout</h2>
           </a>
         </>
       )
     } else {
       return(
         <>
-          <a href='/signup'>
-            Signup
+          <a className='nav-link' href='/signup'>
+            <h2>Signup</h2>
           </a>
-          <br />
-          <a href='/login'>
-            Login
+          <a className='nav-link' href='/login'>
+            <h2>Login</h2>
           </a>
         </>
       )
     }
   };
 
-  // function userTypeNav() {
-  //   if (user === undefined) {
-  //     return (
-  //       <></>
-  //     )
-  //   }else if (user.admin === false) {
-  //     return (
-  //     <></>
-  //     )
-  //   } else if (user.admin === true) {
-  //     <a className='bm-item menu-item' href='/adminpanel'>
-  //       Admin Panel
-  //     </a>
-  //   }
-  // };
+  function userTypeNav() {
+   if (user === undefined) {
+    return (
+      <>
+      </>
+    )
+   }
+    if (user.admin === false) {
+      return (
+      <></>
+      )
+    } else if (user.admin === true) {
+      return(
+      <a className='nav-link' href='/adminpanel'>
+        <h2>Admin Panel</h2>
+      </a>
+      )
+    }
+  };
 
   let url = document.location.href;
 
@@ -132,8 +138,8 @@ export default function Nav() {
       <a className='nav-link' href='/articles'><h2>Blog</h2></a>
       <a className='nav-link' href='/contact'><h2>Contact</h2></a>
       <a className='nav-link' href='/about'><h2>About</h2></a>
+      {userTypeNav()}
       {showNavigation()}
-      {/* {userTypeNav()} */}
       <div className='nav-logo-div'>
         <img
           src={circleLogo}

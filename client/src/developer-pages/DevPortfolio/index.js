@@ -15,7 +15,7 @@ function DevPortfolio() {
     return (
         <div className='portfolio-div'>
 
-        <h2 className="portfolio-title">Work for Clients</h2>
+        <h2 className="title">Work for Clients</h2>
         <div className='sites-div'>
         
             <div className='site'>
@@ -140,7 +140,7 @@ function DevPortfolio() {
 
         </div>
         
-        <h2 className="portfolio-title">My Bootcamp Projects</h2>
+        <h2 className="title">My Bootcamp Projects</h2>
         <div className='sites-div'>
             
             <div className='site'>

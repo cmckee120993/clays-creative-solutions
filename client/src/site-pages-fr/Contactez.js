@@ -17,7 +17,7 @@ function Contactez() {
     }
     return (
         <div className='contact-content'>
-            <h2 className='contact-title'>Me Contactez</h2>
+            <h2 className='title'>Me Contactez</h2>
             <div className='contact-div'>
                 <div className='general-contact'>
                     <p className='contact-des' lang='fr'>

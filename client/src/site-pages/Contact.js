@@ -17,7 +17,7 @@ function Contact() {
     }
     return (
         <div className='contact-content'>
-            <h2 className='contact-title'>Contact Me</h2>
+            <h2 className='title'>Contact Me</h2>
             <div className='contact-div'>
                 <div className='general-contact'>
                     <p className='contact-des'>
@@ -57,8 +57,8 @@ function Contact() {
                         field='message'
                         errors={state.errors}
                     />
-                    <div className='contact-form-div'>
-                        <button type='submit' disabled={state.submitting}>
+                    <div className='button-div'>
+                        <button className='button' type='submit' disabled={state.submitting}>
                             Submit
                         </button>
                     </div>

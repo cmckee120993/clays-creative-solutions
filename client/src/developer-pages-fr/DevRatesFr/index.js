@@ -6,7 +6,7 @@ import Collapsible from 'react-collapsible';
 function DevRatesFr() {
     return (
         <div className='rates-content'>
-            <h2 className="rates-title" lang='fr'>Les frais</h2>
+            <h2 className="title" lang='fr'>Les frais</h2>
             <p className="rates-description">
                 Même si ces frais sont basés sur les standards de l'industrie, tous les projets ont besoin d'une attention individuelle et/ou
                 peuvent être adaptés pour tous les budgets. Le prix dépend sur le travail, la date limite et vos désirs. Chaque description donne
@@ -161,7 +161,7 @@ function DevRatesFr() {
                 </tr>
             </table>
 
-            <h2 className="rates-title" lang='fr'>Les Services de Marketing</h2>
+            <h2 className="title" lang='fr'>Les Services de Marketing</h2>
             <p className="rates-description" lang='fr'>
                 Un site est juste une étape parmi plusieurs pour réussir. Si vous êtes en train de commencer votre business ou vous avez déjà
                 établi une clientèle mais vous voulez un nouveau look, une approche innovante ou une entrée dans un autre marché, je suis là

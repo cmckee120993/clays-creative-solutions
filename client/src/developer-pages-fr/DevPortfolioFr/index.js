@@ -15,7 +15,7 @@ function DevPortfolioFr() {
     return (
         <div className='portfolio-div'>
 
-        <h2 className="portfolio-title" lang='fr'>Projets des clients</h2>
+        <h2 className="title" lang='fr'>Projets des clients</h2>
         <div className='sites-div'>
         
             <div className='site'>
@@ -151,7 +151,7 @@ function DevPortfolioFr() {
 
         </div>
         
-        <h2 className="portfolio-title">Mes projets personels</h2>
+        <h2 className="title">Mes projets personels</h2>
         <div className='sites-div'>
             
             <div className='site'>

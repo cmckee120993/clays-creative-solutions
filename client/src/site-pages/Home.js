@@ -3,6 +3,7 @@ import '../styles/home.css';
 import siteGif from '../images/site-gif.gif';
 
 function Home() {
+
     return (
         <div className='home'>
             <img 

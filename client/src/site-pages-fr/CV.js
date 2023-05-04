@@ -16,7 +16,7 @@ import peace from '../images/peace-languages.webp';
 function Resume() {
     return (
         <div className='resume-content'>
-            <h2 className='resume-title'>CV</h2>
+            <h2 className='title'>CV</h2>
             <div className='resume-div'>
                 <div className='education'>
                     <img

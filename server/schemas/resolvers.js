@@ -10,11 +10,12 @@ const resolvers = {
         },
 
         user: async (parent, args, context) => {
-            if(context.user) {
+            if (context.user) {
                 const user = await User.findById({_id: context.user._id});
                 return user;
             }
-        }
+            throw new AuthenticationError('Not logged in');
+        },
     },
 
     Mutation: {

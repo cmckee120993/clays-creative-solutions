@@ -33,7 +33,7 @@ function Signup(props) {
 
     return (
         <>
-            <h2>Signup</h2>
+            <h2 className='title'>Signup</h2>
 
             <form onSubmit={handleFormSubmit}>
                 <div>
@@ -65,6 +65,17 @@ function Signup(props) {
                         name='email'
                         type='email'
                         id='email'
+                        onChange={handleChange}
+                    />
+                </div>
+
+                <div>
+                    <label htmlFor='email'>Password:</label>
+                    <input 
+                        placeholder='*****'
+                        name='password'
+                        type='password'
+                        id='password'
                         onChange={handleChange}
                     />
                 </div>

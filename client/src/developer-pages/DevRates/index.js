@@ -6,7 +6,7 @@ import Collapsible from 'react-collapsible';
 function DevRates() {
     return (
         <div className='rates-content'>
-            <h2 className="rates-title">Web Developer Rates</h2>
+            <h2 className="title">Web Developer Rates</h2>
             <p className="rates-description">While these rates are based on industry standards, all rates are up for negotiation and can be adjusted based on desired project, timeline, and budget.
                 The description supplies the basic information for what can be expected at the base fee.
                 You are not required to keep me on as a retainer; however, sites can sometimes run into problems and hosting can be complicated. Keeping me on retainer
@@ -158,7 +158,7 @@ function DevRates() {
                 </tr>
             </table>
 
-            <h2 className="rates-title">Web Marketing Services</h2>
+            <h2 className="title">Web Marketing Services</h2>
             <p className="rates-description">
                 Having a site is only one step of the equation for successful online marketing. If you're a new business getting started
                 or an established business looking for a new look, an innovative approach, or an in to a new market, I am happy to help! Since all of these services will require

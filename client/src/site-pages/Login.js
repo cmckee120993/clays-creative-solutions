@@ -10,13 +10,13 @@ function Login(props) {
     const [formState, setFormState] = useState({ email: '', password: ''});
     const [login, { error }] = useMutation(LOGIN);
 
-    const handleFormSubmit = async(event) => {
+    const handleFormSubmit = async (event) => {
         event.preventDefault();
         try {
             const mutationResponse = await login({
                 variables: {email: formState.email, password: formState.password },
             });
-            const token = mutationResponse.data.token;
+            const token = mutationResponse.data.login.token;
             Auth.login(token);
         } catch (error) {
             console.log(error)
@@ -33,7 +33,7 @@ function Login(props) {
 
     return (
         <>
-            <h2>Login</h2>
+            <h2 className='title'>Login</h2>
 
             <form onSubmit={handleFormSubmit}>
                 <div>
@@ -61,8 +61,8 @@ function Login(props) {
                         <p>The provided credentials are incorrect...</p>
                     </div>
                 ) : null}
-                <div>
-                    <button type='submit'>Submit</button>
+                <div className='button-div'>
+                    <button className='button' type='submit'>Submit</button>
                 </div>
             </form>
             <div>
