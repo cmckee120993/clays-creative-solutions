@@ -25,6 +25,9 @@ import Contact from './site-pages/Contact.js';
 import Resume from './site-pages/Resume.js';
 import Login from './site-pages/Login.js';
 import Signup from './site-pages/Signup.js';
+import Admin from './site-pages/Admin.js'
+
+import Create from './admin-pages/create/index.js';
 
 // pages for developer part of site
 import Developer from './developer-pages/DevHome';
@@ -83,6 +86,8 @@ function App() {
             <Routes>
               <Route path='/' element={<Home />} />
               <Route path='/about' element={<About />} />
+              <Route path='/admin' element={<Admin />} />
+              <Route path='/admin/create' element={<Create />} />
               <Route path='/articles' element={<Blog />} />
               <Route path='/fr/articles' element={<Article />} />
               <Route path='/contact' element={<Contact />} />

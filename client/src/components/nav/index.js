@@ -54,9 +54,18 @@ export default function Nav() {
       )
     } else if (user.admin === true) {
       return(
-      <a className='nav-link' href='/adminpanel'>
-        <h2>Admin Panel</h2>
-      </a>
+        <>
+          <a className='nav-link' href='/admin'>
+            <h2>Admin Panel</h2>
+          </a>
+          <ul>
+            <li>
+              <a className='nav-link' href='/admin/create'>
+                <h2>Create Post</h2>
+              </a>
+            </li>
+          </ul>
+      </>
       )
     }
   };

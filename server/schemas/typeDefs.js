@@ -15,16 +15,22 @@ type User {
 
 type Post {
     postDate: String
-    paragraphOne: String
-    paragraphTwo: String
-    imageLink: String
+    englishPost: String
+    frenchPost: String
+    title: String
+    titleFr: String
     comments: [Comment]
+    categories: [Category]
 }
 
 type Comment {
     commentText: String
     commentDate: String
     commentAuthor: String
+}
+
+type Category {
+    category: String
 }
 
 type Auth {

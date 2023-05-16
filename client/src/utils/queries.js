@@ -2,7 +2,7 @@ import { gql } from '@apollo/client';
 
 export const GET_USER = gql`
     query getUserData {
-  user {
+      user {
     _id
     firstName
     lastName
@@ -11,13 +11,17 @@ export const GET_USER = gql`
     password
     posts {
       postDate
-      paragraphOne
-      paragraphTwo
-      imageLink
+      englishPost
+      frenchPost
+      title
+      titleFr
       comments {
         commentText
         commentDate
         commentAuthor
+      }
+      categories {
+        category
       }
     }
     comments {

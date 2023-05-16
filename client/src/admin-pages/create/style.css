@@ -1,0 +1,37 @@
+/* span, .rdw-editor-toolbar, .rdw-editor-toolbar div, .rdw-editor-toolbar a, .rdw-editor-toolbar img {
+    background: none;
+}
+
+.editor-class, .editor-class div {
+    background: white;
+    height: 500px;
+}
+
+.editor-class {
+    margin: 10px;
+    padding: 0px 10px;
+} */
+
+.post-div, .button-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.post {
+    margin-top: 20px;
+    width: 95%;
+    background: white;
+    height: 300px;
+    margin: auto;
+    border: 3px solid var(--citrus);
+    box-shadow: 10px 10px 20px var(--text);
+    font-family: 'Patrick Hand', arial;
+    color: var(--text);
+    font-size: 25px;
+    -webkit-text-stroke: 1px;
+    border-radius: 10px;
+}
+
+.titleEn, .titleFr {
+    margin-left: 20px;
+}
