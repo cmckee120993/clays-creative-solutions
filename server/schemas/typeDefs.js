@@ -52,7 +52,7 @@ type Mutation {
         admin: Boolean
     ): Auth
     login( email: String!, password: String!): Auth
-    addPost(postDate: String, paragraphOne: String!, paragraphTwo: String!, imageLink: String): Post
+    addPost(postDate: String, title: String!, titleFr: String! englishPost: String!, frenchPost: String!): Post
     addComment(commentText: String!, commentDate: String, commentAuthor: String): Comment
 }
 `

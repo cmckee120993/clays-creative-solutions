@@ -325,17 +325,17 @@ function Resume() {
                                         <div className='class-list'>
                                             
                                             <div className='one-class'>
-                                                <h5><a className='resume-link' href='https://letsdoughdotcom.wpcomstaging.com/'>Let's Dough</a></h5>
+                                                <h5><a className='resume-link' href='https://letsdoughdotcom.wpcomstaging.com/' target='_blank' rel='noreferrer'>Let's Dough</a></h5>
                                                 <h6>Cookie Bakery/Restaurant in Nice, France</h6>
                                             </div>
 
                                             <div className='one-class'>
-                                                <h5><a className='resume-link' href='www.cheznicolas.com'>Chez Nicolas</a></h5>
+                                                <h5><a className='resume-link' href='www.cheznicolas.com' target='_blank' rel='noreferrer'>Chez Nicolas</a></h5>
                                                 <h6>Hairdresser in Nice, France</h6>
                                             </div>
 
                                             <div className='one-class'>
-                                                <h5><a className='resume-link' href='www.mybevexp.com'>Beverage Express</a></h5>
+                                                <h5><a className='resume-link' href='www.mybevexp.com' target='_blank' rel='noreferrer'>Beverage Express</a></h5>
                                                 <h6>Beer Distributor in Carlisle, PA</h6>
                                             </div>
                                         </div>  
@@ -486,13 +486,13 @@ function Resume() {
                                     <h3>Academic</h3>
                                         <div className="publication-div">
                                             <h4>“The Self(’s)-Translation of Sexuality and Gender as a Raised Bascule in Hanan al-Shaykh’s Inaha London ya ‘zizi”</h4>
-                                            <h5>Chapter in <a className='resume-link' href='https://www.routledge.com/Translation-and-the-Global-City-Bridges-and-Gateways/Woodsworth/p/book/9780367555689?gclid=CjwKCAjwu_mSBhAYEiwA5BBmf4hvQiCKFtgNI2scyx0_YgqJVM6eD5uiim9pC70rFDpj6TDVX1Oy1hoChVgQAvD_BwE'><em>Translation and the Global City</em></a></h5>
+                                            <h5>Chapter in <a className='resume-link' href='https://www.routledge.com/Translation-and-the-Global-City-Bridges-and-Gateways/Woodsworth/p/book/9780367555689?gclid=CjwKCAjwu_mSBhAYEiwA5BBmf4hvQiCKFtgNI2scyx0_YgqJVM6eD5uiim9pC70rFDpj6TDVX1Oy1hoChVgQAvD_BwE' target='_blank' rel='noreferrer'><em>Translation and the Global City</em></a></h5>
                                             <h5>June 2021</h5>
                                         </div>
 
                                         <div className="publication-div">
                                             <h4>“Translation and Audience: Edgar Allen Poe’s “The Gold-Bug”</h4>
-                                            <h5>Article in <a className='resume-link' href='http://www.journals.aiac.org.au/index.php/IJCLTS/issue/view/167'><em>The International Journal of Comparative Literature and Translation Studies
+                                            <h5>Article in <a className='resume-link' href='http://www.journals.aiac.org.au/index.php/IJCLTS/issue/view/167' target='_blank' rel='noreferrer'><em>The International Journal of Comparative Literature and Translation Studies
                                                         Volume 5, No. 4 (2017)</em></a></h5>
                                             <h5>2017</h5>
                                         </div>
@@ -500,25 +500,25 @@ function Resume() {
                                     <h3>Reviews</h3>
                                         <div className="publication-div">
                                             <h4>Review of Margarita Serafimova’s <em>A Surgery of a Star</em></h4>
-                                            <h5><a className='resume-link' href='https://www.worldliteraturetoday.org/2021/autumn/surgery-star-margarita-serafimova'>World Literature Today, Autumn 2021</a></h5>
+                                            <h5><a className='resume-link' target='_blank' rel='noreferrer' href='https://www.worldliteraturetoday.org/2021/autumn/surgery-star-margarita-serafimova'>World Literature Today, Autumn 2021</a></h5>
                                             <h5>2021</h5>
                                         </div> 
 
                                         <div className="publication-div">
                                             <h4>Rawness and Taboo: Kono Taeko’s <em>Toddler Hunting and Other Stories</em> in Review</h4>
-                                            <h5><a className='resume-link' href='https://www.asymptotejournal.com/blog/2019/03/07/____-kono-taekos-toddler-hunting-and-other-stories-in-review/'>Asymptote Blog</a></h5>
+                                            <h5><a className='resume-link' href='https://www.asymptotejournal.com/blog/2019/03/07/____-kono-taekos-toddler-hunting-and-other-stories-in-review/' target='_blank' rel='noreferrer'>Asymptote Blog</a></h5>
                                             <h5>2019</h5>
                                         </div> 
 
                                         <div className="publication-div">
                                             <h4>What’s New in Translation: January 2019 —<em>The Death of Murat Idrissi</em></h4>
-                                            <h5><a className='resume-link' href='https://www.asymptotejournal.com/blog/2019/01/07/whats-new-in-translation-january-2019/ '>Asymptote Blog</a></h5>
+                                            <h5><a className='resume-link' href='https://www.asymptotejournal.com/blog/2019/01/07/whats-new-in-translation-january-2019/ ' target='_blank' rel='noreferrer'>Asymptote Blog</a></h5>
                                             <h5>2019</h5>
                                         </div>
 
                                         <div className="publication-div">
                                             <h4>Le rouge et le noir: <em>Marrakech Noir</em> In Review</h4>
-                                            <h5><a className='resume-link' href='https://www.asymptotejournal.com/blog/2018/12/10/le-rouge-et-le-noir-marrakech-noir-in-review/'>Asymptote Blog</a></h5>
+                                            <h5><a className='resume-link' href='https://www.asymptotejournal.com/blog/2018/12/10/le-rouge-et-le-noir-marrakech-noir-in-review/' target='_blank' rel='noreferrer'>Asymptote Blog</a></h5>
                                             <h5>2018</h5>
                                         </div>
 
@@ -534,35 +534,35 @@ function Resume() {
                                             <h4>Tanguy Viel, <em>La disparition de Jim Sullivan</em> (<em>The Disappearance of Jim Sullivan</em>)</h4>
                                             <h5>French to English</h5>
                                             <h5>Full novel published by Dalkey Archive Press in June 2021</h5>
-                                            <h5><a className='resume-link' href='https://dalkeyarchive.store/products/the-disappearance-of-jim-sullivan?_pos=1&_psq=jim%20sulli&_ss=e&_v=1.0'>Link to Purchase from Dalkey Archive</a></h5>
+                                            <h5><a className='resume-link' href='https://dalkeyarchive.store/products/the-disappearance-of-jim-sullivan?_pos=1&_psq=jim%20sulli&_ss=e&_v=1.0' target='_blank' rel='noreferrer'>Link to Purchase from Dalkey Archive</a></h5>
                                     </div>
 
                                     <div className="publication-div">
                                             <h4>Jean Teulé, <em>Entrez dans la danse</em> (<em>Join the Dance</em>)</h4>
                                             <h5>French to English</h5>
                                             <h5>Excerpt published by Trafika Europe in April 2020</h5>
-                                            <h5><a className='resume-link' href='https://cld.bz/users/user-N5y4U8g/Trafika-Europe-Quarterly/TE17-Mysterious-Montenegro'>Link to Excerpt Publication</a></h5>
+                                            <h5><a className='resume-link' href='https://cld.bz/users/user-N5y4U8g/Trafika-Europe-Quarterly/TE17-Mysterious-Montenegro' target='_blank' rel='noreferrer'>Link to Excerpt Publication</a></h5>
                                     </div>
 
                                     <div className="publication-div">
                                             <h4>Martine Morillon-Carreau, Selected Poems from <em>Poéclats</em> and <em>Pierres d'attente</em></h4>
                                             <h5>French to English</h5>
                                             <h5>Thirteen poems published by Trafika Europe in September 2017</h5>
-                                            <h5><a className='resume-link' href='https://cld.bz/users/user-N5y4U8g/Trafika-Europe-Quarterly/Trafika-Europe-11-Swiss-Delights1'>Link to Excerpt Publication</a></h5>
+                                            <h5><a className='resume-link' href='https://cld.bz/users/user-N5y4U8g/Trafika-Europe-Quarterly/Trafika-Europe-11-Swiss-Delights1' target='_blank' rel='noreferrer'>Link to Excerpt Publication</a></h5>
                                     </div>
 
                                     <div className="publication-div">
                                             <h4>Charles Pépin, <em>La Joie</em> (<em>Joy</em>)</h4>
                                             <h5>French to English</h5>
                                             <h5>Excerpt published by Trafika Europe in March 2016</h5>
-                                            <h5><a className='resume-link' href='https://cld.bz/users/user-N5y4U8g/Trafika-Europe-Quarterly/Trafika-Europe-7-Ukrainian-Prayer'>Link to Excerpt Publication</a></h5>
+                                            <h5><a className='resume-link' href='https://cld.bz/users/user-N5y4U8g/Trafika-Europe-Quarterly/Trafika-Europe-7-Ukrainian-Prayer' target='_blank' rel='noreferrer'>Link to Excerpt Publication</a></h5>
                                     </div>
 
                                     <div className="publication-div">
                                             <h4>Tahar Ben Jelloun, <em>L'Ablation</em> (<em>Ablation</em>)</h4>
                                             <h5>French to English</h5>
                                             <h5>Excerpt published by Trafika Europe in December 2015</h5>
-                                            <h5><a className='resume-link' href='https://cld.bz/users/user-N5y4U8g/Trafika-Europe-Quarterly/Trafika-Europe-6-Arabesque'>Link to Excerpt Publication</a></h5>
+                                            <h5><a className='resume-link' href='https://cld.bz/users/user-N5y4U8g/Trafika-Europe-Quarterly/Trafika-Europe-6-Arabesque' target='_blank' rel='noreferrer'>Link to Excerpt Publication</a></h5>
                                     </div>
                                 </div>
                             </Collapsible>
