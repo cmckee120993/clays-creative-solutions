@@ -14,6 +14,7 @@ type User {
 }
 
 type Post {
+    postId: ID
     postDate: String
     englishPost: String
     frenchPost: String

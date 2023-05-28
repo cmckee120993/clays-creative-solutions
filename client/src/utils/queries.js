@@ -32,3 +32,24 @@ export const GET_USER = gql`
   }
 }
 `;
+
+export const GET_POSTS = gql`
+query getPosts {
+  posts {
+    postDate
+    englishPost
+    frenchPost
+    title
+    titleFr
+    comments {
+      commentText
+      commentDate
+      commentAuthor
+    }
+    categories {
+      category
+    }
+    postId
+  }
+}
+`
