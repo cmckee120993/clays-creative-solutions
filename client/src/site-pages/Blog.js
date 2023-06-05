@@ -22,9 +22,11 @@ function Blog() {
             {post.map((post) => (
                 <>
                 <h2>{post.title}</h2>
-                {post.englishPost}
-                <h2>{post.titleFr}</h2>
-                {post.frenchPost}
+                <img src={post.imgOne} />
+                <p>{post.parOneEn}</p>
+                <img src={post.imgTwo} />
+                <p>{post.parTwoEn}</p>
+               
                 <button id={post.id}>Open Full Article</button>
                 </>
             ))}

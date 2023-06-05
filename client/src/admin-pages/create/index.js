@@ -10,16 +10,24 @@ function Create() {
 
     function submitPost() {
         let titleEn = document.querySelector(".title-english").value;
-        let textEn = document.querySelector(".post-english").value;
+        let parOneEn = document.querySelector(".par-one-en").value;
+        let parTwoEn = document.querySelector('.par-two-en').value;
         let titleFr = document.querySelector(".title-french").value;
-        let textFr = document.querySelector(".post-french").value;
+        let parOneFr = document.querySelector(".par-one-en").value;
+        let parTwoFr = document.querySelector('.par-two-en').value;
+        let imgOne = document.querySelector('.img-one').value;
+        let imgTwo = document.querySelector('.img-two').value;
         
         addPost({
             variables: {
-                englishPost: textEn,
-                frenchPost: textFr,
+                parOneEn: parOneEn,
+                parTwoEn: parTwoEn,
+                parOneFr: parOneFr,
+                parTwoFr: parTwoFr,
                 title: titleEn,
-                titleFr: titleFr
+                titleFr: titleFr,
+                imgOne: imgOne,
+                imgTwo: imgTwo,
             }
         });
         document.location.reload();
@@ -35,8 +43,13 @@ function Create() {
 
         
             <div className='post-div'>
-                <h3 className='label'>English Post</h3>
-                <textarea className='post post-english'></textarea>
+                <h3 className='label'>English Paragraph 1</h3>
+                <textarea className='post par-one-en'></textarea>
+            </div>
+
+            <div className='post-div'>
+                <h3 className='label'>English Paragraph 2</h3>
+                <textarea className='post par-two-en'></textarea>
             </div>
 
             <h3 className='label'>French Title</h3>
@@ -44,8 +57,19 @@ function Create() {
 
             <div className='post-div'>
                 <h3 className='label'>French Post</h3>
-                <textarea className='post post-french'></textarea>
+                <textarea className='post par-one-fr'></textarea>
             </div>
+
+            <div className='post-div'>
+                <h3 className='label'>French Paragraph 2</h3>
+                <textarea className='post par-two-fr'></textarea>
+            </div>
+
+            <h3 className='label'>Image 1 Link</h3>
+            <input className='input img-one'></input>
+
+            <h3 className='label'>Image 2 Link</h3>
+            <input className='input img-two'></input>
 
             <div className='button-div'>
                 <button onClick={submitPost} className='button'>Submit</button>

@@ -10,11 +10,16 @@ export const GET_USER = gql`
     admin
     password
     posts {
+      postId
       postDate
-      englishPost
-      frenchPost
+      parOneEn
+      parTwoEn
+      parOneFr
+      parTwoFr
       title
       titleFr
+      imgOne
+      imgTwo
       comments {
         commentText
         commentDate
@@ -36,11 +41,16 @@ export const GET_USER = gql`
 export const GET_POSTS = gql`
 query getPosts {
   posts {
+    postId
     postDate
-    englishPost
-    frenchPost
+    parOneEn
+    parTwoEn
+    parOneFr
+    parTwoFr
     title
     titleFr
+    imgOne
+    imgTwo
     comments {
       commentText
       commentDate
@@ -49,7 +59,6 @@ query getPosts {
     categories {
       category
     }
-    postId
   }
 }
 `

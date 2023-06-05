@@ -16,10 +16,14 @@ type User {
 type Post {
     postId: ID
     postDate: String
-    englishPost: String
-    frenchPost: String
+    parOneEn: String
+    parTwoEn: String
+    parOneFr: String
+    parTwoFr: String
     title: String
     titleFr: String
+    imgOne: String
+    imgTwo: String
     comments: [Comment]
     categories: [Category]
 }
@@ -53,7 +57,7 @@ type Mutation {
         admin: Boolean
     ): Auth
     login( email: String!, password: String!): Auth
-    addPost(postDate: String, title: String!, titleFr: String! englishPost: String!, frenchPost: String!): Post
+    addPost(postDate: String, title: String!, titleFr: String! parOneEn: String!, parTwoEn: String!, parOneFr: String!, parTwoFr: String!, imgOne: String, imgTwo: String): Post
     addComment(commentText: String!, commentDate: String, commentAuthor: String): Comment
 }
 `

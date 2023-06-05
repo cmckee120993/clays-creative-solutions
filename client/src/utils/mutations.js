@@ -17,13 +17,18 @@ export const ADD_USER = gql`
 `;
 
 export const ADD_POST = gql`
-mutation addPost($title: String!, $titleFr: String!, $englishPost: String!, $frenchPost: String!, $postDate: String) {
-  addPost(title: $title, titleFr: $titleFr, englishPost: $englishPost, frenchPost: $frenchPost, postDate: $postDate) {
+mutation addPost($title: String!, $titleFr: String!, $parOneEn: String!, $parTwoEn: String!, $parOneFr: String!, $parTwoFr: String!, $postDate: String, $imgOne: String, $imgTwo: String) {
+  addPost(title: $title, titleFr: $titleFr, parOneEn: $parOneEn, parTwoEn: $parTwoEn, parOneFr: $parOneFr, parTwoFr: $parTwoFr, postDate: $postDate, imgOne: $imgOne, imgTwo: $imgTwo) {
+    postId
     postDate
-    englishPost
-    frenchPost
+    parOneEn
+    parTwoEn
+    parOneFr
+    parTwoFr
     title
     titleFr
+    imgOne
+    imgTwo
     comments {
       commentText
       commentDate

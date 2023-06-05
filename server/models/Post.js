@@ -19,14 +19,32 @@ const postSchema = new Schema({
         required: true,
         trim: true
     },
-    englishPost: {
+    parOneEn: {
         type: String,
         required: true,
         trim: true
     },
-    frenchPost: {
+    parTwoEn: {
         type: String,
-        required: false,
+        required: true,
+        trim: true
+    },
+    parOneFr: {
+        type: String,
+        required: true,
+        trim: true
+    },
+    parTwoFr: {
+        type: String,
+        required: true,
+        trim: true
+    },
+    imgOne: {
+        type: String,
+        trim: true
+    }, 
+    imgTwo: {
+        type: String, 
         trim: true
     },
     comments: [Comment.schema],
