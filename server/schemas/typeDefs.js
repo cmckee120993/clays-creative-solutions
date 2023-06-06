@@ -16,14 +16,8 @@ type User {
 type Post {
     postId: ID
     postDate: String
-    parOneEn: String
-    parTwoEn: String
-    parOneFr: String
-    parTwoFr: String
     title: String
-    titleFr: String
-    imgOne: String
-    imgTwo: String
+    content: String
     comments: [Comment]
     categories: [Category]
 }
@@ -57,7 +51,7 @@ type Mutation {
         admin: Boolean
     ): Auth
     login( email: String!, password: String!): Auth
-    addPost(postDate: String, title: String!, titleFr: String! parOneEn: String!, parTwoEn: String!, parOneFr: String!, parTwoFr: String!, imgOne: String, imgTwo: String): Post
+    addPost(postDate: String, title: String!, content: String!): Post
     addComment(commentText: String!, commentDate: String, commentAuthor: String): Comment
 }
 `

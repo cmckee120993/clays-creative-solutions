@@ -1,38 +1,52 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './style.css';
 import { useMutation } from '@apollo/client';
 import { ADD_POST } from '../../utils/mutations';
+import ReactQuill from "react-quill";
+import "react-quill/dist/quill.snow.css";
 
 
 function Create() {
+
+    const modules = {
+        toolbar: [
+          [{ font: [] }],
+          [{ header: [1, 2, 3, 4, 5, 6, false] }],
+          ["bold", "italic", "underline", "strike"],
+          [{ color: [] }, { background: [] }],
+          [{ script: "sub" }, { script: "super" }],
+          ["blockquote", "code-block"],
+          [{ list: "ordered" }, { list: "bullet" }],
+          [{ indent: "-1" }, { indent: "+1" }, { align: [] }],
+          ["link", "image", "video"],
+          ["clean"],
+        ],
+      };
+
+      const [content, setContent] = useState("");
+
+  // rich text editor handle change
+  const handleContent = (event) => {
+    console.log(event);
+    setContent(event);
+  };
+
 
     const [ addPost ] = useMutation(ADD_POST);
 
     function submitPost() {
         let titleEn = document.querySelector(".title-english").value;
-        let parOneEn = document.querySelector(".par-one-en").value;
-        let parTwoEn = document.querySelector('.par-two-en').value;
-        let titleFr = document.querySelector(".title-french").value;
-        let parOneFr = document.querySelector(".par-one-en").value;
-        let parTwoFr = document.querySelector('.par-two-en').value;
-        let imgOne = document.querySelector('.img-one').value;
-        let imgTwo = document.querySelector('.img-two').value;
         
         addPost({
             variables: {
-                parOneEn: parOneEn,
-                parTwoEn: parTwoEn,
-                parOneFr: parOneFr,
-                parTwoFr: parTwoFr,
+                content: content,
                 title: titleEn,
-                titleFr: titleFr,
-                imgOne: imgOne,
-                imgTwo: imgTwo,
             }
         });
-        document.location.reload();
+        console.log(content)
+        // document.location.reload();
     }
-    
+
     return (
         <>
 
@@ -43,33 +57,17 @@ function Create() {
 
         
             <div className='post-div'>
-                <h3 className='label'>English Paragraph 1</h3>
-                <textarea className='post par-one-en'></textarea>
+                <h3 className='label'>Post</h3>
+                <ReactQuill
+            modules={modules}
+            onChange={handleContent}
+            value={content}
+            theme="snow"
+            className="par-one-en"
+            placeholder="Write something.."
+            style={{ border: "1px solid yellow" }}
+          />
             </div>
-
-            <div className='post-div'>
-                <h3 className='label'>English Paragraph 2</h3>
-                <textarea className='post par-two-en'></textarea>
-            </div>
-
-            <h3 className='label'>French Title</h3>
-            <input className='input title-french'></input>
-
-            <div className='post-div'>
-                <h3 className='label'>French Post</h3>
-                <textarea className='post par-one-fr'></textarea>
-            </div>
-
-            <div className='post-div'>
-                <h3 className='label'>French Paragraph 2</h3>
-                <textarea className='post par-two-fr'></textarea>
-            </div>
-
-            <h3 className='label'>Image 1 Link</h3>
-            <input className='input img-one'></input>
-
-            <h3 className='label'>Image 2 Link</h3>
-            <input className='input img-two'></input>
 
             <div className='button-div'>
                 <button onClick={submitPost} className='button'>Submit</button>

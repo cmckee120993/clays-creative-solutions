@@ -14,37 +14,9 @@ const postSchema = new Schema({
         required: true,
         trim: true
     },
-    titleFr: {
+    content: {
         type: String,
         required: true,
-        trim: true
-    },
-    parOneEn: {
-        type: String,
-        required: true,
-        trim: true
-    },
-    parTwoEn: {
-        type: String,
-        required: true,
-        trim: true
-    },
-    parOneFr: {
-        type: String,
-        required: true,
-        trim: true
-    },
-    parTwoFr: {
-        type: String,
-        required: true,
-        trim: true
-    },
-    imgOne: {
-        type: String,
-        trim: true
-    }, 
-    imgTwo: {
-        type: String, 
         trim: true
     },
     comments: [Comment.schema],

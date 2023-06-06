@@ -9,30 +9,24 @@ export const GET_USER = gql`
     email
     admin
     password
+    comments {
+      commentText
+      commentDate
+      commentAuthor
+    }
     posts {
-      postId
-      postDate
-      parOneEn
-      parTwoEn
-      parOneFr
-      parTwoFr
-      title
-      titleFr
-      imgOne
-      imgTwo
+      categories {
+        category
+      }
       comments {
         commentText
         commentDate
         commentAuthor
       }
-      categories {
-        category
-      }
-    }
-    comments {
-      commentText
-      commentDate
-      commentAuthor
+      content
+      postId
+      title
+      postDate
     }
   }
 }
@@ -43,14 +37,8 @@ query getPosts {
   posts {
     postId
     postDate
-    parOneEn
-    parTwoEn
-    parOneFr
-    parTwoFr
     title
-    titleFr
-    imgOne
-    imgTwo
+    content
     comments {
       commentText
       commentDate
