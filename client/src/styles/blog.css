@@ -1,0 +1,19 @@
+.blog-post-preview-div {
+    margin: 50px;
+}
+
+.blog-title-preview {
+    background: var(--text);
+    padding: 10px;
+    font-family: 'Acme', sans-serif;
+    font-size: 30px;
+    color: var(--citrus);
+}
+
+.blog-content-preview {
+    border: var(--text) solid 4px;
+    margin-top: -25px;
+    padding: 10px;
+    font-family: 'Patrick Hand', sans-serif;
+    font-size: 20px;
+}

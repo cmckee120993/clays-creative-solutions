@@ -15,18 +15,31 @@ function Blog() {
         post = data.posts;
     };
 
+    function postPreview(post) {
+        console.log(post);
+        let postContent = post.content;
+        let preview = postContent.slice(0,150);
+        let postPreview = preview +'</p>';
+        return(
+            <>
+            {parse(`${postPreview}`)}
+            </>
+        )
+    }
+
     return (
         <>
-        <h3>Hello!</h3>
+        <h3 className='title'>Articles</h3>
         {post ? (
             <>
             {post.map((post) => (
                 <>
-                <h2>{post.title}</h2>
-
-                {parse(`${post.content}`)}
-               
-                <button id={post.id}>Open Full Article</button>
+                    <div className='blog-post-preview-div'>
+                        <h2 className='blog-title-preview'>{post.title}</h2>
+                        <div className='blog-content-preview'>
+                            {postPreview(post)}
+                        </div>
+                    </div>
                 </>
             ))}
             </>
