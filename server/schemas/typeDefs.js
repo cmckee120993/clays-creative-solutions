@@ -14,7 +14,7 @@ type User {
 }
 
 type Post {
-    postId: ID
+    _id: ID
     postDate: String
     title: String
     content: String
@@ -40,6 +40,7 @@ type Auth {
 type Query {
     posts: [Post]
     user: User
+    post(_id: ID!): Post
 }
 
 type Mutation {

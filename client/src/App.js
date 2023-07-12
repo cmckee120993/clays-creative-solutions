@@ -25,7 +25,8 @@ import Contact from './site-pages/Contact.js';
 import Resume from './site-pages/Resume.js';
 import Login from './site-pages/Login.js';
 import Signup from './site-pages/Signup.js';
-import Admin from './site-pages/Admin.js'
+import Admin from './site-pages/Admin.js';
+import Post from './site-pages/Post.js';
 
 import Create from './admin-pages/create/index.js';
 
@@ -108,6 +109,7 @@ function App() {
               <Route path='/fr/translation' element={<TranslationFr />} />
               <Route path='/login' element={<Login />} />
               <Route path='/signup' element={<Signup />} />
+              <Route path='/post/:id' element={<Post />} />
             </Routes>
             <Footer />
           </div>

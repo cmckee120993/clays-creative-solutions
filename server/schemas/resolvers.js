@@ -5,6 +5,11 @@ const { signToken } = require('../utils/auth');
 const resolvers = {
     Query: 
     {
+
+        post: async (parent, id) => {
+            return Post.findById(id).populate('comments');
+        },
+
         posts: async () => {
             return Post.find({}).populate('comments');
         },

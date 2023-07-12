@@ -35,7 +35,7 @@ export const GET_USER = gql`
 export const GET_POSTS = gql`
 query getPosts {
   posts {
-    postId
+    _id
     postDate
     title
     content
@@ -47,6 +47,17 @@ query getPosts {
     categories {
       category
     }
+  }
+}
+`
+
+export const GET_POST = gql`
+query getPost($id: ID!) {
+  post(_id: $id) {
+    _id
+    content
+    postDate
+    title
   }
 }
 `

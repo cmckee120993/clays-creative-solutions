@@ -8,6 +8,7 @@ import parse from 'html-react-parser';
 
 function Blog() {
 
+    console.log(window.location.href);
 
     const { data } = useQuery(GET_POSTS);
     let post;
@@ -27,6 +28,11 @@ function Blog() {
         )
     }
 
+    function singlePost(event) {
+        let postButton = event.target;
+        let postId = postButton.getAttribute('postId');
+        document.location.href = `/post/${postId}`
+    }
     return (
         <>
         <h3 className='title'>Articles</h3>
@@ -35,7 +41,7 @@ function Blog() {
             {post.map((post) => (
                 <>
                     <div className='blog-post-preview-div'>
-                        <h2 className='blog-title-preview'>{post.title}</h2>
+                        <h2 className='blog-title-preview'><button onClick={singlePost} postId={post._id} className='button single-post-button'>{post.title}</button></h2>
                         <div className='blog-content-preview'>
                             {postPreview(post)}
                         </div>
