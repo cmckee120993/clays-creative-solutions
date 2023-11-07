@@ -1,16 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Acme&family=Patrick+Hand&display=swap");
 
 :root {
-  --text: #6B7A8F;
+  --gray: #6B7A8F;
   --citrus: #F7C331;
   --rusty: #DD7E00;
   --apricot: #F7882F;
-  --background: #DCC7AA;
+  --apple: #DCC7AA;
 }
 
-* {
-  background: var(--background);
-}
 
 .internal-link {
   background: none;

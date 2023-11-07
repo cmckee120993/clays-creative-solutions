@@ -15,7 +15,7 @@ import './App.css';
 // components for the full site
 import Footer from './components/footer';
 import Header from './components/header';
-import Nav from './components/nav';
+// import Nav from './components/nav';
 
 // pages for full site
 import Home from './site-pages/Home.js';
@@ -83,7 +83,7 @@ function App() {
         <>
           <div id='page-wrap'>
             <Header />
-            <Nav />
+            {/* <Nav /> */}
             <Routes>
               <Route path='/' element={<Home />} />
               <Route path='/about' element={<About />} />

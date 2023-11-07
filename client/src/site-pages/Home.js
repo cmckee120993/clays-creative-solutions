@@ -1,16 +1,11 @@
 import React from 'react';
 import '../styles/home.css';
-import siteGif from '../images/site-gif.gif';
 
 function Home() {
 
     return (
         <div className='home'>
-            <img 
-                src={siteGif}
-                alt='Gif of marketing, translation, and web development services.'
-                className='header-gif'
-            />
+    
             <div className='content'>
                 <div className='intro'>
                     <h2 className='home-title'>Digital Web Marketing in English, French, Arabic, and Spanish</h2>

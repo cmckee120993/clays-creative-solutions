@@ -6,12 +6,6 @@
     width: 100%;
 }
 
-.home {
-    background-image: url('../images/clays-circle-logo.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 
 
 .content {
@@ -25,7 +19,6 @@
     padding: 10px;
     border: 3px solid var(--citrus);
     box-shadow: 10px 10px 20px var(--text);
-    margin-top: -20px;
     position: relative;
     z-index: 1;
     border-radius: 20px;

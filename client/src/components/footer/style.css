@@ -1,6 +1,3 @@
-.creator-logo, .links, .contact, .links a, .contact a, .footer-icon, .copyright {
-    background: none;
-}
 footer {
     background: var(--citrus);
     border-top: 5px var(--text) solid;

@@ -1,6 +1,3 @@
-.bm-menu-wrap, .bm-item-list, .bm-item, .bm-burger-button, .bm-burger-button button, .bm-cross-button, .bm-item-list, .nav-link, .nav-link h2, .second-list, .second-list li, .first-list, .first-list li  {
-  background: none;
-}
 
 /* Position and sizing of burger button */
 .bm-burger-button {
@@ -13,24 +10,23 @@
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: var(--text);
+  background: var(--gray);
 }
 
 /* Color/shape of burger icon bars on hover*/
 .bm-burger-bars-hover {
-  background: var(--apricot);
+  background: white;
 }
 
 /* Position and sizing of clickable cross button */
 .bm-cross-button {
-  height: 24px;
-  width: 24px;
+  height: 50px;
+  width: 50px;
 }
 
 /* Color/shape of close button cross */
 .bm-cross {
-  background: var(--text);
-
+  background: var(--gray);
 }
 
 /*
@@ -45,22 +41,21 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* General sidebar styles */
 .bm-menu {
-  background: linear-gradient(var(--background), var(--citrus), var(--apricot), var(--rusty));
+  background: linear-gradient(var(--apple), var(--citrus), var(--apricot), var(--rusty));
   padding: 0em 1.5em 0;
   height: 100%;
-  box-shadow: 10px 0px 20px var(--text);
+  box-shadow: 5px 0px 20px var(--gray);
 }
 
 /* Wrapper for item list */
 .bm-item-list {
-  color: var(--text);
+  color: var(--gray);
   margin-left: -15px;
 }
 
 
 .first-list li:hover, .second-list li:hover, .nav-link h2:hover {
-  color: var(--apricot);
-  background: var(--text);
+  color: var(--gray);
 }
 
   .nav-link {
@@ -68,7 +63,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   }
 
   .nav-link h2 {
-    color: var(--text);
+    color: black;
     font-size: 25px;
     font-family: 'Acme', cursive;
     margin-bottom: -15px;
@@ -106,11 +101,4 @@ Note: Beware of modifying this element as it can break the animations - you shou
   .nav-logo-div {
     text-align: center;
     margin-top: 75px;
-  }
-
-  @media only screen and (min-width: 600px) {
-    .bm-burger-button {
-      height: 50px;
-      width: 50px;
-    }
   }
