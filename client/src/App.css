@@ -9,7 +9,7 @@
 }
 
 
-.internal-link {
+/* .internal-link {
   background: none;
   color: white;
   
@@ -18,7 +18,7 @@
 .internal-link:hover {
   color: var(--text);
   padding: 5px;
-}
+} */
 
 .title {
   font-family: 'Acme', sans-serif;

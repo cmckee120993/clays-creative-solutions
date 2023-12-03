@@ -37,6 +37,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   position: fixed;
   height: 100%;
   top: 0;
+  left: 0;
 }
 
 /* General sidebar styles */
@@ -45,12 +46,12 @@ Note: Beware of modifying this element as it can break the animations - you shou
   padding: 0em 1.5em 0;
   height: 100%;
   box-shadow: 5px 0px 20px var(--gray);
+
 }
 
 /* Wrapper for item list */
 .bm-item-list {
   color: var(--gray);
-  margin-left: -15px;
 }
 
 
@@ -93,7 +94,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
   }
   
   .nav-logo {
-    height: 100px;
     width: 100px;
     background: none;
   }
