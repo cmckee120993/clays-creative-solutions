@@ -28,12 +28,12 @@ footer {
 }
 
 .footer-icon {
-    color: var(--gray);
+    color: black;
     height: 50px;
 }
 
 .footer-icon:hover {
-    color: white;
+    color: var(--gray);
 }
 
 .creator-logo {
@@ -51,7 +51,6 @@ footer {
 
 .copyright {
     font-family: 'Patrick Hand', cursive;
-    color: var(--text);
     font-size: 20px;
     margin-left: 5px;
 }

@@ -3,77 +3,100 @@
     justify-content: center;
 }
 
+.business-div {
+    display: flex;
+    justify-content: center;
+}
 
-.header-circle-logo {
-    height: 100px;
-    margin: auto;
+.business-name {
+    font-family: 'Patrick Hand', sans-serif, arial;
+    color: black;
     position: relative;
-    top: -50px;
+    top: -10px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.service-list {
+    font-family: 'Patrick Hand', sans-serif, arial;
+    color: black;
+    position: relative;
+    top: -30px;
+    text-align: center;
+}
+
+.business-name:hover {
+    color: var(--gray);
+}
+
+.home-link {
+    text-decoration: none;
+    width: 100%;
 }
 
 .header {
     background: linear-gradient(var(--apple), var(--citrus), var(--apricot), var(--rusty));
     padding: 5px;
-    height: 100px;
+    height: 200px;
 }
 
-.upper-header {
+.lower-header {
     display: flex;
     width: 100%;
     justify-content: space-between;
+    margin-top: -20px;
+    align-items: center;
 }
 
-.nav-div, .lang-div {
-    margin-top: 10px;
+.lang-div {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
 }
+
 .nav-div {
     display: flex;
     width: 100%;
     justify-content:center;
+    align-items: center;
 }
 
 .nav-btn {
     color: black;
     text-decoration: none;
-    border: solid 2px var(--gray);
-    border-radius: 20px;
     padding: 10px;
     margin: 0px 10px;
     font-family: 'Acme', sans-serif;
-}
-
-.nav-btn:hover {
-    background: var(--gray);
-    color: white;
-}
-
-.lang-div {
+    font-size: 20px;
     display: flex;
-    justify-content: right;
+    align-items: center;
+    border: 5px dashed var(--rusty);
+    background: var(--apple);
+    box-shadow: 5px 5px 20px var(--gray);
+    border-radius: 10px;
 }
 
 .lang-button {
     font-size: 20px;
     margin-right: 10px;
-    border-radius: 50px;
-    height: 45px;
-    border: solid 2px var(--gray);
-    border-radius: 20px;
-    background: none;
-    width: 45px;
+    padding: 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border: 5px dashed var(--rusty);
+    background: var(--apple);
+    box-shadow: 5px 5px 20px var(--gray);
+    border-radius: 10px;
 }
 
-.lang-button:hover {
+.lang-button:hover, .nav-btn:hover {
     background: var(--gray);
+    color: var(--citrus);
+    text-decoration: underline;
 }
 
 .header-logo {
     height: 200px;
-}
-
-.logo-div {
-    display: flex;
-    justify-content: center;
 }
 
 @media only screen and (max-width: 850px) {
@@ -81,9 +104,3 @@
     margin: 0px 2px;
    }
 }
-
-@media only screen and (min-width: 800px) {
-    .header-circle-logo {
-        margin-left: 0px;
-    }
- }

@@ -23,12 +23,16 @@
 .title {
   font-family: 'Acme', sans-serif;
     font-size: 40px;
-    background: var(--rusty);
-    color: var(--text);
+    background: var(--apple);
     text-align: center;
     padding: 10px;
     width: 350px;
     box-shadow: 10px 10px 20px var(--text);
+    margin: auto;
+    margin-top: 20px;
+    border: 10px dashed var(--rusty);
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px var(--gray);
 }
 
 .button-div {
@@ -42,19 +46,18 @@
 }
 
 .button {
-    background: none;
     font-family: 'Acme', sans-serif;
     font-size: 20px;
     padding: 10px;
-    background: var(--rusty);
-    border: 3px solid var(--rusty);
+    background: var(--apple);
+    border: 10px dashed var(--rusty);
     margin-bottom: 25px;
-    box-shadow: 5px 5px 20px var(--text);
+    box-shadow: 5px 5px 20px var(--gray);
     border-radius: 10px;
 }
 
 .button:hover {
-    background: var(--text);
+    background: var(--gray);
     color: var(--citrus);
     text-decoration: underline;
 }
@@ -69,11 +72,11 @@
 .input {
   height: 30px;
   width: 75%;
-  background: white;
-  border: 3px solid var(--citrus);
-  box-shadow: 10px 10px 20px var(--text);
+  background: var(--apple);
+  border: 10px dashed var(--rusty);
+  box-shadow: 10px 10px 20px var(--gray);
   font-family: 'Patrick Hand', arial;
-  color: var(--text);
+  color: black;
   font-size: 25px;
   -webkit-text-stroke: 1px;
   border-radius: 10px;
@@ -95,13 +98,4 @@
   margin-bottom: 20px;
   font-family: 'Patrick Hand', arial;
   font-size: 20px;
-}
-
-@media only screen and (min-width: 1000px) {
-  .title {
-     margin: auto;
-     margin-top: 20px;
-     border: 3px solid var(--citrus);
-     border-radius: 10px;
-  }
 }

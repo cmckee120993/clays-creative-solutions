@@ -21,10 +21,9 @@ function Contact() {
             <div className='contact-div'>
                 <div className='general-contact'>
                     <p className='contact-des'>
-                        I am currently based in Nice, France; however, I accept clients from all over the globe!
-                        All prices are based on the Euro; however, prices will be converted for your currency based
-                        on the conversation rate the day that I send you the bill. Get in touch with me to get an estimate
-                        for the project that you have in mind.
+                        I am currently based in Carlisle, Pennsylvania; however, I accept clients from all over the globe!
+                        I follow industry standards in the United States for pricing, but I strive to work with small business
+                        and individual budgets. The best way to get an accurate estimate for your project is to reach out!
                     </p>
                     <div className='contact-card'>
                         <p className='link'>Email: 
@@ -33,8 +32,8 @@ function Contact() {
                             </a>
                         </p>
                         <p className='link'>Phone: 
-                            <a href='tel:+33769777978' target='_blank' rel='noreferrer'>
-                                +33 7 69 77 79 78
+                            <a href='tel:+17179616283' target='_blank' rel='noreferrer'>
+                                +1 (717) 961-6283
                             </a>
                         </p>
                     </div>

@@ -1,13 +1,4 @@
-.link, .link a, .contact-div, .contact-form, .general-contact, .contact-des {
-    background: none;
-}
 
-.contact-content {
-    background-image: url('../images/clays-circle-logo.webp');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-}
 
 .contact-form {
     display: flex;
@@ -22,11 +13,10 @@
 }
 
 .contact-form textarea {
-    background: white;
-    border: 3px solid var(--citrus);
-    box-shadow: 10px 10px 20px var(--text);
+    background: var(--apple);
+    border: 10px dashed var(--rusty);
+    box-shadow: 10px 10px 20px var(--gray);
     font-family: 'Patrick Hand', cursive;
-    color: var(--text);
     font-size: 25px;
     -webkit-text-stroke: 1px;
     border-radius: 10px;
@@ -49,7 +39,7 @@
 .general-contact a {
     margin-bottom: 10px;
     margin-left: 5px;
-    color: var(--background);
+    color: black;
 }
 
 .general-contact a:hover {
@@ -62,18 +52,14 @@
 }
 
 .contact-card {
-    background: var(--rusty);
-    border: solid 3px var(--citrus);
+    background: var(--apple);
+    border: dashed 10px var(--rusty);
     border-radius: 10px;
     padding: 0px 20px;
-    box-shadow: 10px 10px 20px var(--text);
+    box-shadow: 10px 10px 20px var(--gray);
 }
 
-@media only screen and (max-width: 500px) {
-    .contact-content {
-        background-size: cover;
-    }
-}
+
 
 @media only screen and (min-width: 1000px) {
     .general-contact {
@@ -91,5 +77,11 @@
        margin-top: 20px;
        border: 3px solid var(--citrus);
        border-radius: 10px;
+    }
+    .contact-card {
+        margin-top: 100px;
+    }
+    .contact-des {
+        font-size: 25px;
     }
 }

@@ -12,7 +12,8 @@
     background: var(--apple);
     padding: 20px;
     margin-top: -50px;
-    border: 10px var(--citrus) dashed;
+    border: 10px var(--rusty) dashed;
+    border-radius: 10px;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -54,12 +55,16 @@
     height: 200px;
     width: 350px;
     background-size: 350px 200px;
-    border: 3px solid var(--citrus);
-    border-radius: 200px;
+    border: 10px dashed var(--rusty);
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px;
+}
+
+.square:hover {
+    border: 10px dashed var(--citrus);
 }
 
 .option-link {
@@ -77,6 +82,8 @@
 @media only screen and (min-width: 700px) {
     .home-welcome {
         width: 65%;
+        margin: auto;
+        margin-top: 25px;
     }
     .square {
         height: 150px;
