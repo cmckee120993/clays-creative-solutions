@@ -1,13 +1,4 @@
-.site-title, .sites-div, .site-description, .site-link, .site-locale, .logo-img, .site-description, .Collapsible, .Collapsible__contentInner, .Collapsible__contentOuter, .site-description ul, .site-description li {
-    background: none;
-}
 
-.portfolio-div {
-    background-image: url('../../images/clays-circle-logo.webp');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-}
 .portfolio-title {
     font-family: 'Acme', sans-serif;
     font-size: 40px;

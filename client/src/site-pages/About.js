@@ -18,13 +18,14 @@ function About() {
                 </ul>
             </div>
             <div className="about-info">
-                <p>My name is Clay and I am a former academic that never lost his desire to learn new skills. 
+                <p>My name is Clay and I am an academic that loves to learn all types of new skills. 
                     I am a Ph. D. candidate in Comparative Literature at the University of California, Los Angeles,
                     and I hold a certificate in Full Stack Web Development from UCLA. My variety of educational experiences
                     allow me to be perfectly poised to help you with a variety of tasks ranging from translation, editing, 
                     writing, marketing, company image, websites, etc. I take on all types of clients ranging from individuals 
                     wanting to publish a book to large companies who need a new site/application created for their newest project.
-                    No matter what you're hoping to accomplish, I am pleased to work with any budget and any desires. Don't
+                    No matter what you're hoping to accomplish, I am pleased to work with any budget and any desires. I focus, in 
+                    particular, on helping small business and individuals by providing them with quality services for lower prices. Don't
                     hesitate to reach out with your project for an estimate or to see if I can help you achieve your goals.</p>
                 <p>I have recently left higher education where I taught literature classes and conducted academic research in 
                     Arabic, English, French, and Spanish. I thrive in a both solitary and collaborative environments when I am 

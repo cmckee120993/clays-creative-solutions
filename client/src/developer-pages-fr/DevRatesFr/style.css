@@ -1,13 +1,4 @@
-.rates-description, .rates-table, .rates-table tr, .rates-table td {
-    background: none;
-}
 
-.rates-content {
-    background-image: url('../../images/clays-circle-logo.webp');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-}
 
 .rates-description {
     font-family: 'Patrick Hand', cursive;
