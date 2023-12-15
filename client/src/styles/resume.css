@@ -1,14 +1,3 @@
-.collapsible-div, .publications-div, .Awards, .education, .resume-div,  .Collapsible, .Collapsible_contentInner,.Collapsible_contentOuter, .resume-div, .language-div ul, .publication-div h4 em, .publication-div h5 a em, .skills-div div, .skills-div, .skills-div div, .skills, .study-abroad, .languages, .publications, .conferences, .other, .skills, .work, .Awards, .education {
-    background: none;
-}
-
-.resume-content {
-    background-image: url('../images/clays-circle-logo.webp');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-}
-
 .resume-div {
     display: flex;
     flex-wrap: wrap;
@@ -30,26 +19,13 @@
     flex-wrap: wrap;
     justify-content: center;
     width: 300px;
+    margin-top: 30px;
 }
 
 .Collapsible {
     font-family: 'Patrick Hand', cursive;
 }
 
-.education h2, .Awards h2, .work h2, .study-abroad h2, .languages h2, .publications h2, .conferences h2, .other h2, .skills h2 {
-    display: flex;
-    flex-wrap: wrap;
-    font-family: 'Acme', cursive;
-    font-size: 30px;
-    background: var(--rusty);
-    width: 175px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px;
-    margin-bottom: -5px;
-    height: 75px;
-    color: var(--text);
-}
 
 .education-div, .awards-div, .experience-div, .one-class, .class-list, .abroad-div, .language-div, .publication-div, .conference-div {
     background: var(--text);
@@ -133,8 +109,9 @@
 .skills-div {
     display: flex;
     flex-wrap: wrap;
-    background: var(--text);
-    border-radius: 20px;
+    border-radius: 10px;
+    background: var(--apple);
+    border: 5px dashed var(--rusty);
 }
 
 .skills-div div {
@@ -142,8 +119,6 @@
 }
 
 .skills-div ul, .skills-div li {
-    background: none;
-    color: var(--background);
     font-size: 17px;
 }
 
@@ -160,7 +135,7 @@
     justify-content: center;
 }
 
-@media only screen and (max-width: 500px) {
+/* @media only screen and (max-width: 500px) {
     .resume-content {
         background-size: cover;
     }
@@ -174,4 +149,4 @@
        border: 3px solid var(--citrus);
        border-radius: 10px;
     }
-}
+} */

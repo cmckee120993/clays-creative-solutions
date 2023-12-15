@@ -1,42 +1,29 @@
-
-.portfolio-title {
-    font-family: 'Acme', sans-serif;
-    font-size: 40px;
-    background: var(--rusty);
-    color: var(--text);
-    text-align: center;
-    padding: 10px;
-    width: 350px;
-    box-shadow: 10px 10px 20px var(--text);
-}
-
 .sites-div {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-bottom: 20px;
+    margin: 20px 0px;
 }
 
 .site {
-    background: var(--rusty);
+    background: var(--apple);
     width: 350px;
     text-align: center;
-    border-radius: 25px;
+    border-radius: 10px;
+    border: 10px dashed var(--rusty);
     padding-bottom: 25px;
     margin: 10px;
-    box-shadow: 10px 10px 20px var(--text);
+    box-shadow: 10px 10px 20px var(--gray);
 }
 
 .site-title {
     font-family: 'Acme', sans-serif;
     font-size: 25px;
-    color: var(--text);
 }
 
 .site-locale {
     font-family: 'Patrick Hand', cursive;
     font-size: 25px;
-    color: var(--text);
     margin-top: -30px;
 }
 
@@ -49,7 +36,6 @@
 .site-image {
     height: 200px;
     width: 300px;
-    background: var(--rusty);
 }
 
 .site div div span {
@@ -66,15 +52,12 @@
 }
 
 .site-description {
-    color: var(--citrus);
     font-size: 20px;
-    background: var(--text);
     width: 85%;
     margin: 20px auto;
     border-radius: 5px;
     padding: 5px;
     text-align: justify;
-    box-shadow: 3px 3px 30px var(--citrus);
 }
 
 .site-description ul {

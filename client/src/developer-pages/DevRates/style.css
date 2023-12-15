@@ -1,7 +1,5 @@
-
-
 .rates-description {
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Patrick Hand', arial;
     font-size: 18px;
     text-align: justify;
     margin: 15px 30px;
@@ -10,15 +8,14 @@
 
 .rates-table {
     border-collapse: collapse;
-    margin-bottom: 50px;
-    font-family: 'Patrick Hand', cursive;
+    margin: 50px 10px;
+    font-family: 'Patrick Hand', arial;
     font-size: 15px;
 }
 
 .header-row {
-    font-family: 'Acme', cursive;
+    font-family: 'Acme', arial;
     font-size: 25px;
-    color: var(--text);
 }
 
 .header-row th {
@@ -26,19 +23,17 @@
     padding: 10px 0px;
 }
 
-.rates-table td ul, .rates-table td li {
-    background: none;
-}
 
 .data-row {
-    border: 1px solid var(--apricot);
+    border: 5px dashed var(--rusty);
     padding: 1px;
+    background: var(--apple)
 }
 
 .center-data {
     text-align: center;
     padding: 3px;
-    border-right: 1px solid var(--apricot);
+    border-right: 5px dashed var(--rusty);
 }
 
 .additional-info span {
@@ -63,7 +58,11 @@
    width: 100%;
 }
 
-@media only screen and (min-width: 500px) {
+.border-data {
+    border: 5px var(--rusty) dashed;
+}
+
+/* @media only screen and (min-width: 500px) {
     .rates-table {
         margin: auto;
         margin-bottom: 20px;
@@ -95,4 +94,4 @@
        border: 3px solid var(--citrus);
        border-radius: 10px;
     }
-}
+} */

@@ -5,9 +5,10 @@ import Collapsible from 'react-collapsible';
 
 function TransRates() {
     return (
-        <div className='rates-content'>
-            <h2 className="rates-title">Translation and Editing Rates</h2>
-            <p className="rates-description">
+        <div className='content'>
+            <h2 className="title"> Editing, Translating, and Writing Rates</h2>
+            <div className='paragraph'>
+            <p className="home-description">
                 I provide a variety of services fitting a variety of projects and client needs. Take a 
                 look at the following table to get an idea about what is included in each service. I work 
                 on contract and for a retainer fee. Prices, while based on the <a className='trans-link' 
@@ -18,6 +19,7 @@ function TransRates() {
                 sample of a maximum of 1,000 words. Prices are ultimately calculated based on manuscript
                 length, amount of work needed, and requested deadline. 
             </p>
+            </div>
             <table className="rates-table">
                 <tr className="header-row">
                     <th>Service</th>
@@ -39,7 +41,7 @@ function TransRates() {
                         </Collapsible>
                     </div>
                     </td>
-                    <td classNem='border-data'>
+                    <td className='border-data'>
                         <div className='collapsible-div'>
                             <Collapsible className="additional-info" trigger="Click to see rates..." triggerWhenOpen="Click for less info..."> 
                                     <ul>
@@ -63,7 +65,7 @@ function TransRates() {
                         </Collapsible>
                     </div>
                     </td>
-                    <td classNem='border-data'>
+                    <td className='border-data'>
                         <div className='collapsible-div'>
                             <Collapsible className="additional-info" trigger="Click to see rates..." triggerWhenOpen="Click for less info...">
                                     <ul>
@@ -88,7 +90,7 @@ function TransRates() {
                         </Collapsible>
                     </div>
                     </td>
-                    <td classNem='border-data'>
+                    <td className='border-data'>
                         <div className='collapsible-div'>
                             <Collapsible className="additional-info" trigger="Click to see rates..." triggerWhenOpen="Click for less info...">
                                     <ul>
@@ -114,7 +116,7 @@ function TransRates() {
                         </Collapsible>
                     </div>
                     </td>
-                    <td classNem='border-data'>
+                    <td className='border-data'>
                         <div className='collapsible-div'>
                             <Collapsible className="additional-info" trigger="Click to see rates..." triggerWhenOpen="Click for less info...">
                                     <ul>
@@ -138,7 +140,7 @@ function TransRates() {
                         </Collapsible>
                     </div>
                     </td>
-                    <td classNem='border-data'>
+                    <td className='border-data'>
                         <div className='collapsible-div'>
                             <Collapsible className="additional-info" trigger="Click to see rates..." triggerWhenOpen="Click for less info...">
                                     <ul>
@@ -164,7 +166,7 @@ function TransRates() {
                         </Collapsible>
                     </div>
                     </td>
-                    <td classNem='border-data'>
+                    <td className='border-data'>
                         <div className='collapsible-div'>
                             <Collapsible className="additional-info" trigger="Click to see rates..." triggerWhenOpen="Click for less info...">
                                     <ul>
@@ -188,7 +190,7 @@ function TransRates() {
                         </Collapsible>
                     </div>
                     </td>
-                    <td classNem='border-data'>
+                    <td className='border-data'>
                         <div className='collapsible-div'>
                             <Collapsible className="additional-info" trigger="Click to see rates..." triggerWhenOpen="Click for less info...">
                                     <ul>
@@ -213,7 +215,7 @@ function TransRates() {
                         </Collapsible>
                     </div>
                     </td>
-                    <td classNem='border-data'>
+                    <td className='border-data'>
                         <div className='collapsible-div'>
                             <Collapsible className="additional-info" trigger="Click to see rates..." triggerWhenOpen="Click for less info...">
                                     <ul>
@@ -237,7 +239,7 @@ function TransRates() {
                         </Collapsible>
                     </div>
                     </td>
-                    <td classNem='border-data'>
+                    <td className='border-data'>
                         <div className='collapsible-div'>
                             <Collapsible className="additional-info" trigger="Click to see rates..." triggerWhenOpen="Click for less info...">
                                     <ul>
@@ -261,7 +263,7 @@ function TransRates() {
                         </Collapsible>
                     </div>
                     </td>
-                    <td classNem='border-data'>
+                    <td className='border-data'>
                         <div className='collapsible-div'>
                             <Collapsible className="additional-info" trigger="Click to see rates..." triggerWhenOpen="Click for less info...">
                                     <ul>
@@ -285,7 +287,7 @@ function TransRates() {
                         </Collapsible>
                     </div>
                     </td>
-                    <td classNem='border-data'>
+                    <td className='border-data'>
                         <div className='collapsible-div'>
                             <Collapsible className="additional-info" trigger="Click to see rates..." triggerWhenOpen="Click for less info...">
                                     <ul>

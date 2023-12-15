@@ -1,6 +1,3 @@
-.border-data {
-    border: 1px solid var(--apricot);
-}
 .trans-link {
     color: var(--rusty);
     background: none
@@ -9,4 +6,3 @@
 .trans-link:hover {
     color: white;
 }
-

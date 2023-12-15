@@ -24,7 +24,7 @@ function Resume() {
                         alt='Clayton at Penn State Graduation in State College, PA'
                         className='resume-img'
                     />
-                    <h2>Education</h2>
+                    <h2 className='title'>Education</h2>
                     <div className='collapsible-div'>
                         <Collapsible className='additional-info' trigger='Click for the details!' triggerWhenOpen='Close'>
                             <div className="education-div">
@@ -70,7 +70,7 @@ function Resume() {
                         alt='Professional headshot of Clay'
                         className='resume-img'
                     />
-                    <h2>Honors</h2>
+                    <h2 className='title'>Honors</h2>
                     <div className='collapsible-div'>
                             <Collapsible className='additional-info' trigger='Click for the details!' triggerWhenOpen='Close'>
                                 <div className="awards-div">
@@ -96,7 +96,7 @@ function Resume() {
                         alt='Working breakfast for disseration.'
                         className='resume-img'
                     />
-                    <h2>Experience</h2>
+                    <h2 className='title'>Experience</h2>
                     <div className='collapsible-div'>
                         <Collapsible className='additional-info' trigger='Teaching experience...' triggerWhenOpen='Close'>
                             
@@ -414,7 +414,7 @@ function Resume() {
                         alt='Clay at Fort St. Nicolas in Marseille, France'
                         className='resume-img'
                     />
-                    <h2>Study Abroad</h2>
+                    <h2 className='title'>Study Abroad</h2>
                     <div className='collapsible-div'>
                             <Collapsible className='additional-info' trigger='Click for the details!' triggerWhenOpen='Close'>
                                 <div className="abroad-div">
@@ -458,7 +458,7 @@ function Resume() {
                         alt='Peace sign with word for peace in Arabic, English, French, and Spanish.'
                         className='resume-img'
                     />
-                    <h2>Languages</h2>
+                    <h2 className='title'>Languages</h2>
                     <div className='collapsible-div'>
                             <Collapsible className='additional-info' trigger='Click for the details!' triggerWhenOpen='Close'>
                                 <div className="language-div">
@@ -479,7 +479,7 @@ function Resume() {
                         alt='Translation by Clay of The Disappearance of Jim Sullivan by Tanguy Viel'
                         className='resume-img'
                     />
-                    <h2>Publications</h2>
+                    <h2 className='title'>Publications</h2>
                     <div className='collapsible-div'>
                             <Collapsible className='additional-info' trigger='Click for the details!' triggerWhenOpen='Close'>
                                 <div className="publications-div">
@@ -574,7 +574,7 @@ function Resume() {
                         alt='Newspaper clipping about Clay and his involvement in La Vihado, a conference in/on Provençal language.'
                         className='resume-img'
                     />
-                    <h2>Conferences</h2>
+                    <h2 className='title'>Conferences</h2>
                     <div className='collapsible-div'>
                             <Collapsible className='additional-info' trigger='Click for the details!' triggerWhenOpen='Close'>
                                 <div className="conference-div">
@@ -649,7 +649,7 @@ function Resume() {
                         alt='Clay on a solo hike in Grand Tetons National Park in Wyoming'
                         className='resume-img'
                     />
-                    <h2>Activities</h2>
+                    <h2 className='title'>Activities</h2>
                     <div className='collapsible-div'>
                         <Collapsible className='additional-info' trigger='Click for the details!' triggerWhenOpen='Close'>
                             
@@ -729,7 +729,7 @@ function Resume() {
                         alt='VS Code, Microsoft Word, and Adobe Photoshop screenshot used to make this website'
                         className='resume-img'
                     />
-                    <h2>Skills</h2>
+                    <h2 className='title'>Skills</h2>
                     <div className='collapsible-div'>
                             <Collapsible className='additional-info' trigger='Click for the details!' triggerWhenOpen='Close'>
                                 <div className="skills-div">
