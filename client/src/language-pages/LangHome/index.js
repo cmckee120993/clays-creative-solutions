@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 
 
-function Translation() {
+function Language() {
     return (
         <>
            <div className='web-home'>
@@ -26,7 +26,7 @@ function Translation() {
                         <h2 className='site-option'>Résumé</h2>
                     </div>
                     </a>
-                    <a className='option-link' href='/translation-rates'>
+                    <a className='option-link' href='/language-rates'>
                     <div className='square-5 square'>
                         <h2 className='site-option'>Rates</h2>
                     </div>
@@ -42,4 +42,4 @@ function Translation() {
     )
 };
 
-export default Translation;
+export default Language;

@@ -7,11 +7,13 @@ function DevRates() {
     return (
         <div className='rates-content'>
             <h2 className="title">Web Developer Rates</h2>
-            <p className="rates-description">While these rates are based on industry standards, all rates are up for negotiation and can be adjusted based on desired project, timeline, and budget.
+            <div className='paragraph'>
+            <p className="home-description">While these rates are based on industry standards, all rates are up for negotiation and can be adjusted based on desired project, timeline, and budget.
                 The description supplies the basic information for what can be expected at the base fee.
                 You are not required to keep me on as a retainer; however, sites can sometimes run into problems and hosting can be complicated. Keeping me on retainer
                 means that I'm responsible for site maintenance and hosting for a specified amount of hours each month.
             </p>
+            </div>
             <table className="rates-table">
                 <tr className="header-row">
                     <th>Project</th>
@@ -20,7 +22,7 @@ function DevRates() {
                 </tr>
                 <tr className='data-row'>
                     <td className='center-data'>Template Site (WordPress, Wix, or similar website)</td>
-                    <td className='center-data'>Starting at €500,00</td>
+                    <td className='center-data'>Starting at $500,00</td>
                     <div className='collapsible-div'>
                         <Collapsible className="additional-info" trigger="Click for more info..." triggerWhenOpen="Click for less info...">
                             <td>
@@ -31,6 +33,7 @@ function DevRates() {
                                     <li>Personalization (colors, photos, text) based on client desires</li>
                                     <li>Installations of Plugins and Themes as desired</li>
                                     <li>Hosting and domain assistance</li>
+                                    <li>All domain name and hosting package costs paid by client</li>
                                 </ul>
                             </td>
                         </Collapsible>
@@ -38,7 +41,7 @@ function DevRates() {
                 </tr>
                 <tr className='data-row'>
                     <td className='center-data'>Template Site Retainer</td>
-                    <td className='center-data'>Starting at €20,00/month</td>
+                    <td className='center-data'>Starting at $20,00/month</td>
                     <div className='collapsible-div'>
                         <Collapsible className="additional-info" trigger="Click for more info..." triggerWhenOpen="Click for less info...">
                             <td>
@@ -52,7 +55,7 @@ function DevRates() {
                 </tr>
                 <tr className='data-row'>
                     <td className='center-data'>Personalized Non-Coded Site (WordPress, Wix, etc.)</td>
-                    <td className='center-data'>Starting at €750,00</td>
+                    <td className='center-data'>Starting at $750,00</td>
                     <div className='collapsible-div'>
                         <Collapsible className="additional-info" trigger="Click for more info..." triggerWhenOpen="Click for less info...">
                             <td>
@@ -65,6 +68,7 @@ function DevRates() {
                                     <li>Responsive design (mobile, tablet, computer)</li>
                                     <li>Plugins and addons based on client needs</li>
                                     <li>Hosting and domain assistance</li>
+                                    <li>All domain name and hosting package cost paid by client</li>
                                 </ul>
                             </td>
                         </Collapsible>
@@ -72,7 +76,7 @@ function DevRates() {
                 </tr>
                 <tr className='data-row'>
                     <td className='center-data'>Personalized Non-Coded Site Retainer</td>
-                    <td className='center-data'>Starting at €30,00/month</td>
+                    <td className='center-data'>Starting at $30,00/month</td>
                     <div className='collapsible-div'>
                         <Collapsible className="additional-info" trigger="Click for more info..." triggerWhenOpen="Click for less info...">
                             <td>
@@ -86,7 +90,7 @@ function DevRates() {
                 </tr>
                 <tr className='data-row'>
                     <td className='center-data'>Personalized Coded Front-End Site</td>
-                    <td className='center-data'>Starting at €750,00</td>
+                    <td className='center-data'>Starting at $750,00</td>
                     <div className='collapsible-div'>
                         <Collapsible className="additional-info" trigger="Click for more info..." triggerWhenOpen="Click for less info...">                    
                             <td>
@@ -99,6 +103,7 @@ function DevRates() {
                                     <li>Accessibility</li>
                                     <li>Responsive design (mobile, tablet, computer)</li>
                                     <li>Hosting and domain assistance</li>
+                                    <li>All domain name and hosting package cost paid by client</li>
                                 </ul>
                             </td>
                         </Collapsible>
@@ -106,7 +111,7 @@ function DevRates() {
                 </tr>
                 <tr className='data-row'>
                     <td className='center-data'>Personalized Front-End Retainer</td>
-                    <td className='center-data'>Starting at €50,00/month</td>
+                    <td className='center-data'>Starting at $50,00/month</td>
                     <div className='collapsible-div'>
                         <Collapsible className="additional-info" trigger="Click for more info..." triggerWhenOpen="Click for less info...">
                             <td>
@@ -121,7 +126,7 @@ function DevRates() {
 
                 <tr className='data-row'>
                     <td className='center-data'>Full Stack Web Project with MongoDB/Database, Express, React/Angular, Node</td>
-                    <td className='center-data'>Starting at €1000,00</td>
+                    <td className='center-data'>Starting at $1000,00</td>
                     <div className='collapsible-div'>
                         <Collapsible className="additional-info" trigger="Click for more info..." triggerWhenOpen="Click for less info...">
                             <td>
@@ -137,6 +142,7 @@ function DevRates() {
                                     <li>Best multi-page coded site for speed</li>
                                     <li>Multiple pages on a single-page application</li>
                                     <li>Hosting and domain assistance</li>
+                                    <li>All domain name and hosting package cost paid by client</li>
                                 </ul>
                             </td>
                         </Collapsible>
@@ -144,7 +150,7 @@ function DevRates() {
                 </tr>
                 <tr className='data-row'>
                     <td className='center-data'>Full Stack Web Retainer</td>
-                    <td className='center-data'>Starting at €75,00</td>
+                    <td className='center-data'>Starting at $75,00</td>
                     <div className='collapsible-div'>
                         <Collapsible className="additional-info" trigger="Click for more info..." triggerWhenOpen="Click for less info...">
                             <td>
@@ -159,11 +165,13 @@ function DevRates() {
             </table>
 
             <h2 className="title">Web Marketing Services</h2>
-            <p className="rates-description">
+            <div className='paragraph'>
+            <p className="home-description">
                 Having a site is only one step of the equation for successful online marketing. If you're a new business getting started
                 or an established business looking for a new look, an innovative approach, or an in to a new market, I am happy to help! Since all of these services will require
                 a consultation for me to know exactly what you're looking for, I have not included any prices here. Send me an email or give me a call and we can discuss the details.
             </p>
+            </div>
             <table className="rates-table">
                 <tr className="header-row">
                     <th>Category</th>

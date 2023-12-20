@@ -19,18 +19,21 @@ function DevPortfolio() {
         <div className='sites-div'>
         
             <div className='site'>
+                <div className='title-info'>
                 <h3 className='site-title'>Beverage Express</h3>
                 <h4 className='site-locale'>Beer Distributor in Carlisle, PA</h4>
                 <h4 className='site-locale'><a rel='noreferrer' className='internal-link' 
                     href='https://www.mybevexp.com/' target='_blank'>mybevexp.com</a></h4>
                 <h4 className='site-locale'><a rel='noreferrer' className='internal-link' 
                     href='https://github.com/cmckee120993/react-my-bev' target='_blank'>Github Link</a></h4>
-                            
+                </div>  
+                <div className='img-div'>     
                 <img
                     src={bevLogo}
                     alt='Logo designed by Clay for Beverage Express'
                     className='logo-img'
                 />
+                </div>
                 <div className='collapsible-div'>
                     <Collapsible className="additional-info" trigger="Click for more info..." triggerWhenOpen="Click for less info...">
                         <p className='site-description'>This website is an ongoing project with Beverage Express. It began as a coding project for UCLA's bootcamp, but it has 
@@ -57,16 +60,20 @@ function DevPortfolio() {
             </div>
 
             <div className='site'>
+            <div className='title-info'>
                 <h3 className='site-title'>Chez Nicolas</h3>
                 <h4 className='site-locale'>Hairdresser in Nice, France</h4>
                 <h4 className='site-locale'><a rel='noreferrer' className='internal-link' href='https://www.cheznicolas.com/' target='_blank'>cheznicolas.com</a></h4>
                 <h4 className='site-locale'><a rel='noreferrer' className='internal-link' 
                     href='https://github.com/cmckee120993/chez-nicolas' target='_blank'>Github Link</a></h4>
+                </div>
+                <div className='img-div'>     
                 <img
                     src={chezNicolasLogo}
                     alt='Logo designed by Clay for Chez Nicolas'
                     className='logo-img'
                 />
+                </div>
                 <div className='collapsible-div'>
                     <Collapsible className="additional-info" trigger="Click for more info..." triggerWhenOpen="Click for less info...">
                         <p className='site-description'>This website was for a client who is a freelance hairdresser that travels and cuts hair in people's homes.
@@ -89,14 +96,18 @@ function DevPortfolio() {
             </div>
 
             <div className='site'>
+            <div className='title-info'>
                 <h3 className='site-title'>Let's Dough</h3>
                 <h4 className='site-locale'>Cookie Bakery/Restaurant in Nice, France</h4>
                 <h4 className='site-locale'><a rel='noreferrer' className='internal-link' href='https://letsdoughdotcom.wpcomstaging.com/' target='_blank'>letsdough.com</a></h4>
+               </div>
+               <div className='img-div'>     
                 <img
                     src={letsDoughLogo}
                     alt="Logo for Let's Dough"
                     className='logo-img'
                 />
+                </div>
                 <div className='collapsible-div'>
                     <Collapsible className="additional-info" trigger="Click for more info..." triggerWhenOpen="Click for less info...">
                         <p className='site-description'>I took on this website after a previous developer had to leave the project. The only page
@@ -119,15 +130,19 @@ function DevPortfolio() {
             </div>
 
             <div className='site'>
+            <div className='title-info'>
                 <h3 className='site-title'>Static Beverage Express</h3>
                 <h4 className='site-locale'>Beer distributor in Carlisle, PA</h4>
                 <h4 className='site-locale'><a rel='noreferrer' className='internal-link' 
                     href='https://github.com/cmckee120993/beverage-express' target='_blank'>Github Repo</a></h4>
+                </div>
+                <div className='img-div'>     
                 <img
                     src={projectThree}
                     alt="Logo for Let's Dough"
                     className='logo-img'
                 />
+                </div>
                 <div className='collapsible-div'>
                     <Collapsible className="additional-info" trigger="Click for more info..." triggerWhenOpen="Click for less info...">
                         <p className='site-description'>This website was a placeholder for larger, more in-depth website for Beverage Express, a beer distributor in Carlisle, Pennsylvania. The styling fits their desires. 
@@ -144,16 +159,21 @@ function DevPortfolio() {
         <div className='sites-div'>
             
             <div className='site'>
+            <div className='title-info'>
+                
                 <h3 className='site-title'>My Bev Express</h3>
                 <h4 className='site-locale'><a rel='noreferrer' className='internal-link' href='https://my-bev-express.herokuapp.com/' target='_blank'>
                     Project Link</a></h4>
                 <h4 className='site-locale'><a rel='noreferrer' className='internal-link' href='https://github.com/cmckee120993/my-bev-express-project' target='_blank'>
                     Github Link</a></h4>
+                    </div>
+                    <div className='img-div'>     
                 <img
                     src={bevImage}
                     alt="Beverage Express project screenshot"
                     className='site-image'
                 />
+                </div>
                 <div className='collapsible-div'>
                     <Collapsible className="additional-info" trigger="Click for more info..." triggerWhenOpen="Click for less info...">
                         <p className='site-description'>My Bev Express is a MERN application for clients of Beverage Express in Carlisle, Pennsylvania.
@@ -173,16 +193,20 @@ function DevPortfolio() {
             </div>
 
             <div className='site'>
+            <div className='title-info'>
                 <h3 className='site-title'>Courier App</h3>
                 <h4 className='site-locale'><a rel='noreferrer' className='internal-link' href='https://courier-share.herokuapp.com/' target='_blank'>
                     Project Link</a></h4>
                 <h4 className='site-locale'><a rel='noreferrer' className='internal-link' href='https://github.com/joejhansen/courier-app' target='_blank'>
                     Github Link</a></h4>
+                    </div>
+                    <div className='img-div'>     
                 <img
                     src={projectOne}
                     alt="Courier App project screenshot"
                     className='site-image'
                 />
+                </div>
                 <div className='collapsible-div'>
                     <Collapsible className="additional-info" trigger="Click for more info..." triggerWhenOpen="Click for less info...">
                         <p className='site-description'>Courier App allows writers and creatives to join virtual writing groups that allow them to post their
@@ -203,14 +227,18 @@ function DevPortfolio() {
             </div>
 
             <div className='site'>
+            <div className='title-info'>
                 <h3 className='site-title'>Fortnite App</h3>
                 <h4 className='site-locale'><a rel='noreferrer' className='internal-link' href='https://swyner97.github.io/fortnite-app/' target='_blank'>
                     Project/Github Link</a></h4>
+                    </div>
+                    <div className='img-div'>     
                 <img
                     src={projectTwo}
                     alt="Fortnite App project screenshot"
                     className='site-image'
                 />
+                </div>
                 <div className='collapsible-div'>
                     <Collapsible className="additional-info" trigger="Click for more info..." triggerWhenOpen="Click for less info...">
                         <p className='site-description'>This website is for Fortnite players who wish to look at how they can customize their characters without having to log onto the game. Two APIs populate the daily store as well as a full store archive.

@@ -3,7 +3,7 @@ import './style.css';
 import Collapsible from 'react-collapsible';
 
 
-function TransRates() {
+function LangRates() {
     return (
         <div className='rates-content'>
             <h2 className="rates-title" lang='fr'>Frais de Traduction et Révision</h2>
@@ -278,4 +278,4 @@ function TransRates() {
     )
 };
 
-export default TransRates;
+export default LangRates;

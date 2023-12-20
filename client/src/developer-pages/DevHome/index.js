@@ -13,8 +13,8 @@ function Developer() {
                     I worked with a few other companies to help their image. I then completed a coding bootcamp at UCLA in 2022. Since then, I have worked as a freelance developer and marketer
                     for a variety of businesses include a hairdresser, a flower shop, a beer distributor, and more! Whether you're looking for a logo, a pamphlet, a menu, or a website, I'm ready to get 
                     your company's image out there to the world.
-                    Take a look at my <a className='internal-link' href='/developer'>Developer Portfolio</a> for 
-                    information on completed projects of my <a className='internal-link' href='/resume'>Résumé</a> to check out my work expxeriences. 
+                    Take a look at my <a className='internal-link' href='/developer-portfolio'>Developer Portfolio</a> for 
+                    information on completed projects or my <a className='internal-link' href='/resume'>Résumé</a> to check out my work expxeriences. 
                     I look forward to working with you!
                     </p>
                 </div>

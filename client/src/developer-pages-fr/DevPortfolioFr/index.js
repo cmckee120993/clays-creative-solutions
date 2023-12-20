@@ -1,5 +1,4 @@
 import React from 'react';
-import './style.css';
 import bevImage from '../../images/my-bev-express-screenshot.webp';
 import projectOne from '../../images/courier-app.webp';
 import projectTwo from '../../images/fortnite-app-screenshot.webp';
@@ -19,18 +18,21 @@ function DevPortfolioFr() {
         <div className='sites-div'>
         
             <div className='site'>
+                <div className='title-infor'>
                 <h3 className='site-title'>Beverage Express</h3>
                 <h4 className='site-locale' lang='fr'>Magasin de bière aux EU</h4>
                 <h4 className='site-locale'><a rel='noreferrer' className='internal-link' 
                     href='https://www.mybevexp.com/' target='_blank'>mybevexp.com</a></h4>
                 <h4 className='site-locale'><a rel='noreferrer' className='internal-link' 
                     href='https://github.com/cmckee120993/react-my-bev' target='_blank'>Github</a></h4>
-                            
+                </div>
+                <div className='img-div'>        
                 <img
                     src={bevLogo}
                     alt='Logo designed by Clay for Beverage Express'
                     className='logo-img'
                 />
+                </div>
                 <div className='collapsible-div'>
                     <Collapsible className="additional-info" trigger="Cliquez pour plus..." triggerWhenOpen="Cliquez pour moins...">
                         <p className='site-description' lang='fr'>
@@ -61,16 +63,20 @@ function DevPortfolioFr() {
             </div>
 
             <div className='site'>
+                <div className='title-info'>
                 <h3 className='site-title'>Chez Nicolas</h3>
                 <h4 className='site-locale' lang='fr'>Coiffeur à Nice en France</h4>
                 <h4 className='site-locale'><a rel='noreferrer' className='internal-link' href='https://www.cheznicolas.com/' target='_blank'>cheznicolas.com</a></h4>
                 <h4 className='site-locale'><a rel='noreferrer' className='internal-link' 
                     href='https://github.com/cmckee120993/chez-nicolas' target='_blank'>Github</a></h4>
+                </div>
+                <div className='img-div'>
                 <img
                     src={chezNicolasLogo}
                     alt='Logo designed by Clay for Chez Nicolas'
                     className='logo-img'
                 />
+                </div>
                 <div className='collapsible-div'>
                     <Collapsible className="additional-info" trigger="Cliquez pour plus..." triggerWhenOpen="Cliquez pour moins...">
                         <p className='site-description' lang='fr'>
@@ -97,14 +103,18 @@ function DevPortfolioFr() {
             </div>
 
             <div className='site'>
+                <div className='title-info'>
                 <h3 className='site-title'>Let's Dough</h3>
                 <h4 className='site-locale' lang='fr'>Cookisserie à Nice en France</h4>
                 <h4 className='site-locale'><a rel='noreferrer' className='internal-link' href='https://letsdoughdotcom.wpcomstaging.com/' target='_blank'>letsdough.com</a></h4>
+                </div>
+                <div className='img-div'>
                 <img
                     src={letsDoughLogo}
                     alt="Logo for Let's Dough"
                     className='logo-img'
                 />
+                </div>
                 <div className='collapsible-div'>
                     <Collapsible className="additional-info" trigger="Cliquez pour plus..." triggerWhenOpen="Cliquez pour moins...">
                         <p className='site-description' lang='fr'>
@@ -128,15 +138,19 @@ function DevPortfolioFr() {
             </div>
 
             <div className='site'>
+                <div className='title-info'>
                 <h3 className='site-title'>Static Beverage Express</h3>
                 <h4 className='site-locale'>Beer distributor in Carlisle, PA</h4>
                 <h4 className='site-locale'><a rel='noreferrer' className='internal-link' 
                     href='https://github.com/cmckee120993/beverage-express' target='_blank'>Github Repo</a></h4>
+                </div>
+                <div className='img-div'>
                 <img
                     src={projectThree}
                     alt="Logo for Let's Dough"
                     className='logo-img'
                 />
+                </div>
                 <div className='collapsible-div'>
                     <Collapsible className="additional-info" trigger="Cliquez pour plus..." triggerWhenOpen="Cliquez pour moins...">
                         <p className='site-description' lang='fr'>
@@ -153,18 +167,21 @@ function DevPortfolioFr() {
         
         <h2 className="title">Mes projets personels</h2>
         <div className='sites-div'>
-            
+            <div className='title-info'>
             <div className='site'>
                 <h3 className='site-title'>My Bev Express</h3>
                 <h4 className='site-locale'><a rel='noreferrer' className='internal-link' href='https://my-bev-express.herokuapp.com/' target='_blank'>
                    Heroku</a></h4>
                 <h4 className='site-locale'><a rel='noreferrer' className='internal-link' href='https://github.com/cmckee120993/my-bev-express-project' target='_blank'>
                     Github</a></h4>
+                    </div>
+                    <div className='img-div'>
                 <img
                     src={bevImage}
                     alt="Beverage Express project screenshot"
                     className='site-image'
                 />
+                </div>
                 <div className='collapsible-div'>
                     <Collapsible className="additional-info" trigger="Cliquez pour plus..." triggerWhenOpen="Cliquez pour moins...">
                         <p className='site-description' lang='fr'>
@@ -188,16 +205,20 @@ function DevPortfolioFr() {
             </div>
 
             <div className='site'>
+                <div className='title-info'>
                 <h3 className='site-title'>Courier App</h3>
                 <h4 className='site-locale'><a rel='noreferrer' className='internal-link' href='https://courier-share.herokuapp.com/' target='_blank'>
                     Heroku</a></h4>
                 <h4 className='site-locale'><a rel='noreferrer' className='internal-link' href='https://github.com/joejhansen/courier-app' target='_blank'>
                     Github</a></h4>
+                    </div>
+                    <div className='img-div'>
                 <img
                     src={projectOne}
                     alt="Courier App project screenshot"
                     className='site-image'
                 />
+                </div>
                 <div className='collapsible-div'>
                     <Collapsible className="additional-info" trigger="Cliquez pour plus..." triggerWhenOpen="Cliquez pour moins...">
                         <p className='site-description' lang='fr'>
@@ -218,14 +239,18 @@ function DevPortfolioFr() {
             </div>
 
             <div className='site'>
+                <div className='title-info'>
                 <h3 className='site-title'>Fortnite App</h3>
                 <h4 className='site-locale'><a rel='noreferrer' className='internal-link' href='https://swyner97.github.io/fortnite-app/' target='_blank'>
                     Github</a></h4>
+                    </div>
+                <div className='img-div'>
                 <img
                     src={projectTwo}
                     alt="Fortnite App project screenshot"
                     className='site-image'
                 />
+                </div>
                 <div className='collapsible-div'>
                     <Collapsible className="additional-info" trigger="Cliquez pour plus..." triggerWhenOpen="Cliquez pour moins...">
                         <p className='site-description' lang='fr'>

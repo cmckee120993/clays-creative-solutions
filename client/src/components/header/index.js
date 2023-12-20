@@ -58,8 +58,8 @@ function Header() {
             return(
                 <div className='nav-div'>
                     <a className='nav-btn' href='/'>Acceuil</a>
-                    <a className='nav-btn' href='/fr/development'>Sites et webmarketing</a>
-                    <a className='nav-btn' href='/fr/translation'>Traduction et révision</a>
+                    <a className='nav-btn' href='/fr/development'>Sites/Marketing</a>
+                    <a className='nav-btn' href='/fr/language'>Langage</a>
                     <a className='nav-btn' href='/fr/articles'>Blog</a>
                     <a className='nav-btn' href='/fr/about'>À propos</a>
                     <a className='nav-btn' href='/fr/contact'>Me contactez</a>
@@ -76,7 +76,7 @@ function Header() {
                 <div className='nav-div'>
                     <a className='nav-btn' href='/'>Home</a>
                     <a className='nav-btn' href='/development'>Web/Marketing</a>
-                    <a className='nav-btn' href='/translation'>Writing</a>
+                    <a className='nav-btn' href='/language'>Language</a>
                     <a className='nav-btn' href='/articles'>Blog</a>
                     <a className='nav-btn' href='/about'>About</a>
                     <a className='nav-btn' href='/contact'>Contact</a>

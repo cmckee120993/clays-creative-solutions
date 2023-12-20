@@ -62,36 +62,14 @@
     border: 5px var(--rusty) dashed;
 }
 
-/* @media only screen and (min-width: 500px) {
-    .rates-table {
-        margin: auto;
-        margin-bottom: 20px;
-        font-size: 20px;
-    }
-    .rates-description{
-        font-size: 22px;
-    }
-    .data-row div div span {
-        width: 200px
-    }
-}
+
 
 @media only screen and (min-width: 1000px) {
     .rates-table {
-        font-size: 25px;
-        margin-bottom: 20px;
-    }
-    .rates-description{
-        font-size: 27px;
-    }
-}
-
-@media only screen and (min-width: 1000px) {
-    .rates-title {
        margin: auto;
        margin-top: 20px;
        margin-bottom: 30px;
        border: 3px solid var(--citrus);
        border-radius: 10px;
     }
-} */
+} 

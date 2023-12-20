@@ -3,72 +3,72 @@ import "./style.css";
 import { slide as Menu } from 'react-burger-menu';
 import circleLogo from '../../images/clays-circle-logo.webp';
 
-import Auth from '../../utils/auth';
-import { useQuery } from '@apollo/client';
-import { GET_USER } from '../../utils/queries';
+// import Auth from '../../utils/auth';
+// import { useQuery } from '@apollo/client';
+// import { GET_USER } from '../../utils/queries';
 
 export default function Nav() {
 
-  const { data } = useQuery(GET_USER);
-  let user;
-  if(data) {
-    user = data.user;
-  };
+  // const { data } = useQuery(GET_USER);
+  // let user;
+  // if(data) {
+  //   user = data.user;
+  // };
 
-  console.log(user);
+  // console.log(user);
 
 
-  function showNavigation() {
-    if(Auth.loggedIn()) {
-      return(
-        <>
-          <a className='nav-link' onClick={() => Auth.logout()} href='/'>
-            <h2>Logout</h2>
-          </a>
-        </>
-      )
-    } else {
-      return(
-        <>
-          <a className='nav-link' href='/signup'>
-            <h2>Signup</h2>
-          </a>
-          <a className='nav-link' href='/login'>
-            <h2>Login</h2>
-          </a>
-        </>
-      )
-    }
-  };
+  // function showNavigation() {
+  //   if(Auth.loggedIn()) {
+  //     return(
+  //       <>
+  //         <a className='nav-link' onClick={() => Auth.logout()} href='/'>
+  //           <h2>Logout</h2>
+  //         </a>
+  //       </>
+  //     )
+  //   } else {
+  //     return(
+  //       <>
+  //         <a className='nav-link' href='/signup'>
+  //           <h2>Signup</h2>
+  //         </a>
+  //         <a className='nav-link' href='/login'>
+  //           <h2>Login</h2>
+  //         </a>
+  //       </>
+  //     )
+  //   }
+  // };
 
-  function userTypeNav() {
-   if (user === undefined) {
-    return (
-      <>
-      </>
-    )
-   }
-    if (user.admin === false) {
-      return (
-      <></>
-      )
-    } else if (user.admin === true) {
-      return(
-        <>
-          <a className='nav-link' href='/admin'>
-            <h2>Admin Panel</h2>
-          </a>
-          <ul>
-            <li>
-              <a className='nav-link' href='/admin/create'>
-                <h2>Create Post</h2>
-              </a>
-            </li>
-          </ul>
-      </>
-      )
-    }
-  };
+  // function userTypeNav() {
+  //  if (user === undefined) {
+  //   return (
+  //     <>
+  //     </>
+  //   )
+  //  }
+  //   if (user.admin === false) {
+  //     return (
+  //     <></>
+  //     )
+  //   } else if (user.admin === true) {
+  //     return(
+  //       <>
+  //         <a className='nav-link' href='/admin'>
+  //           <h2>Admin Panel</h2>
+  //         </a>
+  //         <ul>
+  //           <li>
+  //             <a className='nav-link' href='/admin/create'>
+  //               <h2>Create Post</h2>
+  //             </a>
+  //           </li>
+  //         </ul>
+  //     </>
+  //     )
+  //   }
+  // };
 
   let url = document.location.href;
 
@@ -93,11 +93,11 @@ export default function Nav() {
         </ul> 
         <ul className='first-list'>
             <li>
-                <a className='nav-link' href='/fr/translation'><h2>Traduction et Révision</h2></a>
+                <a className='nav-link' href='/fr/language'><h2>Traduction, écriture, et révision</h2></a>
             </li>
             <ul className='second-list'>
                 <li>
-                    <a className='nav-link' href='/fr/translation-rates'><h2>Les frais</h2></a>
+                    <a className='nav-link' href='/fr/language-rates'><h2>Les frais</h2></a>
                 </li>
             </ul>
         </ul>            
@@ -135,11 +135,11 @@ export default function Nav() {
       </ul> 
       <ul className='first-list'>
           <li>
-              <a className='nav-link' href='/translation'><h2>Translating and Writing</h2></a>
+              <a className='nav-link' href='/language'><h2>Translating, Editing, and Writing</h2></a>
           </li>
           <ul className='second-list'>
               <li>
-                  <a className='nav-link' href='/translation-rates'><h2>Rates and Services</h2></a>
+                  <a className='nav-link' href='/language-rates'><h2>Rates and Services</h2></a>
               </li>
           </ul>
       </ul>            
@@ -147,8 +147,8 @@ export default function Nav() {
       <a className='nav-link' href='/articles'><h2>Blog</h2></a>
       <a className='nav-link' href='/contact'><h2>Contact</h2></a>
       <a className='nav-link' href='/about'><h2>About</h2></a>
-      {userTypeNav()}
-      {showNavigation()}
+      {/* {userTypeNav()}
+      {showNavigation()} */}
       <div className='nav-logo-div'>
         <img
           src={circleLogo}

@@ -1,5 +1,4 @@
 import React from 'react';
-import './style.css';
 import Collapsible from 'react-collapsible';
 
 
@@ -7,7 +6,8 @@ function DevRatesFr() {
     return (
         <div className='rates-content'>
             <h2 className="title" lang='fr'>Les frais</h2>
-            <p className="rates-description">
+            <div className='paragraph'>
+            <p className="home-description">
                 Même si ces frais sont basés sur les standards de l'industrie, tous les projets ont besoin d'une attention individuelle et/ou
                 peuvent être adaptés pour tous les budgets. Le prix dépend sur le travail, la date limite et vos désirs. Chaque description donne
                 l'information de base pour des projets typiques, mais c'est tout à fait possible que votre projet est différent. Me contactez pour discuter
@@ -17,6 +17,7 @@ function DevRatesFr() {
                 Avec l'avance sur honoraires, vous me gardez en tant que travailleur pour une quantité d'heures spécifié chaque mois pour l'entretien de votre site
                 et son hébergement. 
             </p>
+            </div>
             <table className="rates-table" lang='fr'>
                 <tr className="header-row">
                     <th>Service</th>
@@ -35,6 +36,7 @@ function DevRatesFr() {
                                     <li>L'accessibilité</li>
                                     <li>La personnalisation (les couleurs, les photos, l'écriture) selon les désirs du client</li>
                                     <li>L'aide d'hébergement et de domaine</li>
+                                    <li>Tous les frais d'hébergement et de domaine sont payés par le client</li>
                                 </ul>
                             </td>
                         </Collapsible>
@@ -69,6 +71,7 @@ function DevRatesFr() {
                                     <li>Un design réactif (pour portable, tablette, ordinateur et ordinateur portable)</li>
                                     <li>Les plug-ins et des add-ons selon les désirs du client</li>
                                     <li>L'aide d'hébergement et de domaine</li>
+                                    <li>Tous les frais d'hébergement et de domaine sont payés par le client</li>
                                 </ul>
                             </td>
                         </Collapsible>
@@ -103,6 +106,7 @@ function DevRatesFr() {
                                     <li>L'accessibilité</li>
                                     <li>Un design réactif (pour portable, tablette, ordinateur et ordinateur portable)</li>
                                     <li>L'aide d'hébergement et de domaine</li>
+                                    <li>Tous les frais d'hébergement et de domaine sont payés par le client</li>
                                 </ul>
                             </td>
                         </Collapsible>
@@ -140,6 +144,7 @@ function DevRatesFr() {
                                     <li>Une mise en œuvre d'une base de données personnalisée</li>
                                     <li>La sécurité et l'autorisation des comptes</li>
                                     <li>L'aide d'hébergement et de domaine</li>
+                                    <li>Tous les frais d'hébergement et de domaine sont payés par le client</li>
                                 </ul>
                             </td>
                         </Collapsible>
@@ -162,12 +167,14 @@ function DevRatesFr() {
             </table>
 
             <h2 className="title" lang='fr'>Les Services de Marketing</h2>
-            <p className="rates-description" lang='fr'>
+            <div className='paragraph'>
+            <p className="home-description" lang='fr'>
                 Un site est juste une étape parmi plusieurs pour réussir. Si vous êtes en train de commencer votre business ou vous avez déjà
                 établi une clientèle mais vous voulez un nouveau look, une approche innovante ou une entrée dans un autre marché, je suis là
                 pour vous aider. Puisque j'aurai besoin de donner une estimation pour chaque de ces services, je n'ai pas écrit des frais ici. 
                 Envoyez-moi un message ou appelez-moi et on peut discuter les détails. 
             </p>
+            </div>
             <table className="rates-table" lang='fr'>
                 <tr className="header-row">
                     <th>Catégorie</th>

@@ -7,7 +7,7 @@
 
 .site {
     background: var(--apple);
-    width: 350px;
+    width: 80%;
     text-align: center;
     border-radius: 10px;
     border: 10px dashed var(--rusty);
@@ -65,9 +65,6 @@
     margin-top: -2px;
 }
 
-.site-link {
-    color: white;
-}
 
 .site-link:hover {
     color: var(--rusty);
@@ -80,11 +77,19 @@
 }
 @media only screen and (min-width: 1000px) {
     .site {
-        width: 45%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .title-info {
+        width: 50%;
+    }
+    .img-div {
+        width: 50%;
     }
     .logo-img {
-        height: 300px;
-        width: 300px;
+        margin-top: 20px;
+        height: 250px;
+        width: 250px;
     }
     .site-title {
         font-size: 30px;
@@ -93,8 +98,9 @@
         font-size: 30px;
     }
     .site-image {
-        height: 300px;
-        width: 400px;
+        height: 250px;
+        width: 250px;
+        margin-top: 20px;
     }
     .site-description {
         font-size: 25px;
@@ -109,9 +115,21 @@
      }
 }
 
-@media only screen and (min-width: 1200px) {
-      .site-image {
-        height: 400px;
-        width: 500px;
+@media only screen and (min-width: 1250px) {
+    .site {
+        justify-content: center;
+        width: 50%;
+    }
+    .title-info {
+        width: 45%;
+    }
+    .img-div {
+        width: 45%;
+    }
+    .site-image {
+        margin-top: 0px;
+    }
+    .logo-img {
+        margin-top: 0px;
     }
 }

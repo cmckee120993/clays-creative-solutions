@@ -41,7 +41,6 @@
     font-size: 20px;
     text-align: center;
     background: none;
-    color: var(--citrus);
     margin-bottom: -10px
 }
 
@@ -82,13 +81,12 @@
 }
 
 .resume-link {
-    color: var(--citrus);
+    color: var(--gray);
     background: none;
 }
 
 .resume-link:hover {
-    background: var(--citrus);
-    color: var(--text);
+    color: white;
 }
 
 .publications-div h3 {
@@ -106,7 +104,7 @@
     margin-bottom: 20px;
 }
 
-.skills-div {
+.skills-div, .experience-div, .education-div, .awards-div, .abroad-div, .language-div, .publication-div, .conference-div {
     display: flex;
     flex-wrap: wrap;
     border-radius: 10px;
@@ -135,18 +133,3 @@
     justify-content: center;
 }
 
-/* @media only screen and (max-width: 500px) {
-    .resume-content {
-        background-size: cover;
-    }
-}
-
-@media only screen and (min-width: 1000px) {
-    .resume-title {
-       margin: auto;
-       margin-top: 20px;
-       margin-bottom: 30px;
-       border: 3px solid var(--citrus);
-       border-radius: 10px;
-    }
-} */
