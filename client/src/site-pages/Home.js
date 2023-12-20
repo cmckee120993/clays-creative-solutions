@@ -34,7 +34,7 @@ function Home() {
                         <h2 className='site-option'>Web Marketing and Development</h2>
                     </div>
                 </a>
-                <a className='option-link' href='/translation'>
+                <a className='option-link' href='/language'>
                     <div className='square-2 square'>
                         <h2 className='site-option'>Translation and Editing</h2>
                     </div>

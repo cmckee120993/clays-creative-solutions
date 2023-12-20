@@ -102,7 +102,7 @@ export default function Nav() {
             </ul>
         </ul>            
         <a className='nav-link' href='/fr/resume'><h2>CV</h2></a>
-        <a className='nav-link' href='/fr/articles'><h2>Blog</h2></a>
+        {/* <a className='nav-link' href='/fr/articles'><h2>Blog</h2></a> */}
         <a className='nav-link' href='/fr/contact'><h2>Me Contactez</h2></a>
         <a className='nav-link' href='/fr/about'><h2>Qui est Clayton?</h2></a>
         <br />

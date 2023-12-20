@@ -60,7 +60,7 @@ function Header() {
                     <a className='nav-btn' href='/'>Acceuil</a>
                     <a className='nav-btn' href='/fr/development'>Sites/Marketing</a>
                     <a className='nav-btn' href='/fr/language'>Langage</a>
-                    <a className='nav-btn' href='/fr/articles'>Blog</a>
+                    {/* <a className='nav-btn' href='/fr/articles'>Blog</a> */}
                     <a className='nav-btn' href='/fr/about'>À propos</a>
                     <a className='nav-btn' href='/fr/contact'>Me contactez</a>
                     <button className='lang-button' onClick={english}>
@@ -77,7 +77,7 @@ function Header() {
                     <a className='nav-btn' href='/'>Home</a>
                     <a className='nav-btn' href='/development'>Web/Marketing</a>
                     <a className='nav-btn' href='/language'>Language</a>
-                    <a className='nav-btn' href='/articles'>Blog</a>
+                    {/* <a className='nav-btn' href='/articles'>Blog</a> */}
                     <a className='nav-btn' href='/about'>About</a>
                     <a className='nav-btn' href='/contact'>Contact</a>
                     <button className='lang-button' onClick={english}>
@@ -94,14 +94,17 @@ function Header() {
     if (document.location.href === 'https://clayscreativesolutions.com/') {
     return (
         <div className='header'>
-            <div className='lower-header'>
-                {decideNav()}
-            </div>
+            
             <div className='business-div'>
-            <a href='https://clayscreativesolutions.com'>
+            <a className='home-link' href='https://clayscreativesolutions.com'>
                 <h1 className='business-name'>Clay's Creative Solutions</h1>
                 <h2 className='service-list'>Development * Marketing * Translation * Editing</h2>
             </a>
+            </div>
+            <div className='lower-header'>
+            {decideNav()}
+                <div className='lang-div'>
+                </div>
             </div>
             
         </div>
@@ -110,15 +113,17 @@ function Header() {
     return (
         <div className='header'>
             
-            <div className='lower-header'>
-            {decideNav()}
-            
-            </div>
-            <div className='logo-div'>
-            <a href='https://clayscreativesolutions.com'>
+           
+            <div className='business-div'>
+            <a className='home-link' href='https://clayscreativesolutions.com'>
                 <h1 className='business-name'>Clay's Creative Solutions</h1>
                 <h2 className='service-list'>Développement * Marketing * Traduction * Rédaction</h2>
             </a>
+            </div>
+            <div className='lower-header'>
+            {decideNav()}
+                <div className='lang-div'>
+                </div>
             </div>
             
         </div>
@@ -126,7 +131,7 @@ function Header() {
 } else {
     return (
         <div className='header'>
-            <div className='logo-div'>
+            <div className='business-div'>
             <a className='home-link' href='https://clayscreativesolutions.com'>
                 <h1 className='business-name'>Clay's Creative Solutions</h1>
                 <h2 className='service-list'>Development * Marketing * Translation * Editing</h2>

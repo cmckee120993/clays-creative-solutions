@@ -20,17 +20,17 @@ function Developer() {
                 </p>
             </div>
             <div className='site-options'>
-            <a className='internal-link' href='/fr/development-portfolio'>
+            <a className='option-link' href='/fr/development-portfolio'>
                     <div className='square-4 square'>
                         <h2 className='site-option' lang='fr'>Dossier de développeur</h2>
                     </div>
             </a>
-            <a className='internal-link' href='/fr/development-rates'>
+            <a className='option-link' href='/fr/development-rates'>
                     <div className='square-5 square'>
                         <h2 className='site-option' lang='fr'>Les frais</h2>
                     </div>
                     </a>
-                    <a className='internal-link' href='/fr/contact'>
+                    <a className='option-link' href='/fr/contact'>
                     <div className='square-3 square'>
                         <h2 className='site-option' lang='fr'>Me Contactez</h2>
                     </div>

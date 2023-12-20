@@ -33,23 +33,23 @@ function Contactez() {
                             </a>
                         </p>
                         <p className='link' lang='fr'>Téléphone: 
-                            <a href='tel:+33769777978' target='_blank' rel='noreferrer'>
-                                +33 7 69 77 79 78
+                            <a href='tel:+17179616283' target='_blank' rel='noreferrer'>
+                                +1 (717) 961-6283
                             </a>
                         </p>
                     </div>
                 </div>
                 <form className='contact-form' onSubmit={handleSubmit}>
-                    <div className='contact-form-div'>
-                        <label htmlFor='name' lang='fr'>Nom et prénom</label>
-                        <input id='name' type='text' name='name'/>
+                    <div className='form-div'>
+                        <label className='label' htmlFor='name' lang='fr'>Nom et prénom</label>
+                        <input className='input' id='name' type='text' name='name'/>
                     </div>
-                    <div className='contact-form-div'>
-                        <label htmlFor='email' lang='fr'>E-mail</label>
-                        <input id='email' type='email' name='email'/>
+                    <div className='form-div'>
+                        <label className='label' htmlFor='email' lang='fr'>E-mail</label>
+                        <input className='input' id='email' type='email' name='email'/>
                     </div>
-                    <div className='contact-form-div'>
-                        <label htmlFor='message' lang='fr'>Votre message</label>
+                    <div className='form-div'>
+                        <label className='label' htmlFor='message' lang='fr'>Votre message</label>
                         <textarea className='textarea' name='message' rows='10'/>
                     </div>
                     <ValidationError
@@ -57,8 +57,8 @@ function Contactez() {
                         field='message'
                         errors={state.errors}
                     />
-                    <div className='contact-form-div'>
-                        <button type='submit' disabled={state.submitting} lang='fr'>
+                    <div className='button-div'>
+                        <button className='button' type='submit' disabled={state.submitting} lang='fr'>
                             Envoyez
                         </button>
                     </div>

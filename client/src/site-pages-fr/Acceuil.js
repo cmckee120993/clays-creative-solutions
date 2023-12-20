@@ -1,17 +1,22 @@
 import React from 'react';
 import '../styles/home.css';
-import siteGif from '../images/site-gif.gif';
+import Logo from '../images/clays-logo.webp';
 
 function Acceuil() {
     return (
         <div className='home'>
-            <img 
-                src={siteGif}
-                alt='Gif of marketing, translation, and web development services.'
-                className='header-gif'
-            />
-            <div className='content'>
-                <div className='intro'>
+            <div className='home-welcome'>
+            <div className='logo-div'>
+                <a href='https://clayscreativesolutions.com'>
+                    <img  
+                        src={Logo}
+                        alt="Clay's Creative Solutions Title Banner"
+                        className='header-logo'
+                    />
+                </a>
+            </div>
+                <div className='web-welcome'>
+                    <div className='intro'>
                     <h2 className='home-title' lang='fr'>Le webmarketing et la création des sites web en anglais, arabe, français et espagnol</h2>
                     <p className='home-description' lang='fr'>Je m'appelle Clayton McKee et je vous promets d'être votre guichet unique pour tous 
                         vos besoins de site web, marketing et/ou traduction. Je suis prêt à travailler avec vous dans toutes les domaines, soit
@@ -22,19 +27,26 @@ function Acceuil() {
                         J'ai hâte de travailler avec vous !
                     </p>
                 </div>
+                </div>
+                </div>
                 <div className='site-options'>
-                    <div className='circle'>
-                        <a className='internal-link' href='/fr/development'><h2 className='site-option' lang='fr'>Sites et Webmarketing</h2></a>
+                <a className='option-link' href='/fr/development'>
+                    <div className='square-1 square'>
+                        <h2 className='site-option' lang='fr'>Sites et Webmarketing</h2>
                     </div>
-                    <div className='circle'>
-                        <a className='internal-link' href='/fr/translation'><h2 className='site-option'>Traduction et Révision</h2></a>
+                    </a>
+                    <a className='option-link' href='/fr/language'>
+                    <div className='square-2 square'>
+                        <h2 className='site-option'>Traduction et Révision</h2>
                     </div>
-                    <div className='circle'>
-                        <a className='internal-link' href='/fr/contact'><h2 className='site-option'>Me contactez</h2></a>
+                    </a>
+                    <a className='option-link' href='/fr/contact'>
+                    <div className='square-3 square'>
+                        <h2 className='site-option'>Me contactez</h2>
                     </div>
+                    </a>
                 </div>
             </div>
-        </div>
     )
 };
 

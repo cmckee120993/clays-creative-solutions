@@ -24,17 +24,17 @@ function Language() {
                 </div>
             </div>
             <div className='site-options'>
-            <a className='internal-link' href='/fr/resume'>
+            <a className='option-link' href='/fr/resume'>
                     <div className='square-4 square'>
                         <h2 className='site-option' lang='fr'>CV</h2>
                     </div>
                     </a>
-                    <a className='internal-link' href='/fr/language-rates'>
+                    <a className='option-link' href='/fr/language-rates'>
                     <div className='square-5 square'>
                         <h2 className='site-option' lang='fr'>Les frais</h2>
                     </div>
                     </a>
-                    <a className='internal-link' href='/fr/contact'>
+                    <a className='option-link' href='/fr/contact'>
                     <div className='square-3 square'>
                         <h2 className='site-option' lang='fr'>Me Contactez</h2>
                     </div>
